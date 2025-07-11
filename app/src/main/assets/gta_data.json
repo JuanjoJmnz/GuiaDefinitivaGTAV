@@ -1,0 +1,40 @@
+{
+  "mainMissions": [
+    {
+      "id": "main_001",
+      "name": "Prólogo",
+      "description": "Una breve descripción de la misión Prólogo...",
+      "character": "Michael, Trevor",
+      "reward": "Recompensa de la misión",
+      "goldMedalRequirements": ["Completa el prólogo"],
+      "unlocksAtEvent": "Inicio del juego",
+      "notes": "Notas que puedan ser importantes antes, durante o después de la misión..."
+    },
+    {
+      "id": "main_002",
+      "name": "Franklin y Lamar",
+      "description": "Descripción de Franklin y Lamar...",
+      "character": "Franklin",
+      "reward": "Dinero y respeto",
+      "goldMedalRequirements": ["Requisito 1", "Requisito 2"],
+      "unlocksAtEvent": "Después del Prólogo",
+      "notes": "Algunas notas..."
+    }
+  ],
+  "strangersAndFreaksMissions": [
+    {
+      "id": "saf_001",
+      "name": "Tirando de la cadena",
+      "description": "Descripción de la misión...",
+      "character": "Franklin",
+      "characterEncountered": "Tonya Wiggins",
+      "reward": "Dinero",
+      "availability": "Después de la misión 'Embargo'",
+      "location": "Frente a la casa de Franklin",
+      "goldMedalRequirements": [
+        "Tiempo: Termina en menos de 5:00.",
+        "Extra por desenganche: Mantén el vehículo enganchado hasta la entrega."
+      ]
+    }
+  ]
+}
