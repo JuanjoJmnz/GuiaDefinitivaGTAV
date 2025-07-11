@@ -7,7 +7,7 @@ import java.io.IOException
 
 class MissionRepository(private val context: Context) {
 
-    private val json = Json { ignoreUnknownKeys = true } // Ignora claves no mapeadas en tus data classes
+    private val json = Json { ignoreUnknownKeys = true }
 
     fun loadGtaData(): GtaData? {
         return try {
@@ -15,7 +15,7 @@ class MissionRepository(private val context: Context) {
             json.decodeFromString<GtaData>(jsonString)
         } catch (ioException: IOException) {
             ioException.printStackTrace()
-            null // Maneja el error apropiadamente
+            null
         } catch (ex: Exception) {
             ex.printStackTrace()
             null

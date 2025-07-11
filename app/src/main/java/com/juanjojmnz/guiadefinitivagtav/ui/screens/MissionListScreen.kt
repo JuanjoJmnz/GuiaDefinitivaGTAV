@@ -143,15 +143,13 @@ fun MissionListScreen(
                             else -> java.util.UUID.randomUUID().toString()
                         }
                     }) { mission ->
-                        // Define la acción de clic aquí para pasarla a las tarjetas
                         val missionId = when (mission) {
                             is MainMission -> mission.id
                             is StrangersAndFreaksMission -> mission.id
-                            else -> "" // No debería ocurrir
+                            else -> ""
                         }
                         val onClickAction = {
                             if (missionId.isNotEmpty()) {
-                                // Construye la ruta de navegación de forma segura
                                 val route = AppDestinations.MISSION_DETAIL_SCREEN
                                     .replace("{category}", category)
                                     .replace("{missionId}", missionId)
@@ -162,11 +160,11 @@ fun MissionListScreen(
                         when (mission) {
                             is MainMission -> MissionCard(
                                 mission = mission,
-                                onClick = onClickAction // Pasa la acción de clic
+                                onClick = onClickAction
                             )
                             is StrangersAndFreaksMission -> StrangersAndFreaksMissionCard(
                                 mission = mission,
-                                onClick = onClickAction // Pasa la acción de clic
+                                onClick = onClickAction
                             )
                         }
                     }
@@ -237,7 +235,7 @@ fun MissionCard(mission: MainMission, onClick: () -> Unit) {
     Card(
         modifier = Modifier
             .fillMaxWidth()
-            .clickable { onClick() }, // <-- HACE LA TARJETA CLICABLE
+            .clickable { onClick() },
         elevation = CardDefaults.cardElevation(defaultElevation = 2.dp),
         colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant)
     ) {
@@ -251,13 +249,12 @@ fun MissionCard(mission: MainMission, onClick: () -> Unit) {
     }
 }
 
-// Modificado para aceptar un lambda onClick
 @Composable
 fun StrangersAndFreaksMissionCard(mission: StrangersAndFreaksMission, onClick: () -> Unit) {
     Card(
         modifier = Modifier
             .fillMaxWidth()
-            .clickable { onClick() }, // <-- HACE LA TARJETA CLICABLE
+            .clickable { onClick() },
         elevation = CardDefaults.cardElevation(defaultElevation = 2.dp),
         colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant)
     ) {

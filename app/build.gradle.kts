@@ -35,6 +35,7 @@ android {
     }
     kotlinOptions {
         jvmTarget = "11"
+        freeCompilerArgs = listOf("-XXLanguage:+PropertyParamAnnotationDefaultTargetMode")
     }
     buildFeatures {
         compose = true
@@ -59,15 +60,15 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 
-    implementation("androidx.navigation:navigation-compose:2.9.1")
+    implementation(libs.androidx.navigation.compose)
 
-    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.9.0")
+    implementation(libs.kotlinx.serialization.json)
 
-    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.9.1")
+    implementation(libs.androidx.lifecycle.viewmodel.compose)
 
-    debugImplementation("androidx.compose.ui:ui-tooling")
-    androidTestImplementation("androidx.test:core:1.6.1")
-    debugImplementation("androidx.test:core-ktx:1.6.1")
+    debugImplementation(libs.ui.tooling)
+    androidTestImplementation(libs.androidx.core)
+    debugImplementation(libs.core.ktx)
 
 
 }

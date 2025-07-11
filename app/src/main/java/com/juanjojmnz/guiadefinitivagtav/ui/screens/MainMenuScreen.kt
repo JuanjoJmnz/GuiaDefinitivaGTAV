@@ -52,7 +52,6 @@ data class MenuItemApp(
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun MainMenuScreen(navController: NavController) {
-    // Lista de "apps" del menú
     val menuItems = listOf(
         MenuItemApp(
             title = "100%",
@@ -130,6 +129,11 @@ fun MainMenuScreen(navController: NavController) {
             title = "Online",
             iconDrawableId = R.drawable.icon_all_players,
             route = AppDestinations.ONLINE_SCREEN
+        ),
+        MenuItemApp(
+            title = "Información de la app",
+            iconDrawableId = R.drawable.icono_informacion,
+            route = AppDestinations.INFO_SCREEN
         )
     )
 
@@ -144,9 +148,8 @@ fun MainMenuScreen(navController: NavController) {
             )
         }
     ) { paddingValues ->
-        // LazyVerticalGrid para mostrar los ítems como una cuadrícula de apps
         LazyVerticalGrid(
-            columns = GridCells.Fixed(2), // Apps por fila
+            columns = GridCells.Fixed(2),
             contentPadding = PaddingValues(all = 25.dp),
             verticalArrangement = Arrangement.spacedBy(16.dp),
             horizontalArrangement = Arrangement.spacedBy(16.dp),

@@ -42,15 +42,13 @@ open class MissionViewModel(application: Application) : AndroidViewModel(applica
         }
     }
 
-    // Flujo de misiones principales filtradas por el personaje seleccionado
+
     val filteredMainMissions: StateFlow<List<MainMission>> =
         combine(_mainMissions, _selectedCharacter) { missions, character ->
             if (character == null || character == MissionCharacter.ALL) {
-                missions // Si no hay personaje seleccionado o es "ALL", muestra todas
+                missions
             } else {
                 missions.filter { mission ->
-                    // La misión aparecerá si el personaje seleccionado está en la lista de personajes de la misión
-                    // o si la misión puede ser realizada por "Todos" (implícitamente si tu campo character es flexible)
                     val missionCharacters = mission.character.toCharacterList()
                     missionCharacters.contains(character) || missionCharacters.contains(MissionCharacter.ALL)
                 }
@@ -58,7 +56,6 @@ open class MissionViewModel(application: Application) : AndroidViewModel(applica
         }.stateIn(viewModelScope, kotlinx.coroutines.flow.SharingStarted.WhileSubscribed(5000), emptyList())
 
 
-    // Flujo de misiones de Extraños y Locos filtradas por el personaje seleccionado
     val filteredStrangersAndFreaksMissions: StateFlow<List<StrangersAndFreaksMission>> =
         combine(_strangersAndFreaksMissions, _selectedCharacter) { missions, selectedChar ->
             if (selectedChar == null || selectedChar == MissionCharacter.ALL) {

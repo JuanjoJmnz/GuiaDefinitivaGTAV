@@ -16,13 +16,13 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
-import com.juanjojmnz.guiadefinitivagtav.navigation.AppDestinations // Importa tus destinos
+import com.juanjojmnz.guiadefinitivagtav.navigation.AppDestinations
 import com.juanjojmnz.guiadefinitivagtav.ui.screens.CompletedScreen
 import com.juanjojmnz.guiadefinitivagtav.ui.screens.MainMenuScreen
 import com.juanjojmnz.guiadefinitivagtav.ui.screens.MissionDetailScreen
 import com.juanjojmnz.guiadefinitivagtav.ui.screens.MissionListScreen
 import com.juanjojmnz.guiadefinitivagtav.ui.screens.WelcomeScreen
-import com.juanjojmnz.guiadefinitivagtav.ui.screens.PlaceholderScreen // Asegúrate de importar PlaceholderScreen
+import com.juanjojmnz.guiadefinitivagtav.ui.screens.PlaceholderScreen
 import com.juanjojmnz.guiadefinitivagtav.ui.theme.GuiaDefinitivaGTAVTheme
 
 class MainActivity : ComponentActivity() {
@@ -102,7 +102,6 @@ fun AppNavigator() {
                 }
             }
 
-            // --- NUEVAS RUTAS AÑADIDAS ---
             composable(AppDestinations.HEISTS_SCREEN) {
                 PlaceholderScreen(navController = navController, screenTitle = "Golpes")
             }
@@ -134,10 +133,13 @@ fun AppNavigator() {
                 PlaceholderScreen(navController = navController, screenTitle = "Curiosidades")
             }
             composable(AppDestinations.CHEATS_SCREEN) {
-                PlaceholderScreen(navController = navController, screenTitle = "Trucos")
+                CheatsScreen(navController = navController, screenTitle = "Trucos")
             }
             composable(AppDestinations.ONLINE_SCREEN) {
                 PlaceholderScreen(navController = navController, screenTitle = "Online")
+            }
+            composable(AppDestinations.INFO_SCREEN) {
+                PlaceholderScreen(navController = navController, screenTitle = "Información de la app")
             }
         }
     }

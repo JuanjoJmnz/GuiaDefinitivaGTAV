@@ -2,7 +2,6 @@ package com.juanjojmnz.guiadefinitivagtav.ui.screens
 
 import androidx.compose.animation.core.*
 import androidx.compose.foundation.Image
-import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.material3.MaterialTheme
@@ -14,22 +13,19 @@ import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.layout.ContentScale
-import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.juanjojmnz.guiadefinitivagtav.R // Importa R
+import com.juanjojmnz.guiadefinitivagtav.R
 import com.juanjojmnz.guiadefinitivagtav.ui.theme.GuiaDefinitivaGTAVTheme
 import com.juanjojmnz.guiadefinitivagtav.ui.theme.GTAOrange
-import androidx.compose.foundation.layout.Box // Para superponer los textos
-import androidx.compose.ui.graphics.Color // Para Color.Black
-import androidx.compose.ui.text.TextStyle
+import androidx.compose.foundation.layout.Box
+import androidx.compose.ui.graphics.Color
 
 @Composable
 fun WelcomeScreen(onEnterClicked: () -> Unit) {
-    val context = LocalContext.current
-    // Lista de las imágenes del fondo de bienvenida
+
     val welcomeImages = remember {
         listOf(
             R.drawable.gta_entry_background,

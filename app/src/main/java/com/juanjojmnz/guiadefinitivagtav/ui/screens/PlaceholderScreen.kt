@@ -31,7 +31,6 @@ fun PlaceholderScreen(navController: NavController, screenTitle: String) {
             TopAppBar(
                 title = { Text(screenTitle) },
                 navigationIcon = {
-                    // Solo muestra el botón de retroceso si hay algo a lo que volver
                     if (navController.previousBackStackEntry != null) {
                         IconButton(onClick = { navController.popBackStack() }) {
                             Icon(
@@ -44,7 +43,7 @@ fun PlaceholderScreen(navController: NavController, screenTitle: String) {
                 colors = TopAppBarDefaults.topAppBarColors(
                     containerColor = MaterialTheme.colorScheme.primaryContainer,
                     titleContentColor = MaterialTheme.colorScheme.onPrimaryContainer,
-                    navigationIconContentColor = MaterialTheme.colorScheme.onPrimaryContainer // Color del icono de navegación
+                    navigationIconContentColor = MaterialTheme.colorScheme.onPrimaryContainer
                 )
             )
         }
@@ -52,8 +51,8 @@ fun PlaceholderScreen(navController: NavController, screenTitle: String) {
         Column(
             modifier = Modifier
                 .fillMaxSize()
-                .padding(innerPadding) // Aplica el padding del Scaffold
-                .padding(16.dp), // Un padding adicional para el contenido dentro de la columna
+                .padding(innerPadding)
+                .padding(16.dp),
             verticalArrangement = Arrangement.Center,
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
@@ -74,7 +73,6 @@ fun PlaceholderScreen(navController: NavController, screenTitle: String) {
 @Composable
 fun PlaceholderScreenPreview() {
     GuiaDefinitivaGTAVTheme {
-        // Para la preview, creamos un NavController de prueba que no puede retroceder
         val navController = rememberNavController()
         PlaceholderScreen(navController = navController, screenTitle = "Pantalla de Ejemplo")
     }
@@ -84,13 +82,7 @@ fun PlaceholderScreenPreview() {
 @Composable
 fun PlaceholderScreenWithBackPreview() {
     GuiaDefinitivaGTAVTheme {
-        // Simulamos un NavController que SÍ puede retroceder para ver el icono
         val navController = rememberNavController()
-        // Para simular que hay una pantalla anterior, podrías añadir una entrada "falsa"
-        // pero para una preview simple, esta condición de if (navController.previousBackStackEntry != null)
-        // será false, así que el icono de atrás no se mostrará en esta preview particular
-        // sin una configuración de NavHost más compleja para la preview.
-        // Lo importante es que en la app real funcionará.
         PlaceholderScreen(navController = navController, screenTitle = "Con Opción de Volver")
     }
 }

@@ -1,10 +1,10 @@
 package com.juanjojmnz.guiadefinitivagtav.ui.screens
 
-import androidx.compose.foundation.gestures.forEach
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material3.*
+import androidx.compose.material3.HorizontalDivider
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -45,8 +45,8 @@ fun MissionDetailScreen(
             TopAppBar(
                 title = {
                     val titleText = when (missionDetails) {
-                        is MainMission -> (missionDetails as MainMission).name
-                        is StrangersAndFreaksMission -> (missionDetails as StrangersAndFreaksMission).name
+                        is MainMission -> missionDetails.name
+                        is StrangersAndFreaksMission -> missionDetails.name
                         else -> "Detalle de Misión"
                     }
                     Text(text = titleText)
@@ -71,8 +71,8 @@ fun MissionDetailScreen(
         ) {
             if (missionDetails != null) {
                 when (missionDetails) {
-                    is MainMission -> MainMissionDetailsContent(mission = missionDetails as MainMission)
-                    is StrangersAndFreaksMission -> StrangersAndFreaksMissionDetailsContent(mission = missionDetails as StrangersAndFreaksMission)
+                    is MainMission -> MainMissionDetailsContent(mission = missionDetails)
+                    is StrangersAndFreaksMission -> StrangersAndFreaksMissionDetailsContent(mission = missionDetails)
                 }
             } else {
                 Column(
@@ -93,7 +93,11 @@ fun MissionDetailScreen(
 fun MainMissionDetailsContent(mission: MainMission) {
     Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
         Text(text = mission.name, style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
-        Divider(modifier = Modifier.padding(vertical = 8.dp))
+        HorizontalDivider(
+            modifier = Modifier.padding(vertical = 8.dp),
+            thickness = DividerDefaults.Thickness,
+            color = DividerDefaults.color
+        )
         Text(text = "Descripción:", style = MaterialTheme.typography.titleMedium)
         Text(text = mission.description, style = MaterialTheme.typography.bodyLarge)
         Spacer(modifier = Modifier.height(8.dp))
@@ -124,7 +128,11 @@ fun MainMissionDetailsContent(mission: MainMission) {
 fun StrangersAndFreaksMissionDetailsContent(mission: StrangersAndFreaksMission) {
     Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
         Text(text = mission.name, style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
-        Divider(modifier = Modifier.padding(vertical = 8.dp))
+        HorizontalDivider(
+            modifier = Modifier.padding(vertical = 8.dp),
+            thickness = DividerDefaults.Thickness,
+            color = DividerDefaults.color
+        )
         Text(text = "Descripción:", style = MaterialTheme.typography.titleMedium)
         Text(text = mission.description, style = MaterialTheme.typography.bodyLarge)
         Spacer(modifier = Modifier.height(8.dp))
