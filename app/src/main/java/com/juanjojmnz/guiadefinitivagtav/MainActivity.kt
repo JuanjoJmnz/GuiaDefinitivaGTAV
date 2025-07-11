@@ -136,6 +136,9 @@ fun AppNavigator() {
             composable(AppDestinations.CHEATS_SCREEN) {
                 PlaceholderScreen(navController = navController, screenTitle = "Trucos")
             }
+            composable(AppDestinations.ONLINE_SCREEN) {
+                PlaceholderScreen(navController = navController, screenTitle = "Online")
+            }
         }
     }
 }

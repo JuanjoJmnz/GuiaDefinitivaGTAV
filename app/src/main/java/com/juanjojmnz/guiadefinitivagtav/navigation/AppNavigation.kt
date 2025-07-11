@@ -18,4 +18,6 @@ object AppDestinations {
     const val TRIVIA_SCREEN = "trivia" // Para "Curiosidades" (Trivia suena bien)
     const val CHEATS_SCREEN = "cheats" // Para "Trucos"
     const val HUNDRED_PERCENT_SCREEN = "completed" // Para el 100%
+    const val ONLINE_SCREEN = "online" // Para el online
+
 }

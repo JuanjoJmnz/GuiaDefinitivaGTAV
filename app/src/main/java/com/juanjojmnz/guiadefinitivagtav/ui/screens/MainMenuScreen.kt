@@ -125,6 +125,11 @@ fun MainMenuScreen(navController: NavController) {
             title = "Trucos",
             iconDrawableId = R.drawable.icono_trucos,
             route = AppDestinations.CHEATS_SCREEN
+        ),
+        MenuItemApp(
+            title = "Online",
+            iconDrawableId = R.drawable.icon_all_players,
+            route = AppDestinations.ONLINE_SCREEN
         )
     )
 
