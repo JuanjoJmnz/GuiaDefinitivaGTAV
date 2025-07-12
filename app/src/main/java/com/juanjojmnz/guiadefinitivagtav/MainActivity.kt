@@ -24,6 +24,7 @@ import com.juanjojmnz.guiadefinitivagtav.ui.screens.MissionListScreen
 import com.juanjojmnz.guiadefinitivagtav.ui.screens.WelcomeScreen
 import com.juanjojmnz.guiadefinitivagtav.ui.screens.PlaceholderScreen
 import com.juanjojmnz.guiadefinitivagtav.ui.theme.GuiaDefinitivaGTAVTheme
+import com.juanjojmnz.guiadefinitivagtav.ui.screens.CheatsScreen
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

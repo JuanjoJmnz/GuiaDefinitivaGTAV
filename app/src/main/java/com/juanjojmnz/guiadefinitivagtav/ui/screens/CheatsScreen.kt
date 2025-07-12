@@ -9,18 +9,23 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
 import androidx.navigation.compose.rememberNavController
+import com.juanjojmnz.guiadefinitivagtav.R // Asegúrate que esta importación sea correcta
 import com.juanjojmnz.guiadefinitivagtav.ui.theme.GuiaDefinitivaGTAVTheme
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
@@ -29,6 +34,8 @@ data class TrucoInfo(
     val id: String,
     val efecto: String,
     val comandoConsola: String? = null,
+    val comandoPS: String? = null,
+    val comandoXbox: String? = null,
     val codigoTelefono: String? = null
 )
 
@@ -52,7 +59,9 @@ val listaDeCategoriasDeTrucosGTA = listOf(
                     id = "bmx",
                     efecto = "Aparece una BMX",
                     comandoConsola = "BANDIT",
-                    codigoTelefono = "1-999-226-248"
+                    codigoTelefono = "1-999-226-248",
+                    comandoXbox = "Izquierda, Izquierda, Derecha, Derecha, Izquierda, Derecha, X, B, Y, RB, RT", // Ejemplo Xbox
+                    comandoPS = "Izquierda, Izquierda, Derecha, Derecha, Izquierda, Derecha, Cuadrado, Círculo, Triángulo, R1, R2"
                 )
             ),
             TrucoListItem.TrucoEntry(
@@ -60,7 +69,9 @@ val listaDeCategoriasDeTrucosGTA = listOf(
                     id = "buzzard",
                     efecto = "Aparece un helicóptero Buzzard",
                     comandoConsola = "BUZZOFF",
-                    codigoTelefono = "1-999-289-9633"
+                    codigoTelefono = "1-999-289-9633",
+                    comandoPS = "Círculo, Círculo, L1, Círculo, Círculo, Círculo, L1, L2, R1, Triángulo, Círculo, Triángulo",
+                    comandoXbox = "B, B, LB, B, B, B, LB, LT, RB, Y, B, Y"
                 )
             ),
             TrucoListItem.TrucoEntry(
@@ -68,7 +79,9 @@ val listaDeCategoriasDeTrucosGTA = listOf(
                     id = "caddy",
                     efecto = "Aparece un coche de golf",
                     comandoConsola = "HOLEIN1",
-                    codigoTelefono = "1-999-4653-46-1"
+                    codigoTelefono = "1-999-4653-46-1",
+                    comandoPS = "Círculo, L1, Izquierda, R1, L2, X, R1, L1, Círculo, X",
+                    comandoXbox = "B, LB, Izquierda, RB, LT, A, RB, LB, B, A"
                 )
             ),
             TrucoListItem.TrucoEntry(
@@ -76,7 +89,9 @@ val listaDeCategoriasDeTrucosGTA = listOf(
                     id = "comet",
                     efecto = "Aparece un coche deportivo Comet",
                     comandoConsola = "COMET",
-                    codigoTelefono = "1-999-266-38"
+                    codigoTelefono = "1-999-266-38",
+                    comandoPS = "R1, Círculo, R2, Derecha, L1, L2, X, X, Cuadrado, R1",
+                    comandoXbox = "RB, B, RT, Derecha, LB, LT, A, A, X, RB"
                 )
             ),
             TrucoListItem.TrucoEntry(
@@ -84,7 +99,9 @@ val listaDeCategoriasDeTrucosGTA = listOf(
                     id = "duster",
                     efecto = "Aparece una avioneta fumigadora",
                     comandoConsola = "FLYSPRAY",
-                    codigoTelefono = "1-999-359-77729"
+                    codigoTelefono = "1-999-359-77729",
+                    comandoPS = "Derecha, Izquierda, R1, R1, R1, Izquierda, Triángulo, Triángulo, X, Círculo, L1, L1",
+                    comandoXbox = "Derecha, Izquierda, RB, RB, RB, Izquierda, Y, Y, A, B, LB, LB"
                 )
             ),
             TrucoListItem.TrucoEntry(
@@ -92,7 +109,9 @@ val listaDeCategoriasDeTrucosGTA = listOf(
                     id = "limusina",
                     efecto = "Aparece una limusina",
                     comandoConsola = "VINEWOOD",
-                    codigoTelefono = "1-999-846-39663"
+                    codigoTelefono = "1-999-846-39663",
+                    comandoPS = "R2, Derecha, L2, Izquierda, Izquierda, R1, L1, Círculo, Derecha",
+                    comandoXbox = "RT, Derecha, LT, Izquierda, Izquierda, RB, LB, B, Derecha"
                 )
             ),
             TrucoListItem.TrucoEntry(
@@ -100,7 +119,9 @@ val listaDeCategoriasDeTrucosGTA = listOf(
                     id = "parachute",
                     efecto = "Consigues un paracaídas",
                     comandoConsola = "SKYDIVE",
-                    codigoTelefono = "1-999-759-3483"
+                    codigoTelefono = "1-999-759-3483",
+                    comandoPS = "Izquierda, Derecha, L1, L2, R1, R2, R2, Izquierda, Izquierda, Derecha, L1",
+                    comandoXbox = "Izquierda, Derecha, LB, LT, RB, RT, RT, Izquierda, Izquierda, Derecha, LB"
                 )
             ),
             TrucoListItem.TrucoEntry(
@@ -108,7 +129,9 @@ val listaDeCategoriasDeTrucosGTA = listOf(
                     id = "pcj",
                     efecto = "Aparece una moto PCJ-600",
                     comandoConsola = "ROCKET",
-                    codigoTelefono = "1-999-762-538"
+                    codigoTelefono = "1-999-762-538",
+                    comandoXbox = "",
+                    comandoPS = ""
                 )
             ),
             TrucoListItem.TrucoEntry(
@@ -116,7 +139,9 @@ val listaDeCategoriasDeTrucosGTA = listOf(
                     id = "rapid",
                     efecto = "Aparece un RAPID GT",
                     comandoConsola = "RAPIDGT",
-                    codigoTelefono = "1-999-727-4348"
+                    codigoTelefono = "1-999-727-4348",
+                    comandoXbox = "",
+                    comandoPS = ""
                 )
             ),
             TrucoListItem.TrucoEntry(
@@ -124,7 +149,9 @@ val listaDeCategoriasDeTrucosGTA = listOf(
                     id = "sanchez",
                     efecto = "Aparece una moto Sánchez",
                     comandoConsola = "OFFROAD",
-                    codigoTelefono = "1-999-633-7623"
+                    codigoTelefono = "1-999-633-7623",
+                    comandoXbox = "",
+                    comandoPS = ""
                 )
             ),
             TrucoListItem.TrucoEntry(
@@ -132,7 +159,9 @@ val listaDeCategoriasDeTrucosGTA = listOf(
                     id = "mallard",
                     efecto = "Aparece un avión de acrobacias",
                     comandoConsola = "BARNSTORM",
-                    codigoTelefono = "1-999-2276-78676"
+                    codigoTelefono = "1-999-2276-78676",
+                    comandoXbox = "",
+                    comandoPS = ""
                 )
             ),
             TrucoListItem.TrucoEntry(
@@ -140,7 +169,9 @@ val listaDeCategoriasDeTrucosGTA = listOf(
                     id = "trashmaster",
                     efecto = "Aparece un Trashmaster",
                     comandoConsola = "TRASHED",
-                    codigoTelefono = "1-999-872-7433"
+                    codigoTelefono = "1-999-872-7433",
+                    comandoXbox = "",
+                    comandoPS = ""
                 )
             )
         )
@@ -153,7 +184,9 @@ val listaDeCategoriasDeTrucosGTA = listOf(
                     id = "salud_max",
                     efecto = "Salud y blindaje al máximo",
                     comandoConsola = "TURTLE",
-                    codigoTelefono = "1-999-887-853"
+                    codigoTelefono = "1-999-887-853",
+                    comandoPS = "Círculo, L1, Triángulo, R2, X, Cuadrado, Círculo, Derecha, Cuadrado, L1, L1, L1",
+                    comandoXbox = "B, LB, Y, RT, A, X, B, Derecha, X, LB, LB, LB"
                 )
             ),
             TrucoListItem.TrucoEntry(
@@ -161,87 +194,17 @@ val listaDeCategoriasDeTrucosGTA = listOf(
                     id = "invencibilidad",
                     efecto = "Invencibilidad (5 minutos)",
                     comandoConsola = "PAINKILLER",
-                    codigoTelefono = "1-999-724-654-5537"
-                )
-            )
-            // ... más trucos de salud
-        )
-    ),
-    TrucosCategory(
-        title = "Trucos de Armas y Munición",
-        items = listOf(
-            TrucoListItem.TrucoEntry(
-                TrucoInfo(
-                    id = "todas_armas",
-                    efecto = "Consigue todas las armas y munición",
-                    comandoConsola = "TOOLUP",
-                    codigoTelefono = "1-999-8665-87"
-                )
-            )
-            // ... más trucos de armas
-        )
-    ),
-    TrucosCategory(
-        title = "Trucos de Habilidades",
-        items = listOf(
-            TrucoListItem.TrucoEntry(
-                TrucoInfo(
-                    id = "super_salto",
-                    efecto = "Súper salto",
-                    comandoConsola = "KANGAROO",
-                    codigoTelefono = "1-999-467-86-48"
-                )
-            )
-            // ... más trucos de habilidades
-        )
-    ),
-    TrucosCategory(
-        title = "Trucos de Nivel de Búsqueda",
-        items = listOf(
-            TrucoListItem.TrucoEntry(
-                TrucoInfo(
-                    id = "reducir_busqueda",
-                    efecto = "Reducir nivel de búsqueda",
-                    comandoConsola = "LAWYERUP",
-                    codigoTelefono = "1-999-5299-3787"
-                )
-            ),
-            TrucoListItem.TrucoEntry(
-                TrucoInfo(
-                    id = "aumentar_busqueda",
-                    efecto = "Aumentar nivel de búsqueda",
-                    comandoConsola = "FUGITIVE",
-                    codigoTelefono = "1-999-3844-8483"
+                    codigoTelefono = "1-999-724-654-5537",
+                    comandoPS = "Derecha, X, Derecha, Izquierda, Derecha, R1, Derecha, Izquierda, X, Triángulo",
+                    comandoXbox = "Derecha, A, Derecha, Izquierda, Derecha, RB, Derecha, Izquierda, A, Y"
                 )
             )
         )
     ),
-    TrucosCategory(
-        title = "Trucos de Entorno y Clima",
-        items = listOf(
-            TrucoListItem.TrucoEntry(
-                TrucoInfo(
-                    id = "cambiar_clima",
-                    efecto = "Cambiar el clima",
-                    comandoConsola = "MAKEITRAIN",
-                    codigoTelefono = "1-999-625-348-7246"
-                )
-            ),
-            TrucoListItem.TrucoEntry(
-                TrucoInfo(
-                    id = "gravedad_lunar",
-                    efecto = "Gravedad lunar (coches flotan)",
-                    comandoConsola = "FLOATER",
-                    codigoTelefono = "1-999-356-2837"
-                )
-            )
-        )
-    )
-    // ... más categorías
 )
 
 
-// --- VIEWMODEL ---
+
 class TrucosScreenViewModel : ViewModel() {
     private val _categoriasDeTrucos = MutableStateFlow<List<TrucosCategory>>(emptyList())
     val categoriasDeTrucos: StateFlow<List<TrucosCategory>> = _categoriasDeTrucos
@@ -251,12 +214,217 @@ class TrucosScreenViewModel : ViewModel() {
     }
 }
 
-// --- COMPOSABLE PRINCIPAL DE LA PANTALLA DE TRUCOS ---
+
+fun getPlayStationButtonIconRes(buttonName: String): Int? {
+    return when (buttonName.uppercase()) {
+        "IZQUIERDA" -> R.drawable.playstation_left_button
+        "DERECHA" -> R.drawable.playstation_right_button
+        "ARRIBA" -> R.drawable.playstation_up_button
+        "ABAJO" -> R.drawable.playstation_down_button
+        "X" -> R.drawable.playstation_button_x
+        "CUADRADO" -> R.drawable.playstation_button_s
+        "CÍRCULO", "CIRCULO" -> R.drawable.playstation_button_c
+        "TRIÁNGULO", "TRIANGULO" -> R.drawable.playstation_button_t
+        "L1" -> R.drawable.playstation_button_l1
+        "R1" -> R.drawable.playstation_button_r1
+        "L2" -> R.drawable.playstation_button_l2
+        "R2" -> R.drawable.playstation_button_r2
+        else -> {
+            println("Icono de PS no encontrado para: $buttonName")
+            null
+        }
+    }
+}
+
+fun getXboxButtonIconRes(buttonName: String): Int? {
+
+    return when (buttonName.uppercase()) {
+        "IZQUIERDA" -> R.drawable.xbox_d_pad_left
+        "DERECHA" -> R.drawable.xbox_d_pad_right
+        "ARRIBA" -> R.drawable.xbox_d_pad_up
+        "ABAJO" -> R.drawable.xbox_d_pad_down
+        "A" -> R.drawable.xbox_button_a
+        "B" -> R.drawable.xbox_button_b
+        "X" -> R.drawable.xbox_button_x
+        "Y" -> R.drawable.xbox_button_y
+        "LB" -> R.drawable.xbox_left_bumper
+        "RB" -> R.drawable.xbox_right_bumper
+        "LT" -> R.drawable.xbox_left_trigger
+        "RT" -> R.drawable.xbox_right_trigger
+        else -> {
+            println("Icono de Xbox no encontrado para: $buttonName")
+            null
+        }
+    }
+}
+
+
+@Composable
+fun GameButtonIcon(
+    iconResId: Int?,
+    contentDescription: String,
+    modifier: Modifier = Modifier,
+    size: Dp = 20.dp,
+    tint: Color = Color.Unspecified
+) {
+    if (iconResId != null) {
+        Icon(
+            painter = painterResource(id = iconResId),
+            contentDescription = contentDescription,
+            modifier = modifier.size(size),
+            tint = tint
+        )
+    }
+}
+
+@Composable
+fun ComandoButtonsView(
+    comando: String?,
+    platform: String
+) {
+    if (comando.isNullOrBlank()) return
+
+    val buttonNames = comando.split(",").map { it.trim() }
+
+    Row(verticalAlignment = Alignment.CenterVertically) {
+        buttonNames.forEachIndexed { index, buttonName ->
+            val iconResId: Int? = when (platform) {
+                "PS" -> getPlayStationButtonIconRes(buttonName)
+                "XBOX" -> getXboxButtonIconRes(buttonName)
+                else -> null
+            }
+
+            GameButtonIcon(
+                iconResId = iconResId,
+                contentDescription = buttonName,
+            )
+
+            if (index < buttonNames.size - 1) {
+                Spacer(Modifier.width(3.dp))
+            }
+        }
+    }
+}
+
+@Composable
+fun TrucoEntryView(trucoInfo: TrucoInfo) {
+    Column {
+        Text(
+            buildAnnotatedString {
+                withStyle(style = SpanStyle(fontWeight = FontWeight.SemiBold, fontSize = 16.sp)) {
+                }
+                append(trucoInfo.efecto)
+            },
+            style = MaterialTheme.typography.bodyLarge,
+            modifier = Modifier.padding(bottom = 6.dp)
+        )
+
+        trucoInfo.comandoConsola?.let {
+            Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.padding(vertical = 3.dp)) {
+                Text(
+                    "PC: ",
+                    style = MaterialTheme.typography.bodyMedium.copy(fontWeight = FontWeight.Medium),
+                    modifier = Modifier.align(Alignment.CenterVertically)
+                )
+                Text(
+                    text = it,
+                    style = MaterialTheme.typography.bodyMedium,
+                    modifier = Modifier.align(Alignment.CenterVertically)
+                )
+            }
+        }
+
+        if (!trucoInfo.comandoPS.isNullOrBlank()) {
+            Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.padding(vertical = 3.dp)) {
+                Text(
+                    "PS: ",
+                    style = MaterialTheme.typography.bodyMedium.copy(fontWeight = FontWeight.Medium),
+                    modifier = Modifier.align(Alignment.CenterVertically).padding(end = 4.dp)
+                )
+                ComandoButtonsView(comando = trucoInfo.comandoPS, platform = "PS")
+            }
+        }
+
+        if (!trucoInfo.comandoXbox.isNullOrBlank()) {
+            Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.padding(vertical = 3.dp)) {
+                Text(
+                    "Xbox: ",
+                    style = MaterialTheme.typography.bodyMedium.copy(fontWeight = FontWeight.Medium),
+                    modifier = Modifier.align(Alignment.CenterVertically).padding(end = 4.dp)
+                )
+                ComandoButtonsView(comando = trucoInfo.comandoXbox, platform = "XBOX")
+            }
+        }
+
+        trucoInfo.codigoTelefono?.let {
+            Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.padding(vertical = 3.dp)) {
+                Text(
+                    "Teléfono: ",
+                    style = MaterialTheme.typography.bodyMedium.copy(fontWeight = FontWeight.Medium),
+                    modifier = Modifier.align(Alignment.CenterVertically)
+                )
+                Text(
+                    text = it,
+                    style = MaterialTheme.typography.bodyMedium,
+                    modifier = Modifier.align(Alignment.CenterVertically)
+                )
+            }
+        }
+    }
+}
+
+@Composable
+fun TrucoCategoryCard(category: TrucosCategory) {
+    Card(
+        modifier = Modifier.fillMaxWidth(),
+        elevation = CardDefaults.cardElevation(defaultElevation = 2.dp),
+        shape = MaterialTheme.shapes.medium
+    ) {
+        Column(modifier = Modifier.padding(16.dp)) {
+            Text(
+                text = category.title,
+                style = MaterialTheme.typography.headlineSmall,
+                fontWeight = FontWeight.Bold,
+                color = MaterialTheme.colorScheme.primary,
+                modifier = Modifier.padding(bottom = 8.dp)
+            )
+
+            category.generalDescription?.let { desc ->
+                Text(
+                    text = desc,
+                    style = MaterialTheme.typography.bodyMedium,
+                    modifier = Modifier.padding(bottom = 8.dp)
+                )
+            }
+
+            if (category.items.isNotEmpty()) {
+                HorizontalDivider(modifier = Modifier.padding(vertical = 8.dp))
+                category.items.forEachIndexed { index, trucoListItem ->
+                    when (trucoListItem) {
+                        is TrucoListItem.TrucoEntry -> TrucoEntryView(trucoInfo = trucoListItem.info)
+                        is TrucoListItem.SubHeaderText -> {
+                            Text(
+                                text = trucoListItem.text,
+                                style = MaterialTheme.typography.titleSmall,
+                                fontWeight = FontWeight.SemiBold,
+                                modifier = Modifier.padding(top = 8.dp, bottom = 4.dp)
+                            )
+                        }
+                    }
+                    if (index < category.items.size - 1) {
+                        Spacer(modifier = Modifier.height(20.dp)) // Espacio entre trucos individuales
+                    }
+                }
+            }
+        }
+    }
+}
+
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun TrucosScreen(
+fun CheatsScreen(
     navController: NavController,
-    screenTitle: String = "Trucos GTA V", // Título por defecto
+    screenTitle: String = "Trucos GTA V",
     viewModel: TrucosScreenViewModel = viewModel()
 ) {
     val categorias by viewModel.categoriasDeTrucos.collectAsState()
@@ -305,113 +473,11 @@ fun TrucosScreen(
     }
 }
 
-// --- COMPOSABLE PARA UNA TARJETA DE CATEGORÍA DE TRUCOS ---
-@Composable
-fun TrucoCategoryCard(category: TrucosCategory) {
-    Card(
-        modifier = Modifier.fillMaxWidth(),
-        elevation = CardDefaults.cardElevation(defaultElevation = 2.dp),
-        shape = MaterialTheme.shapes.medium
-    ) {
-        Column(modifier = Modifier.padding(16.dp)) {
-            Text(
-                text = category.title,
-                style = MaterialTheme.typography.headlineSmall, // Ajustado para ser un poco más pequeño que el de CompletedScreen
-                fontWeight = FontWeight.Bold,
-                color = MaterialTheme.colorScheme.primary,
-                modifier = Modifier.padding(bottom = 8.dp)
-            )
-
-            category.generalDescription?.let { desc ->
-                Text(
-                    text = desc,
-                    style = MaterialTheme.typography.bodyMedium,
-                    modifier = Modifier.padding(bottom = 8.dp)
-                )
-            }
-
-            if (category.items.isNotEmpty()) {
-                HorizontalDivider(modifier = Modifier.padding(vertical = 8.dp))
-                category.items.forEachIndexed { index, trucoListItem ->
-                    when (trucoListItem) {
-                        is TrucoListItem.TrucoEntry -> TrucoEntryView(trucoInfo = trucoListItem.info)
-                        is TrucoListItem.SubHeaderText -> {
-                            Text(
-                                text = trucoListItem.text,
-                                style = MaterialTheme.typography.titleSmall,
-                                fontWeight = FontWeight.SemiBold,
-                                modifier = Modifier.padding(top = 8.dp, bottom = 4.dp)
-                            )
-                        }
-                    }
-                    if (index < category.items.size - 1) {
-                        Spacer(modifier = Modifier.height(10.dp)) // Espacio entre trucos individuales
-                    }
-                }
-            }
-        }
-    }
-}
-
-// --- COMPOSABLE PARA MOSTRAR UN TRUCO INDIVIDUAL ---
-@Composable
-fun TrucoEntryView(trucoInfo: TrucoInfo) {
-    Column {
-        Text(
-            buildAnnotatedString {
-                withStyle(style = SpanStyle(fontWeight = FontWeight.SemiBold, fontSize = 16.sp)) {
-                    append("Efecto: ")
-                }
-                append(trucoInfo.efecto)
-            },
-            style = MaterialTheme.typography.bodyLarge
-        )
-
-        trucoInfo.comandoConsola?.let {
-            Text(
-                buildAnnotatedString {
-                    withStyle(style = SpanStyle(fontWeight = FontWeight.Medium)) {
-                        append("Comando PC: ")
-                    }
-                    append(it)
-                },
-                style = MaterialTheme.typography.bodyMedium,
-                modifier = Modifier.padding(top = 2.dp)
-            )
-        }
-
-        trucoInfo.codigoTelefono?.let {
-            Text(
-                buildAnnotatedString {
-                    withStyle(style = SpanStyle(fontWeight = FontWeight.Medium)) {
-                        append("Teléfono: ")
-                    }
-                    append(it)
-                },
-                style = MaterialTheme.typography.bodyMedium,
-                modifier = Modifier.padding(top = 2.dp)
-            )
-        }
-    }
-}
-
-
 // --- PREVIEW ---
 @Preview(showBackground = true, name = "Trucos Screen Light")
 @Composable
 fun TrucosScreenPreview() {
     GuiaDefinitivaGTAVTheme {
-        TrucosScreen(navController = rememberNavController())
-    }
-}
-
-@Preview(showBackground = true, name = "Truco Entry Preview")
-@Composable
-fun TrucoEntryPreview() {
-    GuiaDefinitivaGTAVTheme {
-        CheatsScreen(
-            navController = rememberNavController(),
-            screenTitle = "Trucos"
-        )
+        CheatsScreen(navController = rememberNavController())
     }
 }
