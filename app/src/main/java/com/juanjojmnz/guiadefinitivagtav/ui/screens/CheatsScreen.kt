@@ -25,7 +25,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
 import androidx.navigation.compose.rememberNavController
-import com.juanjojmnz.guiadefinitivagtav.R // Asegúrate que esta importación sea correcta
+import com.juanjojmnz.guiadefinitivagtav.R
 import com.juanjojmnz.guiadefinitivagtav.ui.theme.GuiaDefinitivaGTAVTheme
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
@@ -52,7 +52,8 @@ data class TrucosCategory(
 
 val listaDeCategoriasDeTrucosGTA = listOf(
     TrucosCategory(
-        title = "Trucos de vehículos",
+        title = "Trucos de vehículos.",
+        generalDescription = "Algunos como el del Dodo, el Kraken o el Duke O'Death necesitan haber completado sus respectivos eventos aleatorios.",
         items = listOf(
             TrucoListItem.TrucoEntry(
                 TrucoInfo(
@@ -60,7 +61,7 @@ val listaDeCategoriasDeTrucosGTA = listOf(
                     efecto = "Aparece una BMX",
                     comandoConsola = "BANDIT",
                     codigoTelefono = "1-999-226-248",
-                    comandoXbox = "Izquierda, Izquierda, Derecha, Derecha, Izquierda, Derecha, X, B, Y, RB, RT", // Ejemplo Xbox
+                    comandoXbox = "Izquierda, Izquierda, Derecha, Derecha, Izquierda, Derecha, X, B, Y, RB, RT",
                     comandoPS = "Izquierda, Izquierda, Derecha, Derecha, Izquierda, Derecha, Cuadrado, Círculo, Triángulo, R1, R2"
                 )
             ),
@@ -130,8 +131,8 @@ val listaDeCategoriasDeTrucosGTA = listOf(
                     efecto = "Aparece una moto PCJ-600",
                     comandoConsola = "ROCKET",
                     codigoTelefono = "1-999-762-538",
-                    comandoXbox = "",
-                    comandoPS = ""
+                    comandoXbox = "RB, Derecha, Izquierda, Derecha, RT, Izquierda, Derecha, X, Derecha, LT, LB, LB",
+                    comandoPS = "R1, Derecha, Izquierda, Derecha, R2, Izquierda, Derecha, Cuadrado, Derecha, L2, L1, L1"
                 )
             ),
             TrucoListItem.TrucoEntry(
@@ -140,8 +141,8 @@ val listaDeCategoriasDeTrucosGTA = listOf(
                     efecto = "Aparece un RAPID GT",
                     comandoConsola = "RAPIDGT",
                     codigoTelefono = "1-999-727-4348",
-                    comandoXbox = "",
-                    comandoPS = ""
+                    comandoXbox = "RT, LB, B, Derecha, LB, RB, Derecha, Izquierda, B, RT",
+                    comandoPS = "R2, L1, Círculo, Derecha, L1, R1, Derecha, Izquierda, Círculo, R2"
                 )
             ),
             TrucoListItem.TrucoEntry(
@@ -150,8 +151,8 @@ val listaDeCategoriasDeTrucosGTA = listOf(
                     efecto = "Aparece una moto Sánchez",
                     comandoConsola = "OFFROAD",
                     codigoTelefono = "1-999-633-7623",
-                    comandoXbox = "",
-                    comandoPS = ""
+                    comandoXbox = "B, A, LB, B, B, LB, B, RB, RT, LT, LB, LB",
+                    comandoPS = "Círculo, X, L1, Círculo, Círculo, L1, Círculo, R1, R2, L2, L1, L1"
                 )
             ),
             TrucoListItem.TrucoEntry(
@@ -160,8 +161,8 @@ val listaDeCategoriasDeTrucosGTA = listOf(
                     efecto = "Aparece un avión de acrobacias",
                     comandoConsola = "BARNSTORM",
                     codigoTelefono = "1-999-2276-78676",
-                    comandoXbox = "",
-                    comandoPS = ""
+                    comandoXbox = "B, Derecha, LB, LT, Izquierda, RB, LB, LB, Izquierda, Izquierda, A, Y",
+                    comandoPS = "Círculo, Derecha, L1, L2, Izquierda, R1, L1, L1, Izquierda, Izquierda, X, Triángulo"
                 )
             ),
             TrucoListItem.TrucoEntry(
@@ -170,6 +171,36 @@ val listaDeCategoriasDeTrucosGTA = listOf(
                     efecto = "Aparece un Trashmaster",
                     comandoConsola = "TRASHED",
                     codigoTelefono = "1-999-872-7433",
+                    comandoXbox = "B, RB, B, RB, Izquierda, Izquierda, RB, LB, B, Derecha",
+                    comandoPS = "Círculo, R1, Círculo, R1, Izquierda, Izquierda, R1, L1, Círculo, Derecha"
+                )
+            ),
+            TrucoListItem.TrucoEntry(
+                TrucoInfo(
+                    id = "dodo",
+                    efecto = "Aparece un Hidroavión Dodo",
+                    comandoConsola = "EXTINCT",
+                    codigoTelefono = "1-999-398-4628",
+                    comandoXbox = "",
+                    comandoPS = ""
+                )
+            ),
+            TrucoListItem.TrucoEntry(
+                TrucoInfo(
+                    id = "kraken",
+                    efecto = "Aparece un submarino Kraken",
+                    comandoConsola = "BUBBLES",
+                    codigoTelefono = "1-999-282-2537",
+                    comandoXbox = "",
+                    comandoPS = ""
+                )
+            ),
+            TrucoListItem.TrucoEntry(
+                TrucoInfo(
+                    id = "duke",
+                    efecto = "Aparece el coche antibalas Duke O'Death",
+                    comandoConsola = "DEATHCAR",
+                    codigoTelefono = "1-999-3328-4227",
                     comandoXbox = "",
                     comandoPS = ""
                 )
@@ -201,6 +232,206 @@ val listaDeCategoriasDeTrucosGTA = listOf(
             )
         )
     ),
+    TrucosCategory(
+        title = "Trucos de Armas y Munición",
+        items = listOf(
+            TrucoListItem.TrucoEntry(
+                TrucoInfo(
+                    id = "balas_expl",
+                    efecto = "Balas explosivas",
+                    comandoConsola = "HIGHEX",
+                    codigoTelefono = "1-999-444-439",
+                    comandoPS = "Derecha, Cuadrado, X, Izquierda, R1, R2, Izquierda, Derecha, Derecha, L1, L1, L1",
+                    comandoXbox = "Derecha, X, A, Izquierda, RB, RT, Izquierda, Derecha, Derecha, LB, LB, LB"
+                )
+            ),
+            TrucoListItem.TrucoEntry(
+                TrucoInfo(
+                    id = "balas_fue",
+                    efecto = "Balas de fuego",
+                    comandoConsola = "INCENDIARY",
+                    codigoTelefono = "1-999-462-363-4279",
+                    comandoPS = "L1, R1, Cuadrado, R1, Izquierda, R2, R1, Izquierda, Cuadrado, Derecha, L1, L1",
+                    comandoXbox = "LB, RB, X, RB, Izquierda, RT, RB, Izquierda, X, Derecha, LB, LB"
+                )
+            ),
+            TrucoListItem.TrucoEntry(
+                TrucoInfo(
+                    id = "all_guns",
+                    efecto = "Todas las armas y munición",
+                    comandoConsola = "TOOLUP",
+                    codigoTelefono = "1-999-8665-87",
+                    comandoPS = "Triangulo, R2, Izquierda, L1, X, Derecha, Triangulo, Abajo, Cuadrado, L1, L1, L1",
+                    comandoXbox = "Y, RT, Izquierda, LB, A, Derecha, Y, Abajo, X, LB, LB, LB"
+                )
+            ),
+        )
+    ),
+    TrucosCategory(
+        title = "Trucos de Habilidades y Poderes Especiales",
+        items = listOf(
+            TrucoListItem.TrucoEntry(
+                TrucoInfo(
+                    id = "puñetazo_expl",
+                    efecto = "Puñetazos explosivos",
+                    comandoConsola = "HOTHANDS",
+                    codigoTelefono = "1-999-4684-2637",
+                    comandoPS = "Derecha, Izquierda, X, Triangulo, R1, Circulo, Circulo, Circulo, L2",
+                    comandoXbox = "Derecha, Izquierda, A, Y, RB, B, B, B, LT"
+                )
+            ),
+            TrucoListItem.TrucoEntry(
+                TrucoInfo(
+                    id = "hab_esp",
+                    efecto = "Recargar habilidad especial",
+                    comandoConsola = "POWERUP",
+                    codigoTelefono = "1-999-769-3787",
+                    comandoPS = "x, x, Cuadrado, R1, L1, X, Derecha, Izquierda, X",
+                    comandoXbox = "A, A, X, RB, LB, A, Derecha, Izquierda, A"
+                )
+            ),
+            TrucoListItem.TrucoEntry(
+                TrucoInfo(
+                    id = "super_salto",
+                    efecto = "Súper salto",
+                    comandoConsola = "HOPTOIT",
+                    codigoTelefono = "1-999-467-86-48",
+                    comandoPS = "Izquierda, Izquierda, Triangulo, Triangulo, Derecha, Derecha, Izquierda, Derecha, Cuadrado, R1, R2",
+                    comandoXbox = "Izquierda, Izquierda, Y, Y, Derecha, Derecha, Izquierda, Derecha, X, RB, RT"
+                )
+            ),
+            TrucoListItem.TrucoEntry(
+                TrucoInfo(
+                    id = "correr_rap",
+                    efecto = "Correr más rápido",
+                    comandoConsola = "CATCHME",
+                    codigoTelefono = "1-999-228-8463",
+                    comandoPS = "Triangulo, Izquierda, Derecha, Derecha, L2, L1, Cuadrado",
+                    comandoXbox = "Y, Izquierda, Derecha, Derecha, LT, LB, X"
+                )
+            ),
+            TrucoListItem.TrucoEntry(
+                TrucoInfo(
+                    id = "nadar_rap",
+                    efecto = "Nadar más rápido",
+                    comandoConsola = "GOTGILLS",
+                    codigoTelefono = "1-999-468-44557",
+                    comandoPS = "Izquierda, Izquierda, L1, Derecha, Derecha, R2, Izquierda, L2, Derecha",
+                    comandoXbox = "Izquierda, Izquierda, LB, Derecha, Derecha, RT, Izquierda, LT, Derecha"
+                )
+            ),
+            TrucoListItem.TrucoEntry(
+                TrucoInfo(
+                    id = "timpo_lento",
+                    efecto = "Apuntar ralentizando el tiempo (Aplicable 3 veces. Se desactiva a la 4ª)",
+                    comandoConsola = "DEADEYE",
+                    codigoTelefono = "1-999-332-3393",
+                    comandoPS = "Cuadrado, L2, R1, Triangulo, Izquierda, Cuadrado, L2, Derecha, X",
+                    comandoXbox = "X, LT, RB, Y, Izquierda, X, LT, Derecha, A"
+                )
+            ),
+            TrucoListItem.TrucoEntry(
+                TrucoInfo(
+                    id = "skyfall",
+                    efecto = "Caída libre desde el cielo",
+                    comandoConsola = "SKYFALL",
+                    codigoTelefono = "1-999-759-3255",
+                    comandoPS = "L1, L2, R1, R2, Izquierda, Derecha, Izquierda, Derecha, L1, L2, R1, R2, Izquierda, Derecha, Izquierda, Derecha",
+                    comandoXbox = "LB, LT, RB, RT, Izquierda, Derecha, Izquierda, Derecha, LB, LT, RB, RT, Izquierda, Derecha, Izquierda, Derecha"
+                )
+            ),
+        )
+    ),
+    TrucosCategory(
+        title = "Trucos para el nivel de búsqueda policial",
+        items = listOf(
+            TrucoListItem.TrucoEntry(
+                TrucoInfo(
+                    id = "mas_poli",
+                    efecto = "Aumentar nivel de búsqueda",
+                    comandoConsola = "FUGITIVE",
+                    codigoTelefono = "1-999-3844-8483",
+                    comandoPS = "R1, R1, Circulo, R2, Izquierda, Derecha, Izquierda, Derecha, Izquierda, Derecha",
+                    comandoXbox = "RB, RB, B, RT, Izquierda, Derecha, Izquierda, Derecha, Izquierda, Derecha"
+                )
+            ),
+            TrucoListItem.TrucoEntry(
+                TrucoInfo(
+                    id = "menos_poli",
+                    efecto = "Disminuir nivel de búsqueda",
+                    comandoConsola = "LAWYERUP",
+                    codigoTelefono = "1-99-5299-3787",
+                    comandoPS = "R1, R1, Circulo, R2, Derecha, Izquierda, Derecha, Izquierda, Derecha, Izquierda",
+                    comandoXbox = "RB, RB, B, RT, Derecha, Izquierda, Derecha, Izquierda, Derecha, Izquierda"
+                )
+            )
+        )
+    ),
+    TrucosCategory(
+        title = "Trucos del entorno, clima y varios",
+        items = listOf(
+            TrucoListItem.TrucoEntry(
+                TrucoInfo(
+                    id = "borracho",
+                    efecto = "Modo borracho",
+                    comandoConsola = "LIQUOR",
+                    codigoTelefono = "1-999-547-867",
+                    comandoPS = "Triangulo, Derecha, Derecha, Izquierda, Derecha, Cuadrado, Circulo, Izquierda",
+                    comandoXbox = "Y, Derecha, Derecha, Izquierda, Derecha, X, B, Izquierda"
+                )
+            ),
+            TrucoListItem.TrucoEntry(
+                TrucoInfo(
+                    id = "slowmotion",
+                    efecto = "Cámara lenta (Puede usarse hasta 4 veces. La 5ª lo desactiva)",
+                    comandoConsola = "SLOWMO",
+                    codigoTelefono = "1-999-756-966",
+                    comandoPS = "Triangulo, Izquierda, Derecha, Derecha, Cuadrado, R2, R1",
+                    comandoXbox = "Y, Izquierda, Derecha, Derecha, X, RT, RB"
+                )
+            ),
+            TrucoListItem.TrucoEntry(
+                TrucoInfo(
+                    id = "explosion",
+                    efecto = "Crea una explosión y nos da un teléfono negro",
+                    comandoConsola = "No hay.",
+                    codigoTelefono = "1-999-367-3767",
+                    comandoPS = "",
+                    comandoXbox = ""
+                )
+            ),
+            TrucoListItem.TrucoEntry(
+                TrucoInfo(
+                    id = "clima",
+                    efecto = "Cambiar clima/tiempo",
+                    comandoConsola = "MAKEITRAIN",
+                    codigoTelefono = "1-999-625-384-7246",
+                    comandoPS = "R2, X, L1, L1, L2, L2, L2, Cuadrado",
+                    comandoXbox = "RT, A, LB, LB, LT, LT, LT, X"
+                )
+            ),
+            TrucoListItem.TrucoEntry(
+                TrucoInfo(
+                    id = "lunar",
+                    efecto = "Baja gravedad",
+                    comandoConsola = "FLOATER",
+                    codigoTelefono = "1-999-356-2837",
+                    comandoPS = "Izquierda, Izquierda, L1, R1, L1, Derecha, Izquierda, L1, Izquierda",
+                    comandoXbox = "Izquierda, Izquierda, LB, RB, LB, Derecha, Izquierda, LB, Izquierda"
+                )
+            ),
+            TrucoListItem.TrucoEntry(
+                TrucoInfo(
+                    id = "coches_slip",
+                    efecto = "Coches resbaladizos",
+                    comandoConsola = "SNOWDAY",
+                    codigoTelefono = "1-999-766-9329",
+                    comandoPS = "Triangulo, R1, R1, Izquierda, R1, L1, R2, L1",
+                    comandoXbox = "Y, RB, RB, Izquierda, RB, LB, RT, LB"
+                )
+            )
+        )
+    )
 )
 
 
@@ -322,7 +553,7 @@ fun TrucoEntryView(trucoInfo: TrucoInfo) {
         trucoInfo.comandoConsola?.let {
             Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.padding(vertical = 3.dp)) {
                 Text(
-                    "PC: ",
+                    "Comando en PC: ",
                     style = MaterialTheme.typography.bodyMedium.copy(fontWeight = FontWeight.Medium),
                     modifier = Modifier.align(Alignment.CenterVertically)
                 )
