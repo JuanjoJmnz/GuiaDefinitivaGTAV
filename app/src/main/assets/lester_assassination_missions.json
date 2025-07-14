@@ -1,0 +1,144 @@
+[
+  {
+    "id": "hotel_assassination",
+    "missionName": "Asesinato en el Hotel",
+    "unlockedByCharacter": "Franklin",
+    "availableAfterMission": "El Reencuentro",
+    "targetCompanyDown": {
+      "companyName": "Bilkington Research",
+      "tickerSymbol": "BIL (LCN)",
+      "action": "Sus acciones bajarán después de la misión.",
+      "details": "Espera a que caigan al mínimo antes de considerar comprar."
+    },
+    "companyToInvestInBefore": {
+      "companyName": "BettaPharmaceuticals",
+      "tickerSymbol": "BET (BAWSAQ)",
+      "action": "Invertir todo el dinero de los 3 personajes ANTES de la misión.",
+      "details": "Vender cuando las acciones suban aproximadamente un 50-80% después de la misión (normalmente tras unas horas de juego o guardando varias veces)."
+    },
+    "postMissionInvestmentTips": [
+      {
+        "companyName": "Bilkington Research",
+        "tickerSymbol": "BIL (LCN)",
+        "action": "Comprar acciones de Bilkington DESPUÉS de la misión, cuando estén en su punto más bajo.",
+        "details": "Vender cuando se recuperen, aproximadamente un 80-100% de subida (puede tardar varios días en el juego)."
+      }
+    ],
+    "generalTips": [
+      "Primera misión de asesinato de Lester. Es obligatoria para avanzar en la historia de Franklin.",
+      "Si quieres maximizar ganancias, esta misión ofrece menos flexibilidad ya que es temprana. Las siguientes son mejores para grandes inversiones post-historia."
+    ]
+  },
+  {
+    "id": "multi_target_assassination",
+    "missionName": "Asesinato Múltiple",
+    "unlockedByCharacter": "Franklin",
+    "availableAfterMission": "Asesinato en el Hotel",
+    "targetCompanyDown": {
+      "companyName": "Redwood Cigarettes",
+      "tickerSymbol": "RWC (LCN)",
+      "action": "Sus acciones bajarán drásticamente.",
+      "details": "Espera a que toquen fondo antes de comprar."
+    },
+    "companyToInvestInBefore": {
+      "companyName": "Debonaire Cigarettes",
+      "tickerSymbol": "DEB (LCN)",
+      "action": "Invertir todo el dinero de los 3 personajes ANTES de la misión.",
+      "details": "Vender cuando las acciones suban aproximadamente un 80-90% (esperar unas 8 horas de juego o guardar y avanzar tiempo)."
+    },
+    "postMissionInvestmentTips": [
+      {
+        "companyName": "Redwood Cigarettes",
+        "tickerSymbol": "RWC (LCN)",
+        "action": "Comprar acciones de Redwood DESPUÉS de la misión, cuando estén muy bajas (esperar 2-3 días de juego).",
+        "details": "Vender cuando se recuperen, lo que puede suponer hasta un 300% de beneficio (esperar varios días más en el juego)."
+      }
+    ],
+    "generalTips": [
+      "Espera a completar la historia principal para tener el máximo dinero disponible de los tres personajes para invertir."
+    ]
+  },
+  {
+    "id": "vice_assassination",
+    "missionName": "Asesinato del Vicio",
+    "unlockedByCharacter": "Franklin",
+    "availableAfterMission": "Asesinato Múltiple",
+    "targetCompanyDown": {
+      "companyName": "Facade",
+      "tickerSymbol": "FAC (BAWSAQ)",
+      "action": "Sus acciones bajarán.",
+      "details": "Compra cuando estén en su punto más bajo después de la misión."
+    },
+    "companyToInvestInBefore": {
+      "companyName": "Fruit Computers",
+      "tickerSymbol": "FRT (BAWSAQ)",
+      "action": "Invertir todo el dinero de los 3 personajes ANTES de la misión.",
+      "details": "Vender cuando las acciones suban aproximadamente un 50-60% (puede tardar unas horas o un día en el juego)."
+    },
+    "postMissionInvestmentTips": [
+      {
+        "companyName": "Facade",
+        "tickerSymbol": "FAC (BAWSAQ)",
+        "action": "Comprar acciones de Facade DESPUÉS de la misión cuando estén bajas.",
+        "details": "Vender cuando se recuperen, aproximadamente un 30-40% de subida."
+      }
+    ],
+    "generalTips": [
+      "Asegúrate de invertir con los tres personajes para maximizar ganancias."
+    ]
+  },
+  {
+    "id": "bus_assassination",
+    "missionName": "Asesinato del Autobús",
+    "unlockedByCharacter": "Franklin",
+    "availableAfterMission": "Asesinato del Vicio",
+    "targetCompanyDown": {
+      "companyName": "Vapid Motor Company",
+      "tickerSymbol": "VAP (BAWSAQ)",
+      "action": "Las acciones de esta empresa NO bajan como objetivo directo. El beneficio se obtiene invirtiendo en ella DESPUÉS.",
+      "details": "El objetivo es Isaac Penny, un inversor que iba a comprar Vapid. Al eliminarlo, se espera que Vapid suba."
+    },
+    "companyToInvestInBefore": null,
+    "postMissionInvestmentTips": [
+      {
+        "companyName": "Vapid Motor Company",
+        "tickerSymbol": "VAP (BAWSAQ)",
+        "action": "Comprar acciones de Vapid DESPUÉS de completar la misión.",
+        "details": "Vender cuando suban aproximadamente un 80-100% (esperar unos 2 días de juego)."
+      }
+    ],
+    "generalTips": [
+      "Esta misión es diferente: no hay una empresa competidora en la que invertir ANTES. La ganancia se centra en Vapid DESPUÉS de la misión."
+    ]
+  },
+  {
+    "id": "construction_assassination",
+    "missionName": "Asesinato de la Construcción",
+    "unlockedByCharacter": "Franklin",
+    "availableAfterMission": "Asesinato del Autobús",
+    "targetCompanyDown": {
+      "companyName": "GoldCoast Development",
+      "tickerSymbol": "GCD (LCN)",
+      "action": "Sus acciones bajarán drásticamente después de eliminar a Enzo Bonelli.",
+      "details": "Este es el momento de comprar GoldCoast, cuando estén en su punto más bajo."
+    },
+    "companyToInvestInBefore": {
+      "companyName": "GoldCoast Development",
+      "tickerSymbol": "GCD (LCN)",
+      "action": "NO invertir ANTES de la misión.",
+      "details": "La estrategia principal es comprar acciones de GoldCoast DESPUÉS de la misión cuando hayan bajado, y luego venderlas cuando se recuperen."
+    },
+    "postMissionInvestmentTips": [
+      {
+        "companyName": "GoldCoast Development",
+        "tickerSymbol": "GCD (LCN)",
+        "action": "Comprar acciones de GoldCoast DESPUÉS de la misión, cuando hayan caído significativamente.",
+        "details": "Vender cuando se recuperen, lo que puede generar un beneficio de aproximadamente el 80% (esperar varios días en el juego)."
+      }
+    ],
+    "generalTips": [
+      "Esta es la última misión de asesinato y puede generar muchos beneficios si se hace después de la historia principal.",
+      "El objetivo es Enzo Bonelli. Después de matarlo, las acciones de GoldCoast caerán, momento ideal para comprar barato."
+    ]
+  }
+]
