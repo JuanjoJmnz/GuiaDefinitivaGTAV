@@ -1,46 +1,35 @@
 package com.juanjojmnz.guiadefinitivagtav.ui.screens
 
 import androidx.annotation.DrawableRes
-import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.aspectRatio
-import androidx.compose.foundation.layout.PaddingValues
-import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.height
-import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.Image
+import androidx.compose.foundation.border
+import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.grid.GridCells
 import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
 import androidx.compose.foundation.lazy.grid.items
-import androidx.compose.material3.CardDefaults
-import androidx.compose.material3.ElevatedCard
-import androidx.compose.material3.ExperimentalMaterial3Api
-import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Scaffold
-import androidx.compose.material3.Text
-import androidx.compose.material3.TopAppBar
-import androidx.compose.material3.TopAppBarDefaults
-import androidx.compose.runtime.Composable
+import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.material3.*
+import androidx.compose.runtime.*
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.ui.Alignment
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import androidx.navigation.compose.rememberNavController
+import com.juanjojmnz.guiadefinitivagtav.R
 import com.juanjojmnz.guiadefinitivagtav.navigation.AppDestinations
 import com.juanjojmnz.guiadefinitivagtav.ui.theme.GuiaDefinitivaGTAVTheme
-import com.juanjojmnz.guiadefinitivagtav.R
-import androidx.compose.foundation.Image
-import androidx.compose.foundation.border
-import androidx.compose.foundation.shape.CircleShape
-import androidx.compose.ui.draw.clip
-import androidx.compose.ui.res.painterResource
-import androidx.compose.ui.layout.ContentScale
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.launch
+
+private const val NAVIGATION_DEBOUNCE_DELAY_MS = 500L
 
 data class MenuItemApp(
     val title: String,
@@ -76,6 +65,11 @@ fun MainMenuScreen(navController: NavController) {
             route = AppDestinations.HEISTS_SCREEN
         ),
         MenuItemApp(
+            title = "Asesinatos de Lester",
+            iconDrawableId = R.drawable.icono_asesinatos_lester,
+            route = AppDestinations.LESTER_ASSASSINATIONS_SCREEN
+        ),
+        MenuItemApp(
             title = "Coleccionables",
             iconDrawableId = R.drawable.icono_coleccionables,
             route = AppDestinations.COLLECTIBLES_SCREEN
@@ -94,11 +88,6 @@ fun MainMenuScreen(navController: NavController) {
             title = "Carreras",
             iconDrawableId = R.drawable.icono_carreras,
             route = AppDestinations.RACES_SCREEN
-        ),
-        MenuItemApp(
-            title = "Asesinatos de Lester",
-            iconDrawableId = R.drawable.icono_asesinatos_lester,
-            route = AppDestinations.LESTER_ASSASSINATIONS_SCREEN
         ),
         MenuItemApp(
             title = "Eventos aleatorios",
@@ -137,6 +126,8 @@ fun MainMenuScreen(navController: NavController) {
         )
     )
 
+    val isNavigating = rememberSaveable { mutableStateOf(false) }
+
     Scaffold(
         topBar = {
             TopAppBar(
@@ -158,39 +149,55 @@ fun MainMenuScreen(navController: NavController) {
                 .fillMaxSize()
         ) {
             items(menuItems) { menuItem ->
-                AppIconCard(navController = navController, item = menuItem)
+                AppIconCard(
+                    navController = navController,
+                    item = menuItem,
+                    isNavigating = isNavigating
+                )
             }
         }
     }
 }
 
-@OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun AppIconCard(navController: NavController, item: MenuItemApp) {
+fun AppIconCard(
+    navController: NavController,
+    item: MenuItemApp,
+    isNavigating: MutableState<Boolean>
+) {
+    val coroutineScope = rememberCoroutineScope()
+
     ElevatedCard(
         onClick = {
-            item.route?.let { route ->
-                if (item.category != null) {
-                    val fullRoute = route.replace("{category}", item.category)
-                    navController.navigate(fullRoute)
-                } else {
-                    navController.navigate(route)
+            if (!isNavigating.value) {
+                isNavigating.value = true
+                coroutineScope.launch {
+                    val finalRoute = if (item.category != null) {
+                        item.route?.replace("{category}", item.category)
+                    } else {
+                        item.route
+                    }
+
+                    finalRoute?.let {
+                        navController.navigate(it) {
+                            launchSingleTop = true
+                        }
+                    }
+
+                    delay(NAVIGATION_DEBOUNCE_DELAY_MS)
+                    isNavigating.value = false
                 }
             }
         },
+        enabled = !isNavigating.value,
         modifier = Modifier
             .fillMaxWidth()
             .aspectRatio(1f),
-        elevation = CardDefaults.elevatedCardElevation(
-            defaultElevation = 0.dp
-        ),
-        colors = CardDefaults.elevatedCardColors(
-            containerColor = Color.Transparent
-        )
+        elevation = CardDefaults.elevatedCardElevation(0.dp),
+        colors = CardDefaults.elevatedCardColors(containerColor = Color.Transparent),
     ) {
         Column(
-            modifier = Modifier
-                .fillMaxSize(),
+            modifier = Modifier.fillMaxSize(),
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Center
         ) {
@@ -198,7 +205,10 @@ fun AppIconCard(navController: NavController, item: MenuItemApp) {
                 Image(
                     painter = painterResource(id = drawableId),
                     contentDescription = item.title,
-                    modifier = Modifier.size(120.dp).clip(CircleShape).border(width = 1.dp, color = Color.White, shape = CircleShape),
+                    modifier = Modifier
+                        .size(120.dp)
+                        .clip(CircleShape)
+                        .border(width = 1.dp, color = Color.White, shape = CircleShape),
                     contentScale = ContentScale.Fit,
                 )
             }
