@@ -26,6 +26,7 @@ import com.juanjojmnz.guiadefinitivagtav.ui.screens.PlaceholderScreen
 import com.juanjojmnz.guiadefinitivagtav.ui.theme.GuiaDefinitivaGTAVTheme
 import com.juanjojmnz.guiadefinitivagtav.ui.screens.CheatsScreen
 import com.juanjojmnz.guiadefinitivagtav.ui.screens.InfoScreen
+import com.juanjojmnz.guiadefinitivagtav.ui.screens.LesterScreen
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -120,7 +121,7 @@ fun AppNavigator() {
                 PlaceholderScreen(navController = navController, screenTitle = "Carreras")
             }
             composable(AppDestinations.LESTER_ASSASSINATIONS_SCREEN) {
-                PlaceholderScreen(navController = navController, screenTitle = "Asesinatos de Lester")
+                LesterScreen(navController = navController, screenTitle = "Asesinatos de Lester")
             }
             composable(AppDestinations.RANDOM_EVENTS_SCREEN) {
                 PlaceholderScreen(navController = navController, screenTitle = "Eventos Aleatorios")
