@@ -25,6 +25,7 @@ import com.juanjojmnz.guiadefinitivagtav.ui.screens.WelcomeScreen
 import com.juanjojmnz.guiadefinitivagtav.ui.screens.PlaceholderScreen
 import com.juanjojmnz.guiadefinitivagtav.ui.theme.GuiaDefinitivaGTAVTheme
 import com.juanjojmnz.guiadefinitivagtav.ui.screens.CheatsScreen
+import com.juanjojmnz.guiadefinitivagtav.ui.screens.InfoScreen
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -45,10 +46,10 @@ fun AppNavigator() {
         NavHost(
             navController = navController,
             startDestination = AppDestinations.WELCOME_SCREEN,
-            modifier = Modifier.padding(innerPadding) // Aplica el padding global del Scaffold
+            modifier = Modifier.padding(innerPadding)
         ) {
             composable(AppDestinations.WELCOME_SCREEN) {
-                WelcomeScreen( // Pasando navController a WelcomeScreen
+                WelcomeScreen(
                     onEnterClicked = {
                         navController.navigate(AppDestinations.MAIN_MENU_SCREEN) {
                             popUpTo(AppDestinations.WELCOME_SCREEN) { inclusive = true }
@@ -140,7 +141,7 @@ fun AppNavigator() {
                 PlaceholderScreen(navController = navController, screenTitle = "Online")
             }
             composable(AppDestinations.INFO_SCREEN) {
-                PlaceholderScreen(navController = navController, screenTitle = "Información de la app")
+                InfoScreen(navController = navController, screenTitle = "Información de la app")
             }
         }
     }

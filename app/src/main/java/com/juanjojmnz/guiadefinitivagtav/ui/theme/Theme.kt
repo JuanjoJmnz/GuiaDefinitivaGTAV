@@ -70,4 +70,3 @@ fun GuiaDefinitivaGTAVTheme(
         content = content
     )
 }
-    

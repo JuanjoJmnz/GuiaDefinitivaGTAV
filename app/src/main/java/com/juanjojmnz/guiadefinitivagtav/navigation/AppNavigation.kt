@@ -5,7 +5,6 @@ object AppDestinations {
     const val MAIN_MENU_SCREEN = "main_menu"
     const val MISSION_LIST_SCREEN = "mission_list/{category}"
     const val MISSION_DETAIL_SCREEN = "mission_detail/{category}/{missionId}"
-
     const val HEISTS_SCREEN = "heists"
     const val COLLECTIBLES_SCREEN = "collectibles"
     const val ACTIVITIES_SCREEN = "activities"

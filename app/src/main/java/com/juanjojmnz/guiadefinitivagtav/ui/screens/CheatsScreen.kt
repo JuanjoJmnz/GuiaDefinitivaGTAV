@@ -434,8 +434,6 @@ val listaDeCategoriasDeTrucosGTA = listOf(
     )
 )
 
-
-
 class TrucosScreenViewModel : ViewModel() {
     private val _categoriasDeTrucos = MutableStateFlow<List<TrucosCategory>>(emptyList())
     val categoriasDeTrucos: StateFlow<List<TrucosCategory>> = _categoriasDeTrucos

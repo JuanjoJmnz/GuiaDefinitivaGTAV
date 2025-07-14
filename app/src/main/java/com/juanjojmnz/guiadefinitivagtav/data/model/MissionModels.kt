@@ -33,7 +33,6 @@ data class StrangersAndFreaksMission(
     val goldMedalRequirements: List<String>
 )
 
-// Enum para los personajes
 enum class MissionCharacter {
     MICHAEL, FRANKLIN, TREVOR, ALL
 }

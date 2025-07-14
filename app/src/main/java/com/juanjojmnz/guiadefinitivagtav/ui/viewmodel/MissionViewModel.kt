@@ -20,10 +20,10 @@ open class MissionViewModel(application: Application) : AndroidViewModel(applica
     private val repository = MissionRepository(application)
 
     private val _mainMissions = MutableStateFlow<List<MainMission>>(emptyList())
-    open val mainMissions: StateFlow<List<MainMission>> = _mainMissions.asStateFlow() // DESCOMENTA ESTA LÍNEA
+    open val mainMissions: StateFlow<List<MainMission>> = _mainMissions.asStateFlow()
 
     private val _strangersAndFreaksMissions = MutableStateFlow<List<StrangersAndFreaksMission>>(emptyList())
-    open val strangersAndFreaksMissions: StateFlow<List<StrangersAndFreaksMission>> = _strangersAndFreaksMissions.asStateFlow() // DESCOMENTA ESTA LÍNEA
+    open val strangersAndFreaksMissions: StateFlow<List<StrangersAndFreaksMission>> = _strangersAndFreaksMissions.asStateFlow()
 
     private val _selectedCharacter = MutableStateFlow<MissionCharacter?>(null)
     val selectedCharacter: StateFlow<MissionCharacter?> = _selectedCharacter.asStateFlow()

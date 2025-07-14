@@ -76,7 +76,6 @@ fun WelcomeScreen(onEnterClicked: () -> Unit) {
         ) {
 
             Box(contentAlignment = Alignment.Center) {
-                // Texto del BORDE (detrás)
                 Text(
                     text = "Guía Definitiva para GTA V",
                     color = Color.Black,
@@ -88,7 +87,6 @@ fun WelcomeScreen(onEnterClicked: () -> Unit) {
                         )
                     )
                 )
-                // Texto del RELLENO (encima)
                 Text(
                     text = "Guía Definitiva para GTA V",
                     color = GTAOrange,
@@ -128,4 +126,3 @@ fun WelcomeScreenPreview() {
         WelcomeScreen(onEnterClicked = {})
     }
 }
-    

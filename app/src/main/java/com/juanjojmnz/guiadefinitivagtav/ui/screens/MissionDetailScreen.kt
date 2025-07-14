@@ -104,10 +104,10 @@ fun MainMissionDetailsContent(mission: MainMission) {
         Text(text = "Personaje(s): ${mission.character}", style = MaterialTheme.typography.bodyMedium)
         Spacer(modifier = Modifier.height(8.dp))
 
-        // USA goldMedalRequirements AQUÍ
+
         if (mission.goldMedalRequirements.isNotEmpty()) {
             Text(text = "Requisitos para Medalla de Oro:", style = MaterialTheme.typography.titleMedium)
-            mission.goldMedalRequirements.forEach { requirement -> // Cambiado de objective a requirement
+            mission.goldMedalRequirements.forEach { requirement ->
                 Text(text = "• $requirement", style = MaterialTheme.typography.bodyMedium)
             }
         }
@@ -138,17 +138,17 @@ fun StrangersAndFreaksMissionDetailsContent(mission: StrangersAndFreaksMission) 
         Spacer(modifier = Modifier.height(8.dp))
         Text(text = "Personaje: ${mission.character}", style = MaterialTheme.typography.bodyMedium)
         Spacer(modifier = Modifier.height(8.dp))
-        Text(text = "Interpretado por: ${mission.characterEncountered}", style = MaterialTheme.typography.bodyMedium) // Asumiendo que characterEncountered es el actor
+        Text(text = "Interpretado por: ${mission.characterEncountered}", style = MaterialTheme.typography.bodyMedium)
         Spacer(modifier = Modifier.height(8.dp))
         Text(text = "Localización: ${mission.location}", style = MaterialTheme.typography.bodyMedium)
         Spacer(modifier = Modifier.height(8.dp))
         Text(text = "Disponibilidad: ${mission.availability}", style = MaterialTheme.typography.bodyMedium)
         Spacer(modifier = Modifier.height(8.dp))
 
-        // USA goldMedalRequirements AQUÍ
+
         if (mission.goldMedalRequirements.isNotEmpty()) {
             Text(text = "Requisitos para Medalla de Oro:", style = MaterialTheme.typography.titleMedium)
-            mission.goldMedalRequirements.forEach { requirement -> // Cambiado de objective a requirement
+            mission.goldMedalRequirements.forEach { requirement ->
                 Text(text = "• $requirement", style = MaterialTheme.typography.bodyMedium)
             }
         }
@@ -159,7 +159,7 @@ fun StrangersAndFreaksMissionDetailsContent(mission: StrangersAndFreaksMission) 
     }
 }
 
-// --- Previews ---
+
 @Preview(showBackground = true, name = "Main Mission Detail Preview")
 @Composable
 fun MainMissionDetailPreview() {
@@ -169,13 +169,13 @@ fun MainMissionDetailPreview() {
             id = "main_01",
             name = "Prólogo",
             description = "Una breve introducción a los eventos que desencadenan la historia principal.",
-            character = "Michael, Trevor", // O usa MissionCharacter.MICHAEL.name etc.
+            character = "Michael, Trevor",
             reward = "$200,000 (valor de botín)",
-            goldMedalRequirements = listOf( // Usa el nombre correcto del parámetro
+            goldMedalRequirements = listOf(
                 "Completa en menos de 5:00",
                 "Logra 10 disparos a la cabeza"
             ),
-            unlocksAtEvent = "Después de la misión 'Secuestro'", // Asegúrate de pasar todos los parámetros no nulos
+            unlocksAtEvent = "Después de la misión 'Secuestro'",
             notes = "Esta misión sirve como tutorial para los atracos."
         )
 
@@ -183,7 +183,7 @@ fun MainMissionDetailPreview() {
             object : MissionViewModel(application = androidx.test.core.app.ApplicationProvider.getApplicationContext()) {
                 override val mainMissions: StateFlow<List<MainMission>> =
                     MutableStateFlow(listOf(sampleMainMission))
-                override val strangersAndFreaksMissions: StateFlow<List<StrangersAndFreaksMission>> = // Añade esto para que el mock sea completo
+                override val strangersAndFreaksMissions: StateFlow<List<StrangersAndFreaksMission>> =
                     MutableStateFlow(emptyList())
             }
 
@@ -205,12 +205,12 @@ fun StrangersAndFreaksMissionDetailPreview() {
             id = "snf_franklin_01",
             name = "Sacar la grúa",
             description = "Ayuda a Tonya con sus problemas de remolque.",
-            character = "Franklin", // O usa MissionCharacter.FRANKLIN.name
-            characterEncountered = "Tonya Wiggins", // Pasa todos los parámetros
+            character = "Franklin",
+            characterEncountered = "Tonya Wiggins",
             reward = "Dinero y respeto",
             availability = "Después de 'Reposesión'",
             location = "Strawberry, cerca del taller de Franklin",
-            goldMedalRequirements = listOf( // Usa el nombre correcto del parámetro
+            goldMedalRequirements = listOf(
                 "Completa en menos de 2:30",
                 "No dañes el vehículo remolcado"
             )
@@ -219,7 +219,7 @@ fun StrangersAndFreaksMissionDetailPreview() {
             object : MissionViewModel(application = androidx.test.core.app.ApplicationProvider.getApplicationContext()) {
                 override val strangersAndFreaksMissions: StateFlow<List<StrangersAndFreaksMission>> =
                     MutableStateFlow(listOf(sampleSnFMission))
-                override val mainMissions: StateFlow<List<MainMission>> = // Añade esto para que el mock sea completo
+                override val mainMissions: StateFlow<List<MainMission>> =
                     MutableStateFlow(emptyList())
             }
 
@@ -227,7 +227,7 @@ fun StrangersAndFreaksMissionDetailPreview() {
             navController = navController,
             missionId = "snf_franklin_01",
             category = "Extraños y locos",
-            missionViewModel = mockViewModelSnF // Usa el mockViewModel correcto
+            missionViewModel = mockViewModelSnF
         )
     }
 }

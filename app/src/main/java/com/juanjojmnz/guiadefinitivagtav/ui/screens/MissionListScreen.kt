@@ -29,7 +29,7 @@ import com.juanjojmnz.guiadefinitivagtav.R
 import com.juanjojmnz.guiadefinitivagtav.data.model.MainMission
 import com.juanjojmnz.guiadefinitivagtav.data.model.MissionCharacter
 import com.juanjojmnz.guiadefinitivagtav.data.model.StrangersAndFreaksMission
-import com.juanjojmnz.guiadefinitivagtav.navigation.AppDestinations // Importa AppDestinations
+import com.juanjojmnz.guiadefinitivagtav.navigation.AppDestinations
 import com.juanjojmnz.guiadefinitivagtav.ui.theme.GuiaDefinitivaGTAVTheme
 import com.juanjojmnz.guiadefinitivagtav.ui.viewmodel.MissionViewModel
 
@@ -229,7 +229,6 @@ fun CharacterFilterRow(
     }
 }
 
-// Modificado para aceptar un lambda onClick
 @Composable
 fun MissionCard(mission: MainMission, onClick: () -> Unit) {
     Card(
