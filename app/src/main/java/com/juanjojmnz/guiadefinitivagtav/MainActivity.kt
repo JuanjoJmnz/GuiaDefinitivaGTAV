@@ -25,6 +25,7 @@ import com.juanjojmnz.guiadefinitivagtav.ui.screens.WelcomeScreen
 import com.juanjojmnz.guiadefinitivagtav.ui.screens.PlaceholderScreen
 import com.juanjojmnz.guiadefinitivagtav.ui.theme.GuiaDefinitivaGTAVTheme
 import com.juanjojmnz.guiadefinitivagtav.ui.screens.CheatsScreen
+import com.juanjojmnz.guiadefinitivagtav.ui.screens.CollectionScreen
 import com.juanjojmnz.guiadefinitivagtav.ui.screens.InfoScreen
 import com.juanjojmnz.guiadefinitivagtav.ui.screens.LesterScreen
 
@@ -109,7 +110,7 @@ fun AppNavigator() {
                 PlaceholderScreen(navController = navController, screenTitle = "Golpes")
             }
             composable(AppDestinations.COLLECTIBLES_SCREEN) {
-                PlaceholderScreen(navController = navController, screenTitle = "Coleccionables")
+                CollectionScreen(mainNavController = navController)
             }
             composable(AppDestinations.ACTIVITIES_SCREEN) {
                 PlaceholderScreen(navController = navController, screenTitle = "Actividades")
