@@ -70,5 +70,7 @@ dependencies {
     androidTestImplementation(libs.androidx.core)
     debugImplementation(libs.core.ktx)
 
+    implementation(libs.androidx.lifecycle.viewmodel.compose.v280)
+    implementation(libs.androidx.lifecycle.runtime.ktx.v280)
 
 }
