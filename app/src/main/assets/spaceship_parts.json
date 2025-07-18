@@ -1,0 +1,352 @@
+[
+  {
+    "id": 1,
+    "name": "Pieza de Nave #1",
+    "description": "",
+    "mapImageResourceName": "placeholder_map",
+    "locationImageResourceName": "placeholder_location"
+  },
+  {
+    "id": 2,
+    "name": "Pieza de Nave #2",
+    "description": "",
+    "mapImageResourceName": "placeholder_map_2",
+    "locationImageResourceName": "placeholder_location_2"
+  },
+  {
+    "id": 3,
+    "name": "Pieza de Nave #3",
+    "description": "",
+    "mapImageResourceName": "placeholder_map",
+    "locationImageResourceName": "placeholder_location_2"
+  },
+  {
+    "id": 4,
+    "name": "Pieza de Nave #4",
+    "description": "",
+    "mapImageResourceName": "placeholder_map_2",
+    "locationImageResourceName": "placeholder_location"
+  },
+  {
+    "id": 5,
+    "name": "Pieza de Nave #5",
+    "description": "",
+    "mapImageResourceName": "placeholder_map",
+    "locationImageResourceName": "placeholder_location"
+  },
+  {
+    "id": 6,
+    "name": "Pieza de Nave #6",
+    "description": "",
+    "mapImageResourceName": "placeholder_map_2",
+    "locationImageResourceName": "placeholder_location_2"
+  },
+  {
+    "id": 7,
+    "name": "Pieza de Nave #7",
+    "description": "",
+    "mapImageResourceName": "placeholder_map",
+    "locationImageResourceName": "placeholder_location_2"
+  },
+  {
+    "id": 8,
+    "name": "Pieza de Nave #8",
+    "description": "",
+    "mapImageResourceName": "placeholder_map_2",
+    "locationImageResourceName": "placeholder_location"
+  },
+  {
+    "id": 9,
+    "name": "Pieza de Nave #9",
+    "description": "",
+    "mapImageResourceName": "placeholder_map",
+    "locationImageResourceName": "placeholder_location"
+  },
+  {
+    "id": 10,
+    "name": "Pieza de Nave #10",
+    "description": "",
+    "mapImageResourceName": "placeholder_map_2",
+    "locationImageResourceName": "placeholder_location_2"
+  },
+  {
+    "id": 11,
+    "name": "Pieza de Nave #11",
+    "description": "",
+    "mapImageResourceName": "placeholder_map",
+    "locationImageResourceName": "placeholder_location_2"
+  },
+  {
+    "id": 12,
+    "name": "Pieza de Nave #12",
+    "description": "",
+    "mapImageResourceName": "placeholder_map_2",
+    "locationImageResourceName": "placeholder_location"
+  },
+  {
+    "id": 13,
+    "name": "Pieza de Nave #13",
+    "description": "",
+    "mapImageResourceName": "placeholder_map",
+    "locationImageResourceName": "placeholder_location"
+  },
+  {
+    "id": 14,
+    "name": "Pieza de Nave #14",
+    "description": "",
+    "mapImageResourceName": "placeholder_map_2",
+    "locationImageResourceName": "placeholder_location_2"
+  },
+  {
+    "id": 15,
+    "name": "Pieza de Nave #15",
+    "description": "",
+    "mapImageResourceName": "placeholder_map",
+    "locationImageResourceName": "placeholder_location_2"
+  },
+  {
+    "id": 16,
+    "name": "Pieza de Nave #16",
+    "description": "",
+    "mapImageResourceName": "placeholder_map_2",
+    "locationImageResourceName": "placeholder_location"
+  },
+  {
+    "id": 17,
+    "name": "Pieza de Nave #17",
+    "description": "",
+    "mapImageResourceName": "placeholder_map",
+    "locationImageResourceName": "placeholder_location"
+  },
+  {
+    "id": 18,
+    "name": "Pieza de Nave #18",
+    "description": "",
+    "mapImageResourceName": "placeholder_map_2",
+    "locationImageResourceName": "placeholder_location_2"
+  },
+  {
+    "id": 19,
+    "name": "Pieza de Nave #19",
+    "description": "",
+    "mapImageResourceName": "placeholder_map",
+    "locationImageResourceName": "placeholder_location_2"
+  },
+  {
+    "id": 20,
+    "name": "Pieza de Nave #20",
+    "description": "",
+    "mapImageResourceName": "placeholder_map_2",
+    "locationImageResourceName": "placeholder_location"
+  },
+  {
+    "id": 21,
+    "name": "Pieza de Nave #21",
+    "description": "",
+    "mapImageResourceName": "placeholder_map",
+    "locationImageResourceName": "placeholder_location"
+  },
+  {
+    "id": 22,
+    "name": "Pieza de Nave #22",
+    "description": "",
+    "mapImageResourceName": "placeholder_map_2",
+    "locationImageResourceName": "placeholder_location_2"
+  },
+  {
+    "id": 23,
+    "name": "Pieza de Nave #23",
+    "description": "",
+    "mapImageResourceName": "placeholder_map",
+    "locationImageResourceName": "placeholder_location_2"
+  },
+  {
+    "id": 24,
+    "name": "Pieza de Nave #24",
+    "description": "",
+    "mapImageResourceName": "placeholder_map_2",
+    "locationImageResourceName": "placeholder_location"
+  },
+  {
+    "id": 25,
+    "name": "Pieza de Nave #25",
+    "description": "",
+    "mapImageResourceName": "placeholder_map",
+    "locationImageResourceName": "placeholder_location"
+  },
+  {
+    "id": 26,
+    "name": "Pieza de Nave #26",
+    "description": "",
+    "mapImageResourceName": "placeholder_map_2",
+    "locationImageResourceName": "placeholder_location_2"
+  },
+  {
+    "id": 27,
+    "name": "Pieza de Nave #27",
+    "description": "",
+    "mapImageResourceName": "placeholder_map",
+    "locationImageResourceName": "placeholder_location_2"
+  },
+  {
+    "id": 28,
+    "name": "Pieza de Nave #28",
+    "description": "",
+    "mapImageResourceName": "placeholder_map_2",
+    "locationImageResourceName": "placeholder_location"
+  },
+  {
+    "id": 29,
+    "name": "Pieza de Nave #29",
+    "description": "",
+    "mapImageResourceName": "placeholder_map",
+    "locationImageResourceName": "placeholder_location"
+  },
+  {
+    "id": 30,
+    "name": "Pieza de Nave #30",
+    "description": "",
+    "mapImageResourceName": "placeholder_map_2",
+    "locationImageResourceName": "placeholder_location_2"
+  },
+  {
+    "id": 31,
+    "name": "Pieza de Nave #31",
+    "description": "",
+    "mapImageResourceName": "placeholder_map",
+    "locationImageResourceName": "placeholder_location_2"
+  },
+  {
+    "id": 32,
+    "name": "Pieza de Nave #32",
+    "description": "",
+    "mapImageResourceName": "placeholder_map_2",
+    "locationImageResourceName": "placeholder_location"
+  },
+  {
+    "id": 33,
+    "name": "Pieza de Nave #33",
+    "description": "",
+    "mapImageResourceName": "placeholder_map",
+    "locationImageResourceName": "placeholder_location"
+  },
+  {
+    "id": 34,
+    "name": "Pieza de Nave #34",
+    "description": "",
+    "mapImageResourceName": "placeholder_map_2",
+    "locationImageResourceName": "placeholder_location_2"
+  },
+  {
+    "id": 35,
+    "name": "Pieza de Nave #35",
+    "description": "",
+    "mapImageResourceName": "placeholder_map",
+    "locationImageResourceName": "placeholder_location_2"
+  },
+  {
+    "id": 36,
+    "name": "Pieza de Nave #36",
+    "description": "",
+    "mapImageResourceName": "placeholder_map_2",
+    "locationImageResourceName": "placeholder_location"
+  },
+  {
+    "id": 37,
+    "name": "Pieza de Nave #37",
+    "description": "",
+    "mapImageResourceName": "placeholder_map",
+    "locationImageResourceName": "placeholder_location"
+  },
+  {
+    "id": 38,
+    "name": "Pieza de Nave #38",
+    "description": "",
+    "mapImageResourceName": "placeholder_map_2",
+    "locationImageResourceName": "placeholder_location_2"
+  },
+  {
+    "id": 39,
+    "name": "Pieza de Nave #39",
+    "description": "",
+    "mapImageResourceName": "placeholder_map",
+    "locationImageResourceName": "placeholder_location_2"
+  },
+  {
+    "id": 40,
+    "name": "Pieza de Nave #40",
+    "description": "",
+    "mapImageResourceName": "placeholder_map_2",
+    "locationImageResourceName": "placeholder_location"
+  },
+  {
+    "id": 41,
+    "name": "Pieza de Nave #41",
+    "description": "",
+    "mapImageResourceName": "placeholder_map",
+    "locationImageResourceName": "placeholder_location"
+  },
+  {
+    "id": 42,
+    "name": "Pieza de Nave #42",
+    "description": "",
+    "mapImageResourceName": "placeholder_map_2",
+    "locationImageResourceName": "placeholder_location_2"
+  },
+  {
+    "id": 43,
+    "name": "Pieza de Nave #43",
+    "description": "",
+    "mapImageResourceName": "placeholder_map",
+    "locationImageResourceName": "placeholder_location_2"
+  },
+  {
+    "id": 44,
+    "name": "Pieza de Nave #44",
+    "description": "",
+    "mapImageResourceName": "placeholder_map_2",
+    "locationImageResourceName": "placeholder_location"
+  },
+  {
+    "id": 45,
+    "name": "Pieza de Nave #45",
+    "description": "",
+    "mapImageResourceName": "placeholder_map",
+    "locationImageResourceName": "placeholder_location"
+  },
+  {
+    "id": 46,
+    "name": "Pieza de Nave #46",
+    "description": "",
+    "mapImageResourceName": "placeholder_map_2",
+    "locationImageResourceName": "placeholder_location_2"
+  },
+  {
+    "id": 47,
+    "name": "Pieza de Nave #47",
+    "description": "",
+    "mapImageResourceName": "placeholder_map",
+    "locationImageResourceName": "placeholder_location_2"
+  },
+  {
+    "id": 48,
+    "name": "Pieza de Nave #48",
+    "description": "",
+    "mapImageResourceName": "placeholder_map_2",
+    "locationImageResourceName": "placeholder_location"
+  },
+  {
+    "id": 49,
+    "name": "Pieza de Nave #49",
+    "description": "",
+    "mapImageResourceName": "placeholder_map",
+    "locationImageResourceName": "placeholder_location"
+  },
+  {
+    "id": 50,
+    "name": "Pieza de Nave #50",
+    "description": "",
+    "mapImageResourceName": "placeholder_map_2",
+    "locationImageResourceName": "placeholder_location_2"
+  }
+]
