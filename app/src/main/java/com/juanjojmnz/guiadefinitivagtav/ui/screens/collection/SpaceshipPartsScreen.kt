@@ -1,5 +1,6 @@
 package com.juanjojmnz.guiadefinitivagtav.ui.screens.collection
 
+import com.juanjojmnz.guiadefinitivagtav.data.model.SpaceshipPartItem
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
@@ -16,7 +17,6 @@ import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import coil.compose.AsyncImage
 import com.juanjojmnz.guiadefinitivagtav.R
-import com.juanjojmnz.guiadefinitivagtav.data.model.SpaceshipPartItem
 import com.juanjojmnz.guiadefinitivagtav.ui.viewmodel.SpaceshipPartsViewModel
 
 @Composable
