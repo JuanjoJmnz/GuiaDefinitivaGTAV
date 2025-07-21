@@ -1,6 +1,5 @@
 package com.juanjojmnz.guiadefinitivagtav.data.model
 
-import androidx.annotation.DrawableRes
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.Transient
@@ -11,17 +10,11 @@ data class SpaceshipPartItem(
     val name: String,
     val description: String,
 
-    @SerialName("mapImageResourceName")
-    val mapImageResourceName: String,
+    @SerialName("mapImageUrl")
+    val mapImageUrl: String,
 
-    @SerialName("locationImageResourceName")
-    val locationImageResourceName: String,
-
-    @Transient
-    @DrawableRes val mapImageResId: Int = 0,
-
-    @Transient
-    @DrawableRes val locationImageResId: Int = 0,
+    @SerialName("locationImageUrl")
+    val locationImageUrl: String,
 
     @Transient
     val isFound: Boolean = false
