@@ -1,6 +1,5 @@
 package com.juanjojmnz.guiadefinitivagtav.ui.screens.collection
 
-import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
@@ -11,12 +10,11 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
+import coil.compose.AsyncImage
 import com.juanjojmnz.guiadefinitivagtav.R
 import com.juanjojmnz.guiadefinitivagtav.data.model.SpaceshipPartItem
-import com.juanjojmnz.guiadefinitivagtav.ui.theme.GuiaDefinitivaGTAVTheme
 import com.juanjojmnz.guiadefinitivagtav.ui.viewmodel.SpaceshipPartsViewModel
 
 @Composable
@@ -94,14 +92,17 @@ fun SpaceshipPartCard(
                 fontWeight = FontWeight.Bold
             )
             Spacer(modifier = Modifier.height(4.dp))
-            Image(
-                painter = painterResource(id = part.mapImageResId.takeIf { it != 0 } ?: R.drawable.spaceship_map_1),
+
+            AsyncImage(
+                model = part.mapImageUrl,
                 contentDescription = "Mapa de la zona para ${part.name}",
-                contentScale = ContentScale.Fit,
                 modifier = Modifier
                     .fillMaxWidth()
                     .aspectRatio(16f / 9f)
-                    .heightIn(max = 200.dp)
+                    .heightIn(max = 200.dp),
+                contentScale = ContentScale.Fit,
+                placeholder = painterResource(id = R.drawable.icono_eventos_aleatorios),
+                error = painterResource(id = R.drawable.icono_eventos_aleatorios)
             )
             Spacer(modifier = Modifier.height(12.dp))
 
@@ -111,14 +112,17 @@ fun SpaceshipPartCard(
                 fontWeight = FontWeight.Bold
             )
             Spacer(modifier = Modifier.height(4.dp))
-            Image(
-                painter = painterResource(id = part.locationImageResId.takeIf { it != 0 } ?: R.drawable.spaceship_part_1),
+
+            AsyncImage(
+                model = part.locationImageUrl,
                 contentDescription = "Ubicación exacta para ${part.name}",
-                contentScale = ContentScale.Fit,
                 modifier = Modifier
                     .fillMaxWidth()
                     .aspectRatio(16f / 9f)
-                    .heightIn(max = 200.dp)
+                    .heightIn(max = 200.dp),
+                contentScale = ContentScale.Fit,
+                placeholder = painterResource(id = R.drawable.icono_eventos_aleatorios),
+                error = painterResource(id = R.drawable.icono_eventos_aleatorios)
             )
         }
     }
