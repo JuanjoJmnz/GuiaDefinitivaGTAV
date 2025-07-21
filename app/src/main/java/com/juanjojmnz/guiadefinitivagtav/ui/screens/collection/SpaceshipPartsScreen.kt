@@ -9,8 +9,10 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import coil.compose.AsyncImage
 import com.juanjojmnz.guiadefinitivagtav.R
@@ -23,31 +25,51 @@ fun SpaceshipPartsScreen(
 ) {
     val spaceshipParts by viewModel.spaceshipParts.collectAsState()
 
-    if (spaceshipParts.isEmpty()) {
-        Box(
-            modifier = Modifier.fillMaxSize(),
-            contentAlignment = Alignment.Center
-        ) {
-            Text("Cargando piezas de nave...")
-        }
-        return
-    }
+    val informativeText = "Estos coleccionables se habilitan tras completar el encuentro de Extraños y Locos \"Pasado de rosca\", donde conoces a Omega." +
+            "Ten en cuenta que, si aún no lo has completado, las partes de la nave NO APARECERÁN aunque te encuentres en las ubicaciones correctas."
 
-    LazyColumn(
-        modifier = Modifier.fillMaxSize(),
-        contentPadding = PaddingValues(16.dp),
-        verticalArrangement = Arrangement.spacedBy(16.dp)
-    ) {
-        items(
-            items = spaceshipParts,
-            key = { part -> part.id }
-        ) { part ->
-            SpaceshipPartCard(
-                part = part,
-                onFoundToggle = {
-                    viewModel.togglePartFoundStatus(part.id)
+    Column(modifier = Modifier.fillMaxSize()) {
+        Text(
+            text = informativeText,
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(horizontal = 16.dp, vertical = 12.dp),
+            style = MaterialTheme.typography.bodyMedium,
+            fontStyle = FontStyle.Italic,
+            lineHeight = 18.sp
+        )
+
+        HorizontalDivider(modifier = Modifier.padding(horizontal = 16.dp))
+
+        if (spaceshipParts.isEmpty()) {
+            Box(
+                modifier = Modifier
+                    .weight(1f)
+                    .fillMaxWidth(),
+                contentAlignment = Alignment.Center
+            ) {
+                Text("Cargando piezas de nave...")
+            }
+        } else {
+            LazyColumn(
+                modifier = Modifier
+                    .weight(1f)
+                    .fillMaxWidth(),
+                contentPadding = PaddingValues(start = 16.dp, end = 16.dp, bottom = 16.dp),
+                verticalArrangement = Arrangement.spacedBy(16.dp)
+            ) {
+                items(
+                    items = spaceshipParts,
+                    key = { part -> part.id }
+                ) { part ->
+                    SpaceshipPartCard(
+                        part = part,
+                        onFoundToggle = {
+                            viewModel.togglePartFoundStatus(part.id)
+                        }
+                    )
                 }
-            )
+            }
         }
     }
 }
