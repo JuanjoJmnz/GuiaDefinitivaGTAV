@@ -20,11 +20,18 @@ data class SpaceshipPartItem(
     val isFound: Boolean = false
 )
 
+@Serializable
 data class LetterScrapItem(
-    val id: String,
+    val id: Int,
     val name: String,
     val description: String,
+
+    @SerialName("mapImageUrl")
     val mapImageUrl: String,
+
+    @SerialName("locationImageUrl")
     val locationImageUrl: String,
-    var isFound: Boolean = false,
+
+    @Transient
+    var isFound: Boolean = false
 )
