@@ -7,7 +7,6 @@ import android.util.Log
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
 import com.juanjojmnz.guiadefinitivagtav.data.model.SpaceshipPartItem
-import com.juanjojmnz.guiadefinitivagtav.R
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -41,18 +40,13 @@ class SpaceshipPartsViewModel(application: Application) : AndroidViewModel(appli
                 val jsonString = appContext.assets.open(SPACESHIP_PARTS_FILE)
                     .bufferedReader()
                     .use { it.readText() }
-                Log.d(TAG, "Successfully read JSON string. Length: ${jsonString.length} characters.")
+                Log.d(TAG, "Successfully read JSON string.")
 
                 val parsedParts = Json.decodeFromString<List<SpaceshipPartItem>>(jsonString)
                 Log.d(TAG, "Successfully parsed ${parsedParts.size} parts from JSON.")
 
                 _spaceshipParts.value = parsedParts.map { partFromJson ->
-                    val mapResId = getDrawableResourceIdByName(partFromJson.mapImageResourceName)
-                    val locResId = getDrawableResourceIdByName(partFromJson.locationImageResourceName)
-
                     partFromJson.copy(
-                        mapImageResId = mapResId,
-                        locationImageResId = locResId,
                         isFound = isPartFoundInPrefs(partFromJson.id)
                     )
                 }
@@ -66,18 +60,6 @@ class SpaceshipPartsViewModel(application: Application) : AndroidViewModel(appli
                 _spaceshipParts.value = emptyList()
             }
         }
-    }
-
-    private fun getDrawableResourceIdByName(resourceName: String): Int {
-        val resourceId = appContext.resources.getIdentifier(
-            resourceName,
-            "drawable",
-            appContext.packageName
-        )
-        if (resourceId == 0) {
-            Log.w(TAG, "Drawable resource not found for name: $resourceName. Using 0.")
-        }
-        return resourceId
     }
 
     fun togglePartFoundStatus(partId: Int) {
