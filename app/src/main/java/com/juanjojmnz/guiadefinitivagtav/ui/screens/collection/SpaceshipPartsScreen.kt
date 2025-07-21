@@ -25,12 +25,12 @@ fun SpaceshipPartsScreen(
 ) {
     val spaceshipParts by viewModel.spaceshipParts.collectAsState()
 
-    val informativeText = "Estos coleccionables se habilitan tras completar el encuentro de Extraños y Locos \"Pasado de rosca\", donde conoces a Omega." +
+    val textoInformativo = "Estos coleccionables se habilitan tras completar el encuentro de Extraños y Locos \"Pasado de rosca\", donde conoces a Omega." +
             "Ten en cuenta que, si aún no lo has completado, las partes de la nave NO APARECERÁN aunque te encuentres en las ubicaciones correctas."
 
     Column(modifier = Modifier.fillMaxSize()) {
         Text(
-            text = informativeText,
+            text = textoInformativo,
             modifier = Modifier
                 .fillMaxWidth()
                 .padding(horizontal = 16.dp, vertical = 12.dp),
