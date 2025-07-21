@@ -2,351 +2,351 @@
   {
     "id": 1,
     "name": "Pieza de Nave #1",
-    "description": "",
-    "mapImageResourceName": "placeholder_map",
-    "locationImageResourceName": "placeholder_location"
+    "description": "Cassidy Creek - Bajo las vigas de soporte del Puente de Raton Canyon, cerca de North Chumash. Solo se puede acceder estacionando un helicóptero en las vigas o haciendo paracaidismo.",
+    "mapImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/7/76/Spaceship_Parts_GTAVe_01_Cassidy_Creek_Bridge_Map.jpg/revision/latest/scale-to-width-down/1000?cb=20150201093116",
+    "locationImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/a/a9/Spaceship_Parts_GTAVe_01_Cassidy_Creek_Bridge.jpg/revision/latest/scale-to-width-down/1000?cb=20150201093057"
   },
   {
     "id": 2,
     "name": "Pieza de Nave #2",
-    "description": "",
-    "mapImageResourceName": "placeholder_map_2",
-    "locationImageResourceName": "placeholder_location_2"
+    "description": "Paleto Bay - En una península entre Paleto Cove y Paleto Beach.",
+    "mapImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/2/21/Spaceship_Parts_GTAVe_02_Paleto_Bay_Peninsula_Map.jpg/revision/latest/scale-to-width-down/1000?cb=20150201093534",
+    "locationImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/0/03/Spaceship_Parts_GTAVe_02_Paleto_Bay_Peninsula.jpg/revision/latest/scale-to-width-down/1000?cb=20150201093515"
   },
   {
     "id": 3,
     "name": "Pieza de Nave #3",
-    "description": "",
-    "mapImageResourceName": "placeholder_map",
-    "locationImageResourceName": "placeholder_location_2"
+    "description": "Paleto Forest - Dentro de un canal de agua de hormigón.",
+    "mapImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/5/5d/Spaceship_Parts_GTAVe_03_Paleto_Forest_Culvert_Map.jpg/revision/latest/scale-to-width-down/1000?cb=20150201093936",
+    "locationImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/3/3a/Spaceship_Parts_GTAVe_03_Paleto_Forest_Culvert.jpg/revision/latest/scale-to-width-down/1000?cb=20150201093857"
   },
   {
     "id": 4,
     "name": "Pieza de Nave #4",
-    "description": "",
-    "mapImageResourceName": "placeholder_map_2",
-    "locationImageResourceName": "placeholder_location"
+    "description": "Paleto Bay - En el tercer piso de la torre de la Estación de Bomberos de Paleto Bay.",
+    "mapImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/3/37/Spaceship_Parts_GTAVe_04_Paleto_Bay_Fire_Station_Map.jpg/revision/latest/scale-to-width-down/1000?cb=20150201094205",
+    "locationImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/9/94/Spaceship_Parts_GTAVe_04_Paleto_Bay_Fire_Station.jpg/revision/latest/scale-to-width-down/1000?cb=20150201094128"
   },
   {
     "id": 5,
     "name": "Pieza de Nave #5",
-    "description": "",
-    "mapImageResourceName": "placeholder_map",
-    "locationImageResourceName": "placeholder_location"
+    "description": "Paleto Bay - En el granero de la Granja de la Familia Donkey Punch, al noreste del pueblo.",
+    "mapImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/8/86/Spaceship_Parts_GTAVe_05_Donkey_Punch_Farm_Map.jpg/revision/latest/scale-to-width-down/1000?cb=20150201094320",
+    "locationImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/4/48/Spaceship_Parts_GTAVe_05_Donkey_Punch_Farm.jpg/revision/latest/scale-to-width-down/1000?cb=20150201094230"
   },
   {
     "id": 6,
     "name": "Pieza de Nave #6",
-    "description": "",
-    "mapImageResourceName": "placeholder_map_2",
-    "locationImageResourceName": "placeholder_location_2"
+    "description": "Granja Braddock - En el granero de la granja.",
+    "mapImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/f/f4/Spaceship_Parts_GTAVe_06_Braddock_Farm_Map.jpg/revision/latest/scale-to-width-down/1000?cb=20150201094428",
+    "locationImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/4/47/Spaceship_Parts_GTAVe_06_Braddock_Farm.jpg/revision/latest/scale-to-width-down/1000?cb=20150201094340"
   },
   {
     "id": 7,
     "name": "Pieza de Nave #7",
-    "description": "",
-    "mapImageResourceName": "placeholder_map",
-    "locationImageResourceName": "placeholder_location_2"
+    "description": "Grapeseed - En medio de una granja de vacas.",
+    "mapImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/9/9c/Spaceship_Parts_GTAVe_07_Grapeseed_Cow_Farm_Map.jpg/revision/latest/scale-to-width-down/1000?cb=20150201094616",
+    "locationImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/1/16/Spaceship_Parts_GTAVe_07_Grapeseed_Cow_Farm.jpg/revision/latest/scale-to-width-down/1000?cb=20150201094456"
   },
   {
     "id": 8,
     "name": "Pieza de Nave #8",
-    "description": "",
-    "mapImageResourceName": "placeholder_map_2",
-    "locationImageResourceName": "placeholder_location"
+    "description": "Cape Catfish - En el cobertizo para botes.",
+    "mapImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/9/91/Spaceship_Parts_GTAVe_08_Cape_Catfish_Boatshed_Map.jpg/revision/latest/scale-to-width-down/1000?cb=20150201094724",
+    "locationImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/0/0e/Spaceship_Parts_GTAVe_08_Cape_Catfish_Boatshed.jpg/revision/latest/scale-to-width-down/1000?cb=20150201094646"
   },
   {
     "id": 9,
     "name": "Pieza de Nave #9",
-    "description": "",
-    "mapImageResourceName": "placeholder_map",
-    "locationImageResourceName": "placeholder_location"
+    "description": "Senora National Park - Sobre una formación rocosa.",
+    "mapImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/a/a0/Spaceship_Parts_GTAVe_09_Senora_National_Park_Map.jpg/revision/latest/scale-to-width-down/1000?cb=20150201094831",
+    "locationImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/9/96/Spaceship_Parts_GTAVe_09_Senora_National_Park.jpg/revision/latest/scale-to-width-down/1000?cb=20150201094752"
   },
   {
     "id": 10,
     "name": "Pieza de Nave #10",
-    "description": "",
-    "mapImageResourceName": "placeholder_map_2",
-    "locationImageResourceName": "placeholder_location_2"
+    "description": "Alamo Sea - Bajo el agua, cerca de The Boat House en la costa de Sandy Shores.",
+    "mapImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/9/99/Spaceship_Parts_GTAVe_10_Sandy_Shores_Alamo_Sea_Map.jpg/revision/latest/scale-to-width-down/1000?cb=20150201094933",
+    "locationImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/d/df/Spaceship_Parts_GTAVe_10_Sandy_Shores_Alamo_Sea.jpg/revision/latest/scale-to-width-down/1000?cb=20150201094855"
   },
   {
     "id": 11,
     "name": "Pieza de Nave #11",
-    "description": "",
-    "mapImageResourceName": "placeholder_map",
-    "locationImageResourceName": "placeholder_location_2"
+    "description": "Puente de Calafia - Bajo el puente, cerca de la cascada.",
+    "mapImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/d/da/Spaceship_Parts_GTAVe_11_Cassidy_Creek_Waterfall_Map.jpg/revision/latest/scale-to-width-down/1000?cb=20150201101209",
+    "locationImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/6/6a/Spaceship_Parts_GTAVe_11_Cassidy_Creek_Waterfall.jpg/revision/latest/scale-to-width-down/1000?cb=20150201101002"
   },
   {
     "id": 12,
     "name": "Pieza de Nave #12",
-    "description": "",
-    "mapImageResourceName": "placeholder_map_2",
-    "locationImageResourceName": "placeholder_location"
+    "description": "Monte Josiah - Cerca de la cima de la montaña, en un saliente.",
+    "mapImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/f/f1/Spaceship_Parts_GTAVe_12_Mount_Josiah_Map.jpg/revision/latest/scale-to-width-down/1000?cb=20150201103417",
+    "locationImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/3/3e/Spaceship_Parts_GTAVe_12_Mount_Josiah.jpg/revision/latest/scale-to-width-down/1000?cb=20150201103329"
   },
   {
     "id": 13,
     "name": "Pieza de Nave #13",
-    "description": "",
-    "mapImageResourceName": "placeholder_map",
-    "locationImageResourceName": "placeholder_location"
+    "description": "Río Zancudo - En una orilla cerca del Alamo Sea.",
+    "mapImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/d/d9/Spaceship_Parts_GTAVe_13_Zancudo_River_Map.jpg/revision/latest/scale-to-width-down/1000?cb=20150201103524",
+    "locationImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/f/f4/Spaceship_Parts_GTAVe_13_Zancudo_River.jpg/revision/latest/scale-to-width-down/1000?cb=20150201103437"
   },
   {
     "id": 14,
     "name": "Pieza de Nave #14",
-    "description": "",
-    "mapImageResourceName": "placeholder_map_2",
-    "locationImageResourceName": "placeholder_location_2"
+    "description": "Bajo un puente cubierto sobre el Río Zancudo.",
+    "mapImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/c/c1/Spaceship_Parts_GTAVe_14_Zancudo_River_Covered_Bridge_Map.jpg/revision/latest/scale-to-width-down/1000?cb=20150201103706",
+    "locationImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/5/53/Spaceship_Parts_GTAVe_14_Zancudo_River_Covered_Bridge.jpg/revision/latest/scale-to-width-down/1000?cb=20150201103551"
   },
   {
     "id": 15,
     "name": "Pieza de Nave #15",
-    "description": "",
-    "mapImageResourceName": "placeholder_map",
-    "locationImageResourceName": "placeholder_location_2"
+    "description": "Desierto de Grand Senora - Bajo un bote azul y blanco, al norte de la Ruta 68.",
+    "mapImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/f/f1/Spaceship_Parts_GTAVe_15_Senora_Desert_Yacht_Map.jpg/revision/latest/scale-to-width-down/1000?cb=20150201103800",
+    "locationImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/4/4b/Spaceship_Parts_GTAVe_15_Senora_Desert_Yacht.jpg/revision/latest/scale-to-width-down/1000?cb=20150201103729"
   },
   {
     "id": 16,
     "name": "Pieza de Nave #16",
-    "description": "",
-    "mapImageResourceName": "placeholder_map_2",
-    "locationImageResourceName": "placeholder_location"
+    "description": "Desierto de Grand Senora - En la parte superior de las escaleras de la antena parabólica más al norte del Conjunto de Radiotelescopios en la Ruta 68.",
+    "mapImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/2/2b/Spaceship_Parts_GTAVe_16_Senora_Desert_Satellite_Dish_Map.jpg/revision/latest/scale-to-width-down/1000?cb=20150201103905",
+    "locationImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/d/d0/Spaceship_Parts_GTAVe_16_Senora_Desert_Satellite_Dish.jpg/revision/latest/scale-to-width-down/1000?cb=20150201103822"
   },
   {
     "id": 17,
     "name": "Pieza de Nave #17",
-    "description": "",
-    "mapImageResourceName": "placeholder_map",
-    "locationImageResourceName": "placeholder_location"
+    "description": "Cordillera de San Chianski - Bajo el agua en la cueva de Coveted Cove.",
+    "mapImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/5/51/Spaceship_Parts_GTAVe_17_Coveted_Cove_Cave_Map.jpg/revision/latest/scale-to-width-down/1000?cb=20150201104000",
+    "locationImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/4/4f/Spaceship_Parts_GTAVe_17_Coveted_Cove_Cave.jpg/revision/latest/scale-to-width-down/1000?cb=20150201103924"
   },
   {
     "id": 18,
     "name": "Pieza de Nave #18",
-    "description": "",
-    "mapImageResourceName": "placeholder_map_2",
-    "locationImageResourceName": "placeholder_location_2"
+    "description": "Desierto de Grand Senora - En el patio trasero de una casa ubicada al este de la Pista Redwood Lights, bajo un letrero de \"Welcome\" con una cabeza de alienígena.",
+    "mapImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/b/b6/Spaceship_Parts_GTAVe_18_Senora-Desert_Alien_Farm_Map.jpg/revision/latest/scale-to-width-down/1000?cb=20150201104057",
+    "locationImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/1/1f/Spaceship_Parts_GTAVe_18_Senora-Desert_Alien_Farm.jpg/revision/latest/scale-to-width-down/1000?cb=20150201104022"
   },
   {
     "id": 19,
     "name": "Pieza de Nave #19",
-    "description": "",
-    "mapImageResourceName": "placeholder_map",
-    "locationImageResourceName": "placeholder_location_2"
+    "description": "Great Chaparral - En la ladera de un acantilado cerca de una subida por un camino de tierra en Mount Haan Road.",
+    "mapImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/9/9b/Spaceship_Parts_GTAVe_19_Great_Chaparral_Cliffs_Map.jpg/revision/latest/scale-to-width-down/1000?cb=20150201104152",
+    "locationImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/7/74/Spaceship_Parts_GTAVe_19_Great_Chaparral_Cliffs.jpg/revision/latest/scale-to-width-down/1000?cb=20150201104118"
   },
   {
     "id": 20,
     "name": "Pieza de Nave #20",
-    "description": "",
-    "mapImageResourceName": "placeholder_map_2",
-    "locationImageResourceName": "placeholder_location"
+    "description": "Great Chaparral - En el porche trasero de una casa abandonada.",
+    "mapImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/1/1b/Spaceship_Parts_GTAVe_20_Great_Chaparral_Abandoned_Farmhouse_Map.jpg/revision/latest/scale-to-width-down/1000?cb=20150201104313",
+    "locationImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/c/c9/Spaceship_Parts_GTAVe_20_Great_Chaparral_Abandoned_Farmhouse.jpg/revision/latest/scale-to-width-down/1000?cb=20150201104214"
   },
   {
     "id": 21,
     "name": "Pieza de Nave #21",
-    "description": "",
-    "mapImageResourceName": "placeholder_map",
-    "locationImageResourceName": "placeholder_location"
+    "description": "Valle de Tongva - Al pie de una cascada cerca de Zancudo Barranca.",
+    "mapImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/4/4c/Spaceship_Parts_GTAVe_21_Tongva_Valley_Waterfalls_Map.jpg/revision/latest/scale-to-width-down/1000?cb=20150201111003",
+    "locationImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/b/b5/Spaceship_Parts_GTAVe_21_Tongva_Valley_Waterfalls.jpg/revision/latest/scale-to-width-down/1000?cb=20150201110928"
   },
   {
     "id": 22,
     "name": "Pieza de Nave #22",
-    "description": "",
-    "mapImageResourceName": "placeholder_map_2",
-    "locationImageResourceName": "placeholder_location_2"
+    "description": "Colinas de Tongva - En los Viñedos Marlowe.",
+    "mapImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/e/ed/Spaceship_Parts_GTAVe_22_Marlowe_Vineyard_Map.jpg/revision/latest/scale-to-width-down/1000?cb=20150201112615",
+    "locationImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/1/1d/Spaceship_Parts_GTAVe_22_Marlowe_Vineyard.jpg/revision/latest/scale-to-width-down/1000?cb=20150201112536"
   },
   {
     "id": 23,
     "name": "Pieza de Nave #23",
-    "description": "",
-    "mapImageResourceName": "placeholder_map",
-    "locationImageResourceName": "placeholder_location_2"
+    "description": "Colinas de Tongva - Dentro de una cueva.",
+    "mapImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/1/13/Spaceship_Parts_GTAVe_23_Tongva_Hills_Cave_Map.jpg/revision/latest/scale-to-width-down/1000?cb=20150202004816",
+    "locationImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/d/d0/Spaceship_Parts_GTAVe_23_Tongva_Hills_Cave_NoMap.jpg/revision/latest/scale-to-width-down/1000?cb=20150201113040"
   },
   {
     "id": 24,
     "name": "Pieza de Nave #24",
-    "description": "",
-    "mapImageResourceName": "placeholder_map_2",
-    "locationImageResourceName": "placeholder_location"
+    "description": "Colinas de Tongva - Junto a un telescopio en el patio trasero de una casa moderna.",
+    "mapImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/b/be/Spaceship_Parts_GTAVe_24_Tongva_Hills_Mansion_Map.jpg/revision/latest/scale-to-width-down/1000?cb=20150201113318",
+    "locationImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/9/99/Spaceship_Parts_GTAVe_24_Tongva_Hills_Mansion.jpg/revision/latest/scale-to-width-down/1000?cb=20150201113148"
   },
   {
     "id": 25,
     "name": "Pieza de Nave #25",
-    "description": "",
-    "mapImageResourceName": "placeholder_map",
-    "locationImageResourceName": "placeholder_location"
+    "description": "Richman Glen - Junto a un árbol y cerca de la pequeña fuente en el Centro de Rehabilitación Parsons.",
+    "mapImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/8/88/Spaceship_Parts_GTAVe_25_Parsons_Rehab_Map.jpg/revision/latest/scale-to-width-down/1000?cb=20150201113429",
+    "locationImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/c/c0/Spaceship_Parts_GTAVe_25_Parsons_Rehab.jpg/revision/latest/scale-to-width-down/1000?cb=20150201113342"
   },
   {
     "id": 26,
     "name": "Pieza de Nave #26",
-    "description": "",
-    "mapImageResourceName": "placeholder_map_2",
-    "locationImageResourceName": "placeholder_location_2"
+    "description": "Vinewood Hills - En el techo del Observatorio Galileo en Galileo Park.",
+    "mapImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/f/f8/Spaceship_Parts_GTAVe_26_Galileo_Observatory_Map.jpg/revision/latest/scale-to-width-down/1000?cb=20150201113525",
+    "locationImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/6/6f/Spaceship_Parts_GTAVe_26_Galileo_Observatory.jpg/revision/latest/scale-to-width-down/1000?cb=20150201113450"
   },
   {
     "id": 27,
     "name": "Pieza de Nave #27",
-    "description": "",
-    "mapImageResourceName": "placeholder_map",
-    "locationImageResourceName": "placeholder_location_2"
+    "description": "Montañas de Tataviam - En la playa, cerca de un puente natural.",
+    "mapImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/4/41/Spaceship_Parts_GTAVe_27_Pacific_Tataviam_Cove_Map.jpg/revision/latest/scale-to-width-down/1000?cb=20150201113632",
+    "locationImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/b/b9/Spaceship_Parts_GTAVe_27_Pacific_Tataviam_Cove.jpg/revision/latest/scale-to-width-down/1000?cb=20150201113550"
   },
   {
     "id": 28,
     "name": "Pieza de Nave #28",
-    "description": "",
-    "mapImageResourceName": "placeholder_map_2",
-    "locationImageResourceName": "placeholder_location"
+    "description": "Montañas de Tataviam - Al norte del Embalse Land Act, cerca de las tuberías de la Central Eléctrica.",
+    "mapImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/f/fd/Spaceship_Parts_GTAVe_28_Land_Act_Power_Pipeline_Map.jpg/revision/latest/scale-to-width-down/1000?cb=20150201113730",
+    "locationImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/3/37/Spaceship_Parts_GTAVe_28_Land_Act_Power_Pipeline.jpg/revision/latest/scale-to-width-down/1000?cb=20150201113652"
   },
   {
     "id": 29,
     "name": "Pieza de Nave #29",
-    "description": "",
-    "mapImageResourceName": "placeholder_map",
-    "locationImageResourceName": "placeholder_location"
+    "description": "Montañas de Tataviam - En la Presa Land Act, bajo el embarcadero (bajo el agua).",
+    "mapImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/d/d8/Spaceship_Parts_GTAVe_29_Land_Act_Dam_Jetty_Map.jpg/revision/latest/scale-to-width-down/1000?cb=20150201113824",
+    "locationImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/d/d8/Spaceship_Parts_GTAVe_29_Land_Act_Dam_Jetty.jpg/revision/latest/scale-to-width-down/1000?cb=20150201113748"
   },
   {
     "id": 30,
     "name": "Pieza de Nave #30",
-    "description": "",
-    "mapImageResourceName": "placeholder_map_2",
-    "locationImageResourceName": "placeholder_location_2"
+    "description": "Lago Vinewood - En la cima de la torre de toma de agua. Solo accesible en helicóptero o paracaidismo.",
+    "mapImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/e/e5/Spaceship_Parts_GTAVe_30_Lake-Vinewood_Tower_Map.jpg/revision/latest/scale-to-width-down/1000?cb=20150201113924",
+    "locationImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/e/e1/Spaceship_Parts_GTAVe_30_Lake-Vinewood_Tower.jpg/revision/latest/scale-to-width-down/1000?cb=20150201113849"
   },
   {
     "id": 31,
     "name": "Pieza de Nave #31",
-    "description": "",
-    "mapImageResourceName": "placeholder_map",
-    "locationImageResourceName": "placeholder_location_2"
+    "description": "Lago Vinewood - Bajo el agua en el borde de la presa.",
+    "mapImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/d/d1/Spaceship_Parts_GTAVe_31_Lake_Vinewood_Dam_Map.jpg/revision/latest/scale-to-width-down/1000?cb=20150201212454",
+    "locationImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/3/36/Spaceship_Parts_GTAVe_31_Lake_Vinewood_Dam.jpg/revision/latest/scale-to-width-down/1000?cb=20150201212419"
   },
   {
     "id": 32,
     "name": "Pieza de Nave #32",
-    "description": "",
-    "mapImageResourceName": "placeholder_map_2",
-    "locationImageResourceName": "placeholder_location"
+    "description": "Rockford Hills - En la pequeña isla en medio de un estanque en el club de golf. Acceder puede activar un nivel de búsqueda durante las horas de cierre del club, o si se está en el campo en un automóvil que no sea un Caddy.",
+    "mapImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/0/0e/Spaceship_Parts_GTAVe_32_Golf_Course_Island_Map.jpg/revision/latest/scale-to-width-down/1000?cb=20150201212621",
+    "locationImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/3/3b/Spaceship_Parts_GTAVe_32_Golf_Course_Island.jpg/revision/latest/scale-to-width-down/1000?cb=20150201212513"
   },
   {
     "id": 33,
     "name": "Pieza de Nave #33",
-    "description": "",
-    "mapImageResourceName": "placeholder_map",
-    "locationImageResourceName": "placeholder_location"
+    "description": "Backlot City - En un balcón en el set de rodaje de Richards Majestic Productions.",
+    "mapImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/0/0c/Spaceship_Parts_GTAVe_33_Backlot_City_Outdoor_Set_Map.jpg/revision/latest/scale-to-width-down/1000?cb=20150201212757",
+    "locationImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/8/8d/Spaceship_Parts_GTAVe_33_Backlot_City_Outdoor_Set.jpg/revision/latest/scale-to-width-down/1000?cb=20150201212642"
   },
   {
     "id": 34,
     "name": "Pieza de Nave #34",
-    "description": "",
-    "mapImageResourceName": "placeholder_map_2",
-    "locationImageResourceName": "placeholder_location_2"
+    "description": "Burton - En el techo del edificio con una piscina vacía, cerca de Los Santos Customs. Se requiere helicóptero o paracaidismo.",
+    "mapImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/e/e5/Spaceship_Parts_GTAVe_34_Burton_Hotel_Pool_Map.jpg/revision/latest/scale-to-width-down/1000?cb=20150201212914",
+    "locationImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/9/94/Spaceship_Parts_GTAVe_34_Burton_Hotel_Pool.jpg/revision/latest/scale-to-width-down/1000?cb=20150201212819"
   },
   {
     "id": 35,
     "name": "Pieza de Nave #35",
-    "description": "",
-    "mapImageResourceName": "placeholder_map",
-    "locationImageResourceName": "placeholder_location_2"
+    "description": "Burton - En un pequeño jardín en el segundo piso del Rockford Plaza, junto a la ubicación del salto acrobático.",
+    "mapImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/5/50/Spaceship_Parts_GTAVe_35_Rockford_Plaza_Loop_Map.jpg/revision/latest/scale-to-width-down/1000?cb=20150201213021",
+    "locationImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/a/a9/Spaceship_Parts_GTAVe_35_Rockford_Plaza_Loop.jpg/revision/latest/scale-to-width-down/1000?cb=20150201212939"
   },
   {
     "id": 36,
     "name": "Pieza de Nave #36",
-    "description": "",
-    "mapImageResourceName": "placeholder_map_2",
-    "locationImageResourceName": "placeholder_location"
+    "description": "Centro de Los Santos - En el techo del Edificio Penris en Swiss Street, accesible solo aterrizando un helicóptero en el techo del edificio.",
+    "mapImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/d/de/Spaceship_Parts_GTAVe_36_Penris_Building_Map.jpg/revision/latest/scale-to-width-down/1000?cb=20150201213113",
+    "locationImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/0/00/Spaceship_Parts_GTAVe_36_Penris_Building.jpg/revision/latest/scale-to-width-down/1000?cb=20150201213039"
   },
   {
     "id": 37,
     "name": "Pieza de Nave #37",
-    "description": "",
-    "mapImageResourceName": "placeholder_map",
-    "locationImageResourceName": "placeholder_location"
+    "description": "Textile City - En un hueco junto a Bean Machine en Simmet Alley.",
+    "mapImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/b/b7/Spaceship_Parts_GTAVe_37_Textile_City_Alley_Map.jpg/revision/latest/scale-to-width-down/1000?cb=20150201213206",
+    "locationImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/e/eb/Spaceship_Parts_GTAVe_37_Textile_City_Alley.jpg/revision/latest/scale-to-width-down/1000?cb=20150201213132"
   },
   {
     "id": 38,
     "name": "Pieza de Nave #38",
-    "description": "",
-    "mapImageResourceName": "placeholder_map_2",
-    "locationImageResourceName": "placeholder_location_2"
+    "description": "Murrieta Heights - En las pasarelas de la presa en El Rancho Boulevard.",
+    "mapImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/4/46/Spaceship_Parts_GTAVe_38_LS_River_East_Dam_Map.jpg/revision/latest/scale-to-width-down/1000?cb=20150201213355",
+    "locationImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/d/d3/Spaceship_Parts_GTAVe_38_LS_River_East_Dam.jpg/revision/latest/scale-to-width-down/1000?cb=20150201213247"
   },
   {
     "id": 39,
     "name": "Pieza de Nave #39",
-    "description": "",
-    "mapImageResourceName": "placeholder_map",
-    "locationImageResourceName": "placeholder_location_2"
+    "description": "Davis - En el helipuerto de la azotea del Hospital Central de Los Santos.",
+    "mapImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/e/e3/Spaceship_Parts_GTAVe_39_Hospital_Helipad_Map.jpg/revision/latest/scale-to-width-down/1000?cb=20150201213457",
+    "locationImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/7/73/Spaceship_Parts_GTAVe_39_Hospital_Helipad.jpg/revision/latest/scale-to-width-down/1000?cb=20150201213417"
   },
   {
     "id": 40,
     "name": "Pieza de Nave #40",
-    "description": "",
-    "mapImageResourceName": "placeholder_map_2",
-    "locationImageResourceName": "placeholder_location"
+    "description": "Rancho - En las Torres Rancho en Dutch London Street.",
+    "mapImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/f/f7/Spaceship_Parts_GTAVe_40_Rancho_Sculpture_Map.jpg/revision/latest/scale-to-width-down/1000?cb=20150201213553",
+    "locationImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/d/dc/Spaceship_Parts_GTAVe_40_Rancho_Sculpture.jpg/revision/latest/scale-to-width-down/1000?cb=20150201213517"
   },
   {
     "id": 41,
     "name": "Pieza de Nave #41",
-    "description": "",
-    "mapImageResourceName": "placeholder_map",
-    "locationImageResourceName": "placeholder_location"
+    "description": "El Burro Heights - Dentro de un contenedor verde en los campos petrolíferos.",
+    "mapImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/3/3d/Spaceship_Parts_GTAVe_41_Oil_Refinery_Container_Map.jpg/revision/latest/scale-to-width-down/1000?cb=20150201214020",
+    "locationImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/e/ee/Spaceship_Parts_GTAVe_41_Oil_Refinery_Container.jpg/revision/latest/scale-to-width-down/1000?cb=20150201213935"
   },
   {
     "id": 42,
     "name": "Pieza de Nave #42",
-    "description": "",
-    "mapImageResourceName": "placeholder_map_2",
-    "locationImageResourceName": "placeholder_location_2"
+    "description": "Campo Petrolífero de Murrieta - En una pequeña isla en la costa al sur del campo petrolífero.",
+    "mapImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/5/5f/Spaceship_Parts_GTAVe_42_El_Burro_Coast_Map.jpg/revision/latest/scale-to-width-down/1000?cb=20150201214132",
+    "locationImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/c/cc/Spaceship_Parts_GTAVe_42_El_Burro_Coast.jpg/revision/latest/scale-to-width-down/1000?cb=20150202004947"
   },
   {
     "id": 43,
     "name": "Pieza de Nave #43",
-    "description": "",
-    "mapImageResourceName": "placeholder_map",
-    "locationImageResourceName": "placeholder_location_2"
+    "description": "El Burro Heights - Junto a un pequeño desagüe pluvial, al sur de la Autopista Elysian Fields.",
+    "mapImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/2/2a/Spaceship_Parts_GTAVe_43_El_Burro_Drain_Map.jpg/revision/latest/scale-to-width-down/1000?cb=20150201214301",
+    "locationImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/d/d0/Spaceship_Parts_GTAVe_43_El_Burro_Drain.jpg/revision/latest/scale-to-width-down/1000?cb=20150201214223"
   },
   {
     "id": 44,
     "name": "Pieza de Nave #44",
-    "description": "",
-    "mapImageResourceName": "placeholder_map_2",
-    "locationImageResourceName": "placeholder_location"
+    "description": "Elysian Island - En un muelle en el lado este del distrito, bajo el agua junto a una estructura metálica sumergida.",
+    "mapImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/2/26/Spaceship_Parts_GTAVe_44_Elysian_Island_Underwater_Map.jpg/revision/latest/scale-to-width-down/1000?cb=20150201214354",
+    "locationImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/7/7a/Spaceship_Parts_GTAVe_44_Elysian_Island_Underwater.jpg/revision/latest/scale-to-width-down/1000?cb=20150201214320"
   },
   {
     "id": 45,
     "name": "Pieza de Nave #45",
-    "description": "",
-    "mapImageResourceName": "placeholder_map",
-    "locationImageResourceName": "placeholder_location"
+    "description": "Elysian Island - En las instalaciones de Los Santos State Gas Company, encima de la tubería que conecta dos tanques de almacenamiento de gas en forma de cúpula.",
+    "mapImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/1/1c/Spaceship_Parts_GTAVe_45_LS_Gas_Map.jpg/revision/latest/scale-to-width-down/1000?cb=20150201214459",
+    "locationImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/7/7b/Spaceship_Parts_GTAVe_45_LS_Gas.jpg/revision/latest/scale-to-width-down/1000?cb=20150201214423"
   },
   {
     "id": 46,
     "name": "Pieza de Nave #46",
-    "description": "",
-    "mapImageResourceName": "placeholder_map_2",
-    "locationImageResourceName": "placeholder_location_2"
+    "description": "Aeropuerto Internacional de Los Santos - Detrás del hangar junto al hangar de Franklin.",
+    "mapImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/5/5f/Spaceship_Parts_GTAVe_46_LSIA_Hangar_Map.jpg/revision/latest/scale-to-width-down/1000?cb=20150201215444",
+    "locationImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/f/fc/Spaceship_Parts_GTAVe_46_LSIA_Hangar.jpg/revision/latest/scale-to-width-down/1000?cb=20150201215257"
   },
   {
     "id": 47,
     "name": "Pieza de Nave #47",
-    "description": "",
-    "mapImageResourceName": "placeholder_map",
-    "locationImageResourceName": "placeholder_location_2"
+    "description": "Strawberry - En el campamento de personas sin hogar bajo la Interestatal 4.",
+    "mapImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/8/82/Spaceship_Parts_GTAVe_47_Strawberry_Homeless_Camp_Map.jpg/revision/latest/scale-to-width-down/1000?cb=20150201220044",
+    "locationImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/0/0d/Spaceship_Parts_GTAVe_47_Strawberry_Homeless_Camp.jpg/revision/latest/scale-to-width-down/1000?cb=20150201215840"
   },
   {
     "id": 48,
     "name": "Pieza de Nave #48",
-    "description": "",
-    "mapImageResourceName": "placeholder_map_2",
-    "locationImageResourceName": "placeholder_location"
+    "description": "Vespucci Canals - Encima del cartel de Liquor Hole en Palomino Avenue.",
+    "mapImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/0/09/Spaceship_Parts_GTAVe_48_Vespucci_Canals_Billboard_Map.jpg/revision/latest/scale-to-width-down/1000?cb=20150201220143",
+    "locationImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/2/2d/Spaceship_Parts_GTAVe_48_Vespucci_Canals_Billboard.jpg/revision/latest/scale-to-width-down/1000?cb=20150201220105"
   },
   {
     "id": 49,
     "name": "Pieza de Nave #49",
-    "description": "",
-    "mapImageResourceName": "placeholder_map",
-    "locationImageResourceName": "placeholder_location"
+    "description": "Dentro de la estación subterránea en construcción Pillbox North, junto a una mesa con un plano.",
+    "mapImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/0/01/Spaceship_Parts_GTAVe_49_Pillbox_Subway_Map.jpg/revision/latest/scale-to-width-down/1000?cb=20150201220236",
+    "locationImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/8/85/Spaceship_Parts_GTAVe_49_Pillbox_Subway.jpg/revision/latest/scale-to-width-down/1000?cb=20150201220204"
   },
   {
     "id": 50,
     "name": "Pieza de Nave #50",
-    "description": "",
-    "mapImageResourceName": "placeholder_map_2",
-    "locationImageResourceName": "placeholder_location_2"
+    "description": "En el Beam Me Up al este de Sandy Shores.",
+    "mapImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/a/af/Spaceship_Parts_GTAVe_50_Beam_Me_Up_Map.jpg/revision/latest/scale-to-width-down/1000?cb=20150201220329",
+    "locationImageUrl": "https://static.wikia.nocookie.net/gtawiki/images/7/75/Spaceship_Parts_GTAVe_50_Beam_Me_Up.jpg/revision/latest/scale-to-width-down/1000?cb=20150201220255"
   }
 ]
