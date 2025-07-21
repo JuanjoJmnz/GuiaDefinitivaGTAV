@@ -48,8 +48,9 @@ data class ParallaxImageResources(
 @Composable
 fun WelcomeScreen(onEnterClicked: () -> Unit) {
 
-    val parallaxImages = remember {
+    val allParallaxImages = remember {
         listOf(
+            ParallaxImageResources(R.drawable.logo_app, R.drawable.logo_app, "set0"),
             ParallaxImageResources(R.drawable.gta_char_1_fg, R.drawable.gta_bg_1, "set1"),
             ParallaxImageResources(R.drawable.gta_char_2_fg, R.drawable.gta_bg_2, "set2"),
             ParallaxImageResources(R.drawable.gta_char_3_fg, R.drawable.gta_bg_3, "set3"),
@@ -86,19 +87,46 @@ fun WelcomeScreen(onEnterClicked: () -> Unit) {
             ParallaxImageResources(R.drawable.gta_char_35_fg, R.drawable.gta_bg_5, "set34")
         )
     }
-    if (parallaxImages.isEmpty()) {
+
+    if (allParallaxImages.isEmpty()) {
         Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
             Text("No hay imágenes configuradas para la pantalla de bienvenida.")
         }
         return
     }
 
-    var currentImageSetIndex by remember { mutableIntStateOf(0) }
+    var currentImageSet by remember { mutableStateOf(allParallaxImages.first()) }
 
-    LaunchedEffect(key1 = true) {
-        while (true) {
-            delay(IMAGE_DISPLAY_DURATION_MS)
-            currentImageSetIndex = (currentImageSetIndex + 1) % parallaxImages.size
+    val remainingImageIndices = remember { mutableStateListOf<Int>() }
+
+
+    LaunchedEffect(key1 = allParallaxImages) {
+        if (allParallaxImages.isNotEmpty()) {
+            if (remainingImageIndices.isEmpty()) {
+                remainingImageIndices.addAll(allParallaxImages.indices.toList().shuffled())
+            }
+            val nextIndexToShow = remainingImageIndices.removeFirstOrNull() ?: allParallaxImages.indices.random()
+            currentImageSet = allParallaxImages[nextIndexToShow]
+
+            while (true) {
+                delay(IMAGE_DISPLAY_DURATION_MS)
+                if (remainingImageIndices.isEmpty()) {
+                    remainingImageIndices.addAll(allParallaxImages.indices.toList().shuffled())
+                    if (allParallaxImages.size > 1) {
+                        var tempNextIndex = remainingImageIndices.first()
+                        while (tempNextIndex == allParallaxImages.indexOf(currentImageSet) && remainingImageIndices.size > 1) {
+                            remainingImageIndices.shuffle()
+                            tempNextIndex = remainingImageIndices.first()
+                        }
+                    }
+                }
+                val nextImageIndexInOriginalList = remainingImageIndices.removeFirstOrNull()
+                if (nextImageIndexInOriginalList != null) {
+                    currentImageSet = allParallaxImages[nextImageIndexInOriginalList]
+                } else if (allParallaxImages.isNotEmpty()) {
+                    currentImageSet = allParallaxImages.random()
+                }
+            }
         }
     }
 
@@ -119,19 +147,24 @@ fun WelcomeScreen(onEnterClicked: () -> Unit) {
         contentAlignment = Alignment.Center
     ) {
         Crossfade(
-            targetState = currentImageSetIndex,
+            targetState = currentImageSet.id,
             animationSpec = tween(durationMillis = IMAGE_TRANSITION_DURATION_MS.toInt()),
             label = "parallax_image_crossfade"
-        ) { imageSetIndex ->
-            val safeIndex = imageSetIndex.coerceIn(parallaxImages.indices)
-            val imageSet = parallaxImages[safeIndex]
-            ParallaxKenBurnsImage(
-                foregroundResId = imageSet.foregroundResId,
-                backgroundResId = imageSet.backgroundResId,
-                imageKey = imageSet.id,
-                animationDurationMillis = IMAGE_DISPLAY_DURATION_MS
-            )
+        ) { targetImageId ->
+            val imageSetToDisplay = allParallaxImages.find { it.id == targetImageId }
+
+            if (imageSetToDisplay != null) {
+                ParallaxKenBurnsImage(
+                    foregroundResId = imageSetToDisplay.foregroundResId,
+                    backgroundResId = imageSetToDisplay.backgroundResId,
+                    imageKey = imageSetToDisplay.id,
+                    animationDurationMillis = IMAGE_DISPLAY_DURATION_MS
+                )
+            } else {
+                Text("Error: Imagen no encontrada para id $targetImageId")
+            }
         }
+
 
         Column(
             modifier = Modifier
@@ -238,8 +271,7 @@ private fun ParallaxKenBurnsImage(
             )
         }
 
-        val targetBgScale = BACKGROUND_BASE_SCALE_FACTOR + Random.nextFloat() * 0.1f // Ej: 1.05f a 1.15f
-
+        val targetBgScale = BACKGROUND_BASE_SCALE_FACTOR + Random.nextFloat() * 0.1f
         val targetBgTranslationX = (Random.nextFloat() * 2f - 1f) * maxPanOffsetPx
         val targetBgTranslationY = (Random.nextFloat() * 2f - 1f) * maxPanOffsetPx
 
