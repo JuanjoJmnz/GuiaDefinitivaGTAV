@@ -20,6 +20,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
+import com.juanjojmnz.guiadefinitivagtav.ui.screens.collection.LetterScrapsScreen
 import com.juanjojmnz.guiadefinitivagtav.ui.screens.collection.SpaceshipPartsScreen
 import com.juanjojmnz.guiadefinitivagtav.ui.theme.GuiaDefinitivaGTAVTheme
 
@@ -112,7 +113,7 @@ fun CollectionScreen(
                 SpaceshipPartsScreen()
             }
             composable(CollectionRoutes.LETTER_SCRAPS) {
-                CollectibleDetailScreen("Fragmentos de Cartas") {  }
+                LetterScrapsScreen()
             }
             composable(CollectionRoutes.NUCLEAR_WASTE) {
                 CollectibleDetailScreen("Desperdicios Nucleares") {  }
