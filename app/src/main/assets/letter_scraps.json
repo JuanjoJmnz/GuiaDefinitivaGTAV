@@ -1,0 +1,352 @@
+[
+  {
+    "id": 1,
+    "name": "Fragmento de Carta #1",
+    "description": "Hawick - En la media tubería del parque de patinaje sobre Hawaiian Snow.",
+    "mapImageUrl": "",
+    "locationImageUrl": ""
+  },
+  {
+    "id": 2,
+    "name": "Fragmento de Carta #2",
+    "description": "Fuera de la Mina Abandonada en Great Chaparral.",
+    "mapImageUrl": "",
+    "locationImageUrl": ""
+  },
+  {
+    "id": 3,
+    "name": "Fragmento de Carta #3",
+    "description": "En los escalones del baño público en la parada de camiones Procopio Truck Stop.",
+    "mapImageUrl": "",
+    "locationImageUrl": ""
+  },
+  {
+    "id": 4,
+    "name": "Fragmento de Carta #4",
+    "description": "Dignity Village - En la entrada de uno de los edificios, junto a un botiquín de salud.",
+    "mapImageUrl": "",
+    "locationImageUrl": ""
+  },
+  {
+    "id": 5,
+    "name": "Fragmento de Carta #5",
+    "description": "Paleto Bay - Dentro de una casa abandonada detrás de Beeker's Garage.",
+    "mapImageUrl": "",
+    "locationImageUrl": ""
+  },
+  {
+    "id": 6,
+    "name": "Fragmento de Carta #6",
+    "description": "Paleto Bay - En la terraza de una casa con vistas a la playa en el extremo sur.",
+    "mapImageUrl": "",
+    "locationImageUrl": ""
+  },
+  {
+    "id": 7,
+    "name": "Fragmento de Carta #7",
+    "description": "Bosque de Paleto - Entre árboles justo al norte del Aserradero del Bosque de Paleto.",
+    "mapImageUrl": "",
+    "locationImageUrl": ""
+  },
+  {
+    "id": 8,
+    "name": "Fragmento de Carta #8",
+    "description": "Mount Chiliad - Ubicado en la terminal del teleférico junto al paracaídas.",
+    "mapImageUrl": "",
+    "locationImageUrl": ""
+  },
+  {
+    "id": 9,
+    "name": "Fragmento de Carta #9",
+    "description": "Reserva Estatal de Chiliad Mountain - Junto a los edificios sobre el Campamento Altruista.",
+    "mapImageUrl": "",
+    "locationImageUrl": ""
+  },
+  {
+    "id": 10,
+    "name": "Fragmento de Carta #10",
+    "description": "Raton Canyon - En una alta cima de acantilado con vistas a Cassidy Creek.",
+    "mapImageUrl": "",
+    "locationImageUrl": ""
+  },
+  {
+    "id": 11,
+    "name": "Fragmento de Carta #11",
+    "description": "Alamo Sea - Esquina noroeste en la orilla, justo al norte de un bote de remos.",
+    "mapImageUrl": "",
+    "locationImageUrl": ""
+  },
+  {
+    "id": 12,
+    "name": "Fragmento de Carta #12",
+    "description": "Galilee - Lado este del edificio de la pescadería Millars Boat Shop.",
+    "mapImageUrl": "",
+    "locationImageUrl": ""
+  },
+  {
+    "id": 13,
+    "name": "Fragmento de Carta #13",
+    "description": "Grapeseed - Dentro de un invernadero tipo túnel en la granja Union Grain Farm.",
+    "mapImageUrl": "",
+    "locationImageUrl": ""
+  },
+  {
+    "id": 14,
+    "name": "Fragmento de Carta #14",
+    "description": "Mount Gordo - Lado este del faro.",
+    "mapImageUrl": "",
+    "locationImageUrl": ""
+  },
+  {
+    "id": 15,
+    "name": "Fragmento de Carta #15",
+    "description": "Sandy Shores - En el motel abandonado, en la piscina vacía.",
+    "mapImageUrl": "",
+    "locationImageUrl": ""
+  },
+  {
+    "id": 16,
+    "name": "Fragmento de Carta #16",
+    "description": "Sandy Shores - En la cima de una gran roca de tres niveles ubicada al suroeste del Aeródromo de Sandy Shores.",
+    "mapImageUrl": "",
+    "locationImageUrl": ""
+  },
+  {
+    "id": 17,
+    "name": "Fragmento de Carta #17",
+    "description": "Harmony - Planta de Stoner Cement Works, en la cima del edificio más alto.",
+    "mapImageUrl": "",
+    "locationImageUrl": ""
+  },
+  {
+    "id": 18,
+    "name": "Fragmento de Carta #18",
+    "description": "Great Chaparral - Cementerio de la Iglesia de Hill Valley.",
+    "mapImageUrl": "",
+    "locationImageUrl": ""
+  },
+  {
+    "id": 19,
+    "name": "Fragmento de Carta #19",
+    "description": "Río Zancudo - Bajo un puente de la Ruta 68 sobre una alcantarilla seca.",
+    "mapImageUrl": "",
+    "locationImageUrl": ""
+  },
+  {
+    "id": 20,
+    "name": "Fragmento de Carta #20",
+    "description": "Lago Zancudo - En el pantano, del lado del río más cercano a Fort Zancudo.",
+    "mapImageUrl": "",
+    "locationImageUrl": ""
+  },
+  {
+    "id": 21,
+    "name": "Fragmento de Carta #21",
+    "description": "Great Chaparral - Detrás de una valla publicitaria cerca de una granja abandonada.",
+    "mapImageUrl": "",
+    "locationImageUrl": ""
+  },
+  {
+    "id": 22,
+    "name": "Fragmento de Carta #22",
+    "description": "Pista de Redwood Lights - En medio del tanque en el sitio de construcción.",
+    "mapImageUrl": "",
+    "locationImageUrl": ""
+  },
+  {
+    "id": 23,
+    "name": "Fragmento de Carta #23",
+    "description": "Cordillera de San Chianski - En la cueva en \"Coveted Cove\".",
+    "mapImageUrl": "",
+    "locationImageUrl": ""
+  },
+  {
+    "id": 24,
+    "name": "Fragmento de Carta #24",
+    "description": "Océano Pacífico - En una isla rocosa directamente al este de la Central Eléctrica Palmer-Taylor.",
+    "mapImageUrl": "",
+    "locationImageUrl": ""
+  },
+  {
+    "id": 25,
+    "name": "Fragmento de Carta #25",
+    "description": "Vinewood Hills - En la cima de la \"I\" del letrero de Vinewood.",
+    "mapImageUrl": "",
+    "locationImageUrl": ""
+  },
+  {
+    "id": 26,
+    "name": "Fragmento de Carta #26",
+    "description": "Lake Vinewood Estates - En la sala de juegos al aire libre de una de las propiedades.",
+    "mapImageUrl": "",
+    "locationImageUrl": ""
+  },
+  {
+    "id": 27,
+    "name": "Fragmento de Carta #27",
+    "description": "Vinewood Hills - Cerca del puesto de zumos 'BIG' en los senderos de Arthur's Pass, lado norte del Parque Galileo.",
+    "mapImageUrl": "",
+    "locationImageUrl": ""
+  },
+  {
+    "id": 28,
+    "name": "Fragmento de Carta #28",
+    "description": "Tongva Valley - Debajo de la señal guía junto a un puesto de frutas.",
+    "mapImageUrl": "",
+    "locationImageUrl": ""
+  },
+  {
+    "id": 29,
+    "name": "Fragmento de Carta #29",
+    "description": "Pacific Bluffs - En medio del laberinto en el Kortz Center.",
+    "mapImageUrl": "",
+    "locationImageUrl": ""
+  },
+  {
+    "id": 30,
+    "name": "Fragmento de Carta #30",
+    "description": "Club de Campo Pacific Bluffs - En el bar junto a la piscina.",
+    "mapImageUrl": "",
+    "locationImageUrl": ""
+  },
+  {
+    "id": 31,
+    "name": "Fragmento de Carta #31",
+    "description": "Pacific Bluffs - Cementerio de la Iglesia de Hill Valley, en la isla del estanque.",
+    "mapImageUrl": "",
+    "locationImageUrl": ""
+  },
+  {
+    "id": 32,
+    "name": "Fragmento de Carta #32",
+    "description": "Backlot City - Esquina suroeste subiendo las escaleras. Estudio 14.",
+    "mapImageUrl": "",
+    "locationImageUrl": ""
+  },
+  {
+    "id": 33,
+    "name": "Fragmento de Carta #33",
+    "description": "Muelle de Del Perro - En el balcón del restaurante Pearl's Seafood.",
+    "mapImageUrl": "",
+    "locationImageUrl": ""
+  },
+  {
+    "id": 34,
+    "name": "Fragmento de Carta #34",
+    "description": "Playa de Vespucci - Dentro del cuenco de patinaje/bicicleta.",
+    "mapImageUrl": "",
+    "locationImageUrl": ""
+  },
+  {
+    "id": 35,
+    "name": "Fragmento de Carta #35",
+    "description": "Canales de Vespucci - En un túnel del canal bajo Palomino Avenue.",
+    "mapImageUrl": "",
+    "locationImageUrl": ""
+  },
+  {
+    "id": 36,
+    "name": "Fragmento de Carta #36",
+    "description": "Burton - En una barbacoa en el patio del motel.",
+    "mapImageUrl": "",
+    "locationImageUrl": ""
+  },
+  {
+    "id": 37,
+    "name": "Fragmento de Carta #37",
+    "description": "Alta - En un foso en el sitio de construcción de STD Contractors.",
+    "mapImageUrl": "",
+    "locationImageUrl": ""
+  },
+  {
+    "id": 38,
+    "name": "Fragmento de Carta #38",
+    "description": "East Vinewood - En las gradas del Hipódromo de Vinewood.",
+    "mapImageUrl": "",
+    "locationImageUrl": ""
+  },
+  {
+    "id": 39,
+    "name": "Fragmento de Carta #39",
+    "description": "Río de Los Santos - Al inicio de los canales de desagüe pluvial.",
+    "mapImageUrl": "",
+    "locationImageUrl": ""
+  },
+  {
+    "id": 40,
+    "name": "Fragmento de Carta #40",
+    "description": "La Mesa - En el puente de Vespucci Boulevard que une el Centro y Este de Los Santos.",
+    "mapImageUrl": "",
+    "locationImageUrl": ""
+  },
+  {
+    "id": 41,
+    "name": "Fragmento de Carta #41",
+    "description": "Campo Petrolífero de Murrieta - Dentro de un autobús en el Desguace de Coches.",
+    "mapImageUrl": "",
+    "locationImageUrl": ""
+  },
+  {
+    "id": 42,
+    "name": "Fragmento de Carta #42",
+    "description": "Terminal - En la cima de un contenedor en Buccaneer Way.",
+    "mapImageUrl": "",
+    "locationImageUrl": ""
+  },
+  {
+    "id": 43,
+    "name": "Fragmento de Carta #43",
+    "description": "Cypress Flats - En un túnel subterráneo bajo Popular Street.",
+    "mapImageUrl": "",
+    "locationImageUrl": ""
+  },
+  {
+    "id": 44,
+    "name": "Fragmento de Carta #44",
+    "description": "Isla Elysian - En un remolcador en dique seco llamado Olifantus.",
+    "mapImageUrl": "",
+    "locationImageUrl": ""
+  },
+  {
+    "id": 45,
+    "name": "Fragmento de Carta #45",
+    "description": "Davis - Patio trasero de una casa en Grove Street.",
+    "mapImageUrl": "",
+    "locationImageUrl": ""
+  },
+  {
+    "id": 46,
+    "name": "Fragmento de Carta #46",
+    "description": "Davis - Dentro de un contenedor en la zona de aparcamiento del Davis Mega Mall.",
+    "mapImageUrl": "",
+    "locationImageUrl": ""
+  },
+  {
+    "id": 47,
+    "name": "Fragmento de Carta #47",
+    "description": "Aeropuerto Internacional de Los Santos - Cerca de la entrada del metro de la Estación LSIA Terminal 4 en New Empire Way.",
+    "mapImageUrl": "",
+    "locationImageUrl": ""
+  },
+  {
+    "id": 48,
+    "name": "Fragmento de Carta #48",
+    "description": "Océano Pacífico - En una isla al sureste de la Sede de NOOSE en Palomino Highlands.",
+    "mapImageUrl": "",
+    "locationImageUrl": ""
+  },
+  {
+    "id": 49,
+    "name": "Fragmento de Carta #49",
+    "description": "Aeropuerto Internacional de Los Santos - En la cima del Bar y Restaurante Sightings.",
+    "mapImageUrl": "",
+    "locationImageUrl": ""
+  },
+  {
+    "id": 50,
+    "name": "Fragmento de Carta #50",
+    "description": "Pillbox Hill - Sitio de construcción del Mile High Club, en la cima de la plataforma más alta de la grúa.",
+    "mapImageUrl": "",
+    "locationImageUrl": ""
+  }
+]
