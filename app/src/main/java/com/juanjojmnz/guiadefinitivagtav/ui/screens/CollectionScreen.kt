@@ -66,7 +66,7 @@ fun CollectionScreen(
 
     LaunchedEffect(currentRoute) {
         currentTitle = when (currentRoute) {
-            CollectionRoutes.SPACESHIP_PARTS -> "Piezas de Nave"
+            CollectionRoutes.SPACESHIP_PARTS -> "Piezas de la nave"
             CollectionRoutes.LETTER_SCRAPS -> "Fragmentos de Cartas"
             CollectionRoutes.NUCLEAR_WASTE -> "Desperdicios Nucleares"
             CollectionRoutes.SUBMARINE_PARTS -> "Piezas de Submarino"
