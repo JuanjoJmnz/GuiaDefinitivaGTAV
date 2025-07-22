@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "name": "Robo en cajeros",
+    "reward": "$500; ó $50 y barra de habilidad especial llena",
+    "description": "En este tipo de eventos, una persona sufre un robo en plena calle donde un delincuente le quita su dinero frente a un cajero automático y sale corriendo. Tu tarea es perseguir al ladrón (que aparece en el radar como un punto parpadeante que cambia entre rojo y azul) y acabar con él para recuperar el dinero robado ($500). Si lo deseas, puedes centrar la cámara en el objetivo pulsando Círculo (en PS3/PS4). El ladrón siempre intentará correr, aún después de que le hayas disparado. Cuando tengas la cartera podrás elegir entre regresar al lugar donde estaba la víctima para devolverle su dinero y esperar una recompensa ($50) o quedártelo."
+  },
+  {
+    "id": 2,
+    "name": "Ladrón de bicis en ciudad 1",
+    "reward": "+3 resistencia y $100.000 en acciones de Animal Ark (ARK)",
+    "description": "Este evento es sumamente interesante por el resultado que tendrá después de ocurrido. Un ladrón le roba la bicicleta a un sujeto que se encuentra sobre Little Bighorn Avenue y escapa en dirección al norte. Deberás perseguir al ladrón (marcado con un punto rojo) en coche y chocarlo para hacerlo caer. Si el golpe fue lo suficientemente fuerte, el delincuente morirá al instante; en caso contrario, puedes acabar con él con un arma o simplemente dejarlo huir. Sube a la bici Scorcher y regresa a la ubicación de su dueño, que aparece marcado con un punto azul en el radar; recuerda que para acelerar en la bici debes pulsar X (en PS3) en vez de R2. Cuando estés junto al hombre, baja de la bici para entregársela.\n\nAl día siguiente de ocurrido este evento, recibirás un mensaje de correo electrónico de parte del joven dueño de la bicicleta (Gray Nicholson) con el asunto \"¡Voy a hacerte rico, amigo!\". En el mensaje, Gray te explica que se ha vuelto millonario por ser el fundador de la compañía Animal Ark, y decide regalarte $100.000 en acciones por tu ayuda. Si accedes a tu cartera desde el sitio de la bolsa de valores, podrás observar que las acciones ya se encuentran a tu nombre y podrás venderlas para ganar dinero. En teoría es posible alcanzar un porcentaje de retorno de alrededor del 30% a medida que avanza la trama del juego, pero probablemente el mejor momento para vender estas acciones sea apenas las recibes, ya que podrías olvidarte de revisar los movimientos de la bolsa y las acciones eventualmente perderían su valor."
+  },
+  {
+    "id": 3,
+    "name": "Ladrón de bicis en ciudad 2",
+    "reward": "+3 resistencia",
+    "description": "Este evento ocurre frente a Lady Rae's Apts, al norte de la cancha de fútbol, en Vinewood Este. Un hombre sufre el robo de su bicicleta Scorcher, así que síguelo y atropéllalo o dispárale desde el vehículo para detenerlo. No es necesario que lo mates, con un disparo debería ser suficiente para que huya asustado. Luego, sube a la bici y regresa a la ubicación de su dueño. Para devolver la bici debes bajarte de ella pulsando Triángulo cerca de la víctima del robo. El sujeto te agradecerá pero no te dará ninguna recompensa económica por tu buena acción."
+  },
+  {
+    "id": 4,
+    "name": "Autobús turístico",
+    "reward": "ninguna, se gastan $40",
+    "description": "Este evento no aparece señalado como la gran mayoría (con un punto azul o rojo), sino que está marcado con el icono de un autobús en la intersección de Vinewood Boulevard y Las Lagunas Boulevard, junto al restaurante de comida rápida Up-n-Atom Burger. Para tomar el tour, acércate a la mujer que está intentando atraer clientes y presiona Triángulo (en PS3 y PS4); el costo del viaje es de $40. En la esquina superior izquierda se mostrarán los botones que puedes utilizar: con Triángulo puedes abandonar el recorrido, con X puedes saltar rápidamente al próximo destino y con Círculo puedes cambiar a la cámara de primera persona. El recorrido te llevará por diversos puntos de interés de la ciudad, como el hotel Gentry Manor, el club nocturno The Dungeon Crawler, el bar roquero Tequi-La-La, una de las residencias del director de cine Mark Fostenburg, la casa del gurú del ejercicio televisivo The Craze, la casa de la estrella infantil Martha Term, el hotel Richman, el teatro/cine Tivoli, los estudios cinematográficos Richards Majestic, Portola Drive, el centro Epsilon, el ayuntamiento y el cine Oriental. El recorrido demora alrededor de 20 minutos, aunque puede variar según los obstáculos que puedan ir apareciendo, como el tráfico, semáforos, peatones cruzando la calle, etc."
+  },
+  {
+    "id": 5,
+    "name": "Accidente en la obra",
+    "reward": "+2 conducción",
+    "description": "Al ingresar al sitio en construcción de Little Seoul se activará una secuencia donde se ve a un obrero comentando con su compañero Bob que está a punto de jubilarse. Inmediatamente, un conjunto de grandes tubos se soltarán desde la altura y caerán sobre el camión donde se encuentra el hombre. Además de estar atrapado, el hombre comenzará a notar olor a gas, por lo que deberás rescatarlo rápidamente antes de que se produzca una explosión. Sube al HVY Dozer que hay a la izquierda y utilízalo para empujar con la pala las tuberías que bloquean la puerta del conductor del camión. Cuando haya espacio suficiente para que el sujeto pueda abrir la puerta, aléjate para que él pueda salir corriendo antes de que el vehículo estalle. A pesar de tus esfuerzos heroicos, el hombre no te dará ninguna recompensa."
+  },
+  {
+    "id": 6,
+    "name": "Huir de los paparazzis *",
+    "reward": "$1.000 por entregarla a los altruistas ó $750",
+    "description": "La famosa Lacey Jonas se encuentra atrapada en medio de un callejón del Centro de Vinewood rodeada de paparazzis que intentan fotografiarla. La chica está muy preocupada ya que cree estar demasiado gorda, despeinada y con maquillaje insuficiente para ser fotografiada, y te pide que la ayudes. Si estás en coche, aparca dentro del callejón junto al remolque y espera a que la chica suba a tu coche. Si estás a pie, deberás buscar primero el Benefactor Surano de la chica que se encuentra a unos metros para luego recogerla. Los paparazzis comenzarán a acercarse, así que esquívalos y sal del callejón (evita chocarlos y lastimarlos). Conduce a gran velocidad para alejarte de los fotógrafos hasta que logres perderlos de vista. Si estás jugando con Franklin, puedes hacer uso de su habilidad especial de conducción para lograr maniobras efectivas en las curvas. Cuando te hayas deshecho de los paparazzi (desaparecerán todos los puntos rojos del radar) lleva a Lacey hasta su casa en Vinewood Hills."
+  },
+  {
+    "id": 7,
+    "name": "Intimidación a banda",
+    "reward": "Varios cientos de dólares (recoger de los enemigos)",
+    "description": "Hay una mujer en la intersección entre El Rancho Boulevard y Fudge Lane (El Burro Heights) gritando por ayuda. Tan pronto te detengas junto a ella, comenzará a explicar que hay un hombre fuera de sí que está golpeando fuertemente a su novia. Al bajar de tu vehículo la chica comenzará a correr hacia la parte trasera de la casa más cercana para indicarte el lugar. Sin embargo, tras perseguirla aprecerán 3 sujetos que quieren robarte el dinero. Elimina rápidamente a los ladrones con cualquier arma de fuego y luego recoge las armas, munición y dinero que dejan caer (son varios cientos de dólares). En cuanto a la chica, no corres ningún riesgo si la dejas vivir, así que puedes perdonarle la vida."
+  },
+  {
+    "id": 8,
+    "name": "Conductor a la fuga *",
+    "reward": "$2.000 por entregarlos a los altruistas; ó $1.000 y Packie McReary como miembro del equipo de golpes y actor del modo Director",
+    "description": "Este evento aparece cuando estás cerca de la farmacia Dollar Pills ubicada en Strawberry Street. Hay dos sujetos que acaban de asaltar el lugar y le apuntan al dependiente mientras discuten por no tener un vehículo de escape. Uno de ellos te ofrece algo de dinero a cambio de conseguir un coche con capacidad suficiente para sacarlos a ambos de allí. Una vez que los ladrones suban a tu vehículo, obtendrás inmediatamente 2 estrellas de nivel de búsqueda que deberás evadir para continuar con la misión. Puedes perfer fácilmente a la policía si ingresas al túnel del tranvía yendo por Carson Avenue hacia el sudeste. En el camino, podrás darte cuenta (si es que no lo notaste antes) que uno de tus pasajeros es Packie McReary, que aparece en GTA IV y se ha mudado desde Dukes, Liberty City a Los Santos. Finalmente, deja a los hombres en el callejón de Cypress Flats junto a Nicholl's Liquor. Se desbloqueará Packie como uno de los miembros del equipo de golpes y, en el caso de las plataformas next-gen, también como actor del modo director."
+  },
+  {
+    "id": 9,
+    "name": "Robo 1",
+    "reward": "$200; ó $20 y barra de habilidad especial llena",
+    "description": "Hay un robo callejero que tiene lugar en un gran callejón entre Forum Drive y Carson Avenue, en Chamberlain Hills. El ladrón empuja a un hombre de traje para hacerlo caer, le arrebata su billetera y sale corriendo. Puedes atropellar al ladrón (está armado con una pistola) o bien dispararle para recuperar el dinero. Tras recoger la billetera del suelo puedes optar por quedarte con el efectivo ($200) o devolvérselo a su dueño a cambio de una recompensa menor ($20)."
+  },
+  {
+    "id": 10,
+    "name": "Robo 2",
+    "reward": "Promesa de entradas para los Corkers (no se recibe nada)",
+    "description": "Al pasar junto a uno de los callejones de la manzana comprendida entre Elgin Avenue, Meteor Street, Occupation Avenue y Power Street te toparás con un hombre apuntándole a una mujer con una pistola para robarle el dinero. Dispárale al ladrón (desde el vehículo o bajando de él) para eliminarlo y ayudar a la chica. La mujer dirá que te debe una y que puede conseguirte entradas para los Corkers (un equipo de béisbol de Los Santos), pero no recibirás nada a cambio de tu buen accionar en esta ocasión."
+  },
+  {
+    "id": 11,
+    "name": "Robo 3",
+    "reward": "$2.000; ó $200 y barra de habilidad especial llena",
+    "description": "Otro robo tiene lugar sobre Vespucci Boulevard en Pillbox Hill, junto al estacioamiento de San Andreas Parking Counsel y la sucursal de Bean Machine. Un hombre le apuntará con una pistola a una mujer y le robará la billetera. Persigue al sujeto y atropéllalo o haz caer de un disparo y recupera el dinero. Puedes optar por quedarte con todo el efectivo o devolvérselo a su dueña para recibir una recompensa honesta menor. NOTA: el Social Club de Rockstar Games muestra una imagen incorrecta de este evento, probablemente perteneciente a otro evento de robo presente en la versión beta que no fue incluido en la edición final del juego."
+  },
+  {
+    "id": 12,
+    "name": "Camioneta de seguridad 1 / Furgón de seguridad 1",
+    "reward": "variable entre $3.000 y $8.000",
+    "description": "Podrás encontrar un furgón de transporte de caudales en la estación Globe Oil de La Puerta, junto a unos garajes con la inscripción \"Free Smog Check\" encima. Elimina a los dos empleados de Gruppe Sechs lo antes posible y procede a robar el maletín con el dinero. Si no consigues matar al hombre que transporta el maletín antes de que lo coloque dentro del camión, puedes utilizar una bomba adhesiva o efectuar unos cuantos disparos para abrir las puertas traseras. Tras recoger el botín, aléjate del lugar y ocúltate para perder el nivel de búsqueda de dos estrellas."
+  },
+  {
+    "id": 13,
+    "name": "Camioneta de seguridad 2 / Furgón de seguridad 2",
+    "reward": "variable entre $3.000 y $8.000",
+    "description": "Hay un par de empleados de Gruppe Sechs cargando dinero en un furgón en el estacionamiento de Lucky Plucker, sobre Calais Avenue en la zona de La Mesa. Si es posible, elimina a los sujetos antes de que carguen el camión (puedes aprovechar la habilidad especial de Michael o Trevor a pie, o la de Franklin para disparar desde el coche) y recoge el maletín. Si los hombres ya han colocado el maletín, deberás abrir las puertas traseras del camión con disparos o una bomba adhesiva. Por realizar el robo tendrás un nivel de búsqueda de dos estrellas. El sitio en construcción que se encuentra cerca de allí es un buen lugar para salir del campo de visión de los patrulleros."
+  },
+  {
+    "id": 14,
+    "name": "Camioneta de seguridad 3 / Furgón de seguridad 3",
+    "reward": "variable entre $3.000 y $8.000",
+    "description": "Hay una furgoneta blindada en el Paleto Bay Market, frente a la estación de policía y cerca de la tienda Ammu-Nation. Si actúas rápidamente, puedes matar a los empleados de Gruppe Sechs antes de que coloquen el maletín dentro del vehículo; en caso contrario, deberás disparar a las puertas del camión o utilizar una bomba adhesiva para abrirlas. Tras robar el maletín con el dinero obtendrás un par de estrellas de nivel de búsqueda. Para facilitar la pérdida de la policía puedes conducir hacia la playa (al oeste), ya que las patrullas normalmente se mantienen en las calles."
+  },
+  {
+    "id": 15,
+    "name": "Camioneta de seguridad 4 / Furgón de seguridad 4",
+    "reward": "variable entre $3.000 y $8.000",
+    "description": "Este furgón está detenido en el estacionamiento del Korean Plaza, a pocos metros de una sucursal de Bean Machine. Este centro comercial se encuentra ubicado sobre Calais Avenue en Little Seoul. Elimina rápidamente a los dos empleados de la compañia de seguridad antes de que suban al vehículo y roba el maletín con el dinero. Luego, puedes escapar a pie escondiéndote en los callejones que hay detrás de las tiendas hasta que la policía deje de buscarte."
+  },
+  {
+    "id": 16,
+    "name": "Camioneta de seguridad 5 / Furgón de seguridad 5",
+    "reward": "variable entre $3.000 y $8.000",
+    "description": "Este furgón de seguridad está transportando caudales a través de Prosperity Street, en Vespucci Canals. Lanza una bomba adhesiva a las puertas traseras del camión y hazla estallar a una distancia prudente. Luego, elimina a los dos empleados y baja de tu vehículo para recoger el maletín con el dinero. Finalmente, aléjate de la zona y busca un lugar seguro para ocultarte de la policía hasta perder el nivel de búsqueda de 2 estrellas."
+  },
+  {
+    "id": 17,
+    "name": "Camioneta de seguridad 6 / Furgón de seguridad 6",
+    "reward": "variable entre $3.000 y $8.000",
+    "description": "Este furgón está alejándose del edificio de Total Bankers ubicado sobre San Andreas Avenue, entre Palomino Avenue y Calais Avenue, en Little Seoul. Lo más seguro para completar el robo es utilizar una bomba adhesiva pegada en las puertas traseras del camión. Si no tienes bombas, puedes disparar a las puertas, aunque es muy probable que no logres abrirlas enseguida y el conductor del vehículo comience a acelerar, además de solicitar refuerzos a la policía. En ese caso, quizás sea mejor idea posicionarte delante del camión para eliminar al conductor y su acompañante en primer lugar, permitiéndote abrir las puertas con mayor tranquilidad cuando el furgón esté detenido. Si estás en aprietos por la llegada de la policía, aprovecha la habilidad de Michael o Trevor (si es que jugas con alguno de ellos) para eliminar a los agentes cercanos. Finalmente, aléjate del lugar y busca un escondite para perder el nivel de búsqueda."
+  },
+  {
+    "id": 18,
+    "name": "Camioneta de seguridad 7 / Furgón de seguridad 7",
+    "reward": "variable entre $3.000 y $8.000",
+    "description": "Este transporte de caudales está circulando por Chianski Passage, el camino que lleva a Humane Labs and Research, en San Chianski Mountain Range. Tal como se recomienda con el resto de las camionetas que están en movimiento, una buena estrategia es lanzar una bomba adhesiva a las puertas traseras del furgón para abrirlas con una explosión a una distancia segura. Luego, los hombres de Gruppe Sechs bajarán del vehículo y comenzarán a atacarte, elimínalos desde tu coche (si juegas como Franklin puedes aprovechar su habilidad especial para disparar en cámara lenta) o a pie (aprovechando las habilidades de Michael o Trevor si lo deseas). Finalmente, recoge el maletín con el dinero y huye de la policía (tendrás un nivel de búsqueda de 2 estrellas). Puedes ocultarte en las colinas o en los campos cercanos hasta que dejen de buscarte."
+  },
+  {
+    "id": 19,
+    "name": "Camioneta de seguridad 8 / Furgón de seguridad 8",
+    "reward": "variable entre $3.000 y $8.000",
+    "description": "Este furgón está circulando por Great Ocean Highway, unos metros al sur del puente que lleva al túnel que pasa por debajo de Fort Zancudo. Podrás ver el vehículo a lo lejos aún cuando todavía no esté señalado en el mapa si conduces por la Route 68 hacia el oeste, a la altura de la gasolinera ubicada en la intersección con la autopista. Sigue la estrategia usual cuando se trata de furgones en movimiento para robar el maletín, luego recoge rápidamente el botín y aléjate para perder a la policía, ya que tendrás un nivel de búsqueda de al menos dos estrellas."
+  },
+  {
+    "id": 20,
+    "name": "Camioneta de seguridad 9 / Furgón de seguridad 9",
+    "reward": "variable entre $3.000 y $8.000",
+    "description": "Este camión blindado está circulando por El Rancho Boulevard, entre Popular Street y Orchardville Avenue, en la zona de Cypress Flats. Podrás verlo a lo lejos antes de que figure en el mapa si vienes por El Rancho Boulevard en dirección este-oeste. Como el vehículo está en movimiento, debes utilizar una bomba adhesiva para abrir las puertas traseras. Debido a que suele haber vehículos cerca, sobre todo en el semáforo de Popular Street, deberías tener la precaución de detonar la bomba cuando sea seguro (si hay coches muy cerca cuando explote, podrían estallar también los vehículos y generar una cadena de explosiones que podría matarte a ti). Tras abrir las puertas, elimina a los dos guardias que bajan del camión, roba el maletín y finalmente deshazte de la policía."
+  },
+  {
+    "id": 21,
+    "name": "Camioneta de seguridad 10 / Furgón de seguridad 10",
+    "reward": "variable entre $3.000 y $8.000",
+    "description": "Este furgón blindado, a diferencia de otros, se encuentra en movimiento. Lo encontrarás circulando por Supply Street, en La Mesa. Posiciónate delante del camión sin llamar la atención de los empleados y dispárale al conductor desde tu vehículo. Luego, bájate y enfrenta al copiloto a pie. Una vez que tengas el camión para ti, utiliza una bomba adhesiva para abrir las puertas traseras. Si no cuentas con esos explosivos, puedes efectuar unos cuantos disparos a las puertas con un rifle de asalto hasta abrirlas. A continuación, coge el maletín con el dinero y regresa a tu vehículo para huir de la policía (tendrás un nivel de búsqueda de 2 estrellas). Si lograste detener al furgón entre Popular Street y San Andreas Avenue, puedes descender por una parte de la cerca lateral que está destrozada y ocultarte debajo del puente de San Andreas Avenue, donde podrás evadir a la policía fácilmente (incluso hay un túnel más adelante que lleva al canal)."
+  },
+  {
+    "id": 22,
+    "name": "Asalto a tienda 1 / Atraco a tienda 1",
+    "reward": "$2.000 ó ninguna",
+    "description": "Este evento se activa al acercarse a la puerta de la peluquería Bob Mulét ubicada sobre Mad Wayne Thunder Drive, en Rockford Hills. Si bien no está confirmado, parece que es más probable que el evento se dispare si te acercas a la tienda a pie dejando tu vehículo a unos cuantos metros de distancia. Desde afuera del lugar podrás oir los gritos de los dos ladrones, que están amenazando a los empleados del lugar. Los sujetos te amenazarán con un arma obligándote a arrodillarte e inmediatamente emprenderán su huída en una furgoneta Gallivanter Baller aparcada frente a la tienda, con un conductor esperando. Si juegas como Michael, activa su habilidad especial y elimina rápidamente a los 3 ocupantes del vehículo, centrándote principalmente en el conductor para evitar que se alejen. Luego, recoge la bolsa de dinero y decide si deseas devolverlo (no te darán ninguna recompensa por tu buena acción) o quedártelo (es un botín considerable de $2.000)."
+  },
+  {
+    "id": 23,
+    "name": "Asalto a tienda 2 / Atraco a tienda 2",
+    "reward": "$2.000 ó 25% de descuento en una prenda de Suburban",
+    "description": "Este evento se activa tras ingresar a la tienda de ropa Suburban ubicada en la peatonal de Del Perro. Para activar este evento es recomendable que dejes tu vehículo a unos cuantos metros de distancia y te dirijas a la tienda a pie, ya que si aparcas muy cerca de la misma es posible que el evento no ocurra. Al ingresar, tu personaje será apuntado con un arma por un ladrón mientras otro hace lo mismo con la cajera para obligarla a entregar el dinero de las cajas registradoras. Los hombres saldrán corriendo rápidamente, cada uno en una dirección diferente. Tú deberías concentrarte en el que lleva la bolsa, ya que no tiene sentido perseguir al otro. Si estás jugando como Michael, puedes usar su habilidad especial para disparar al objetivo antes de que se aleje. A continuación, recoge la bolsa con el botín y decide si te lo quedarás o se lo devolverás a la trabajadora del local. Si eliges devolver el dinero, no recibirás ninguna recompensa inmediata, aunque la mujer te promete un 25% de descuento en tu próxima compra. Debido a que la tienda queda temporalmente cerrada al público a raíz del robo, puedes entrar y destruir las 3 cajas registradoras (golpeándolas con un arma o disparándoles) para robar el dinero que quedó allí (entre $70 y $80 en cada una); no se activará el nivel de búsqueda por hacer esto, así que aprovecha la oportunidad."
+  },
+  {
+    "id": 24,
+    "name": "Secuestrada *",
+    "reward": "$1.000 por entregarla a los altruistas ó ninguna",
+    "description": "Una mujer es secuestrada por miembros de la banda Lost en una calle de Vinewood Hills. Persigue a la camioneta o espera a que se acerque a ti (dependiente de qué dirección tome) y dispárale a los neumáticos para obligar a los moteros a detenerse. Intenta no disparar a la parte trasera de la van, ya que allí se encuentra la víctima. Luego, elimina a los 3 enemigos disparando desde el vehículo o a pie. Puedes recoger las armas y municiones que dejan caer los motociclistas antes de acercarte a la van para ver cómo se encuentra la mujer. La víctima te pide que la lleves a Ineseno Road, en Chumash, donde un amigo irá a recogerla. Si juegas como Trevor, es recomendable que ignores la ruta señalada y lleves a la mujer al campamento de los altruistas, ya que así recibirás una recompensa. Cualquiera sea la decisión que tomes, en el camino vendrán tras de ti algunos miembros de los Lost en sus motos para vegarse; intenta perderlos o dispárales desde el coche para hacerlos caer y continúa con tu viaje. La mujer revelará que los motociclistas que intentaron secuestrarla eran sus tíos y que lo hicieron porque ella robó dinero."
+  },
+  {
+    "id": 25,
+    "name": "Ladrón de moto deportiva",
+    "reward": "+5 conducción",
+    "description": "Al circular por North Rockford Drive, en Richman, divisarás el robo de una moto Pegassi Bati 801 que su dueño acaba de comprar. Persigue al ladrón, dispárale para hacerlo caer y eliminarlo y luego sube al vehículo. Regresa hasta la ubicación del dueño y baja de la moto deportiva para entregársela. No recibirás ninguna recompensa por tu buena acción."
+  },
+  {
+    "id": 26,
+    "name": "Simeon Yetarian",
+    "reward": "Ninguna específica, puedes recoger botiquín",
+    "description": "Este evento se activa al ingresar a la agencia Premium Deluxe Motorsport de Simeon Yetarian tras completar la misión Solicitud de amistad, y sólo está disponible hasta antes de completar la misión El trabajo de la joyería. Al entrar al lugar podrás ver a dos hombres intentando robarle a Simeon, quien sale corriendo inmediatamente hacia la calle. Uno de los ladrones está cerca del taller trasero, mientras que el otro se encuentra junto a la oficina. Elimina a ambos hombres (puedes aprovechar la habilidad especial de Michael) para completar el evento. Si has perdido energía, puedes aprovechar el botiquín de primeros auxilios que está en el taller de la parte de atrás, cerca de donde estaba uno de los enemigos."
+  },
+  {
+    "id": 27,
+    "name": "Vehículo abandonado 1",
+    "reward": "Ninguna, posibilidad de recoger arma del enemigo si se le elimina",
+    "description": "Este evento tiene lugar en el camino de tierra que hay al sur de la pista en el aeródromo de Sandy Shores, en Grand Senora Desert. Si bien el evento puede ser activado con cualquiera de los 3 protagonistas, sólo Trevor es capaz de completarlo sin sufrir daños. Al pasar por el lugar notarás que hay una camioneta BF Surfer aparcada, aparentemente sin nadie alrededor. Tan pronto te bajes de tu coche cerca de ella o te aproximes a pie, un sujeto te disparará con una pistola eléctrica y quedarás inconsciente. Luego, tu personaje despertará en ropa interior sobre las vías del tren a punto de ser atropellado. Puedes sobrevivir si saltas hacia un costado de las vías rápidamente, apenas tu personaje logre ponerse de pie.\n\nSi deseas evitar el secuestro debes jugar como Trevor, colocarte a unos cuantos metros de distancia del BF Surfer estando a pie, equipar un arma con municiones y activar la habilidad especial (L3 + R3) antes de acercarte al vehículo. De esta manera, cuando el hombre te dispare, Trevor resistirá la electrocución gracias a la fuerza extra que le brinda su habilidad especial y podrás eliminar al enemigo. Si detienes tu coche muy cerca de la BF Surfer y te bajas, podrías no tener tiempo suficiente de activar la habilidad especial antes de ser atacado. Puedes recoger el arma que el sujeto deja caer al suelo al morir."
+  },
+  {
+    "id": 28,
+    "name": "Vehículo abandonado 2",
+    "reward": "No hay recompensa",
+    "description": "Al circular entre los aerogeneradores de la Granja eólica Ron Alternates podrás encontrar una casa rodante Zirconium Journey. Al acercarte, podrás darte cuenta que, según los diálogos y los movimientos del vehículo, sus ocupantes están teniendo sexo. Acércate al vehículo cuidadosamente y, tan pronto sus ocupantes salgan a atacarte, elimínalos. No hay recompensa por completar este evento."
+  },
+  {
+    "id": 29,
+    "name": "Detención 1",
+    "reward": "$250 ó ninguna",
+    "description": "Al pasar por la granja de los hermanos O'Neil en Grapeseed se activará una persecución donde un agente de policía corre tras un delincuente para intentar capturarlo. Tienes dos alternativas: puedes ayudar al policía haciendo caer al ladrón con disparos o bien eliminar al policía para ayudar al criminal. Ambos sujetos aparecerán marcados en el radar con un punto que cambia de color entre rojo y azul. Si ayudas al agente no recibirás ninguna recompensa, pero si ayudas al ladrón recibirás $250 y un nivel de búsqueda de 3 estrellas."
+  },
+  {
+    "id": 30,
+    "name": "Detención 2",
+    "reward": "$250 ó ninguna",
+    "description": "En la zona de la cantera Davis Quartz tiene lugar una persecución a pie donde un agente de policía intenta capturar a un criminal. Tal como en otros eventos, aquí deberá decidir entre dos formas de actuar: puedes eliminar al policía para salvar al delincuente, lo que te hará ganar unas estrellas de nivel de búsqueda y algo de dinero, o bien disparar al ladrón para hacerlo caer al suelo las veces que sea necesario hasta que el policía logre atraparlo. No recibirás ninguna recompensa por ayudar al policía."
+  },
+  {
+    "id": 31,
+    "name": "Patrulla fronteriza 1",
+    "reward": "Dinero y munición de los enemigos",
+    "description": "Este evento tiene lugar en uno de los caminos de tierra serpenteantes que surgen de Mt Haan Road, al sur de Baytree Canyon Road, más precisamente el camino del este. Un trío de rednecks te perseguirá en motos Maibatsu Sánchez armados con escopetas recortadas y no dudarán en dispararte. Completar este evento como Franklin es buena idea ya que él puede disparar desde el coche en cámara lenta y con precisión gracias a su habilidad especial de conducción. Tras eliminarlos a todos, puedes recoger la munición de escopeta y el dinero que dejan caer."
+  },
+  {
+    "id": 32,
+    "name": "Patrulla fronteriza 2",
+    "reward": "Dinero y munición de los enemigos",
+    "description": "Este evento se activa al circular por el camino de tierra que está al este de la Presa de Land Act, en Tataviam Mountains. Tres rednecks se acercarán a ti en cuatrimotos Nagasaki Blazer para detenerte. Los tres están armados con escopetas recortadas, que son letales a corta distancia, así que aprovecha la habilidad especial de tu personaje (a pie si estás con Michael o Trevor, y desde el vehículo si juegas con Franklin) para eliminarlos antes de que puedan dispararte. Tras el tiroteo puedes recoger el dinero que dejan caer, además de la munición de sus escopetas."
+  },
+  {
+    "id": 33,
+    "name": "Patrulla fronteriza 3",
+    "reward": "Dinero y munición de los enemigos",
+    "description": "Al circular por uno de los caminos de tierra al sur de Raton Canyon notarás que 3 sujetos te persiguen en vehículos todoterreno (Blazer y Sánchez). Los hombres están armados y comenzarán a atacarte tan pronto te alcancen, así que deberás estar preparado. Si juegas como Michael, una buena alternativa es bajar del vehículo apenas veas los puntos rojos en el radar, equipar un arma de fuego y activar la habilidad especial para eliminarlos antes de que puedan efectuar el primer disparo. En caso contrario, puedes atacarlos desde tu vehículo, pero estarás mucho más vulnerable. Si bien no hay una recompensa específica, igualmente puedes obtener algo de dinero y munición recogiendo lo que dejan caer los atacantes."
+  },
+  {
+    "id": 34,
+    "name": "Entierro *",
+    "reward": "$60.000 y barra de habilidad especial llena ó $1.000 por entregarla a los altruistas",
+    "description": "En uno de los caminos de tierra al norte de Paleto Bay encontrarás a una pareja de hombres junto a una camioneta cavando una tumba para enterrar viva a una mujer. Elimina a ambos sujetos, recoge el dinero que dejan caer y acércate a la chica para desatarla. Luego, lleva a la víctima hasta el punto de encuentro en Vinewood Hills, donde la recogerá un hombre llamado Beppe. La mujer comenzará a nombrar algunos nombres relacionados con lo sucedido, como Sammy \"Sonny\" Bottino, los Gambetti y Don Gravelli, quien controlaba la costa este en los años 80 y 90. Poco tiempo después de completar el evento recibirás una llamada telefónica de Antonia Bottino (6115550182) para avisarte que su padre ha realizado una transferencia de $60.000 a tu cuenta."
+  },
+  {
+    "id": 35,
+    "name": "Robo de coches 1",
+    "reward": "+5 conducción",
+    "description": "A pasar cerca de Hookies escucharás a alguien pidiendo ayuda ya que acaban de robar su coche, un Vapid Peyote color rosa. Persigue al ladrón y obígalo a detenerse de la manera que prefieras: puedes eliminarlo directamente o dispararle varias veces al vehículo hasta que decida detenerse y bajarse. No dispares a los neumáticos, ya que luego deberás devolver el coche. Tras acabar con el ladrón, sube al Peyote y conduce hacia Hookies donde se encuentra su dueña."
+  },
+  {
+    "id": 36,
+    "name": "Robo de coches 2",
+    "reward": "+5 conducción y prenda de ropa de Ponsonbys",
+    "description": "Este evento ocurre junto a Aurora Parkway, al oeste de Banning. Se recomienda ir al lugar en un coche (y no en otro vehículo, como una moto) que esté en buen estado. Un hombre le roba a una mujer su camioneta 4x4 Obey Rocoto y se da a la fuga. Es muy probable que te sientas tentado/a a dispararle al conductor para acabar con él y recuperar el vehículo, pero es recomendable que no lo hagas ya que podrías llamar la atención de la policía y esto hará que la dueña del vehículo desaparezca y no puedas devolvérselo, aún cuando hayas conseguido evadir a la policía. Tampoco es buena idea que dispares a los neumáticos, ya que se te dificultará el camino de regreso. En cambio, limítate a perseguir al sujeto y embestirlo fuertemente una y otra vez hasta que decida bajarse de la camioneta. También puedes intentar desviarlo y hacerlo chocar en algún lugar del cual no pueda salir, pero ten cuidado: si te bajas del coche para enfrentarlo y él logra alejarse, será difícil alcanzarlo antes de perderlo de vista. Una vez que hayas eliminado al ladrón, sube a la camioneta Rocoto y regresa a la ubicación de su dueña, que aparece señalada con un punto azul en el mapa. La mujer, llamada Saeeda, estará agradecida por tener su coche de regreso, aún cuando esté muy dañado. Un tiempo después recibirás un correo electrónico de Saeeda para agradecerte nuevamente y para decirte que ha dejado una prenda de ropa especial en tu vestidor. El premio es el Traje azul claro que lo encuentras dentro de la categoría de Trajes completos."
+  },
+  {
+    "id": 37,
+    "name": "Perseguir a ladrones en ciudad 1",
+    "reward": "$2.000 ó $200 y barra de habilidad especial llena",
+    "description": "Al pasar frente a la tienda de ropa Suburban en Hawick podrás observar a una camioneta de los Lost huyendo tras robarle la billetera a un sujeto. Persigue a la camioneta y dispárale para obligar a los dos pandilleros a detenerse, luego elimínalos y a continuación recoge el dinero que uno de ellos deja caer. Puedes optar por quedarte con todo el dinero ($2.000) alejándote del lugar o devolvérselo a su dueño. Si optas por devolver el dinero, el hombre te dará $200 como agradecimiento."
+  },
+  {
+    "id": 38,
+    "name": "Perseguir a ladrones en ciudad 2",
+    "reward": "$500 ó $50 y barra de habilidad especial llena",
+    "description": "Este robo tiene lugar en la intersección de San Andreas Avenue con Strawberry Avenue, en Textile City. Un par de motociclistas de la banda Lost le ha robado el dinero a un hombre e intentan escapar en su moto LCC Hexer. Persigue a los pandilleros y dispárales desde tu vehículo para hacerlos caer. Puedes intentar chocarlos si lo deseas, pero es menos arriesgado dispararles con un arma de fuego desde una distancia segura. Si quedan vivos tras caer, simplemente atropéllalos o dispárales nuevamente desde el vehículo o a pie. A continuación, recoge la billetera del suelo y decide si te quedarás con el dinero o se lo devolvéras a su dueño. Si lo devuelves, el sujeto te dará $50 como muestra de agradecimiento."
+  },
+  {
+    "id": 39,
+    "name": "Perseguir a ladrones en el campo 1",
+    "reward": "$250 ó $25 y barra de habilidad especial llena",
+    "description": "Este evento tiene lugar en la calle del extremo oeste de Grapeseed, frente a la tienda de ropa. Unos miembros de los Lost le roban todo el dinero a un hombre e intentan escapar en una de sus camionetas negras. Para detenerlos puedes disparar a los neumáticos, matar al conductor o bien efectuar unos cuantos disparos contra la furgoneta hasta que decidan enfrentarte a pie. La camioneta está ocupada por 4 moteros, así que ten cuidado, especialmente con los dos que están en la parte de atrás y que pueden dispararte mientras el vehículo se mueve. Una vez que hayas recuperado el dinero ($250) puedes elegir entre quedártelo o devolvérselo a su dueño, quien te dará $25 como agradecimiento."
+  },
+  {
+    "id": 40,
+    "name": "Perseguir a ladrones en el campo 2",
+    "reward": "$120 ó $12 y barra de habilidad especial llena",
+    "description": "Este evento se dispara al pasar cerca de la tienda de descuento en Grand Senora Desert, al norte del Circuito Redwood Lights. Un hombre es asaltado por miembros de la banda de moteros Lost, que escapan en una furgoneta. Persigue al vehículo y acaba con los dos hombres que van en la parte trasera y con los dos que van adelante (conductor y acompañante). Ten cuidado, ya que están armados con pistolas. Luego, prepárate para eliminar a dos parejas más de moteros que vienen detrás en motos LCC Hexer armados con pistolas y escopetas recortadas. Cuando el tiroteo haya terminado, recoge la billetera de la víctima (contiene $120). Si regresas con el hombre, él se quedará con $108 y te dará el resto como recompensa."
+  },
+  {
+    "id": 41,
+    "name": "Tiroteo entre bandas rurales",
+    "reward": "$1.000",
+    "description": "Un sujeto está siendo amenazado por dos pandilleros de la banda The Lost detrás de una tienda abandonada en una intersección junto al Alamo Sea. Tras acabar con ambos miembros de la banda, el traficante que estaba a punto de ser asesinado te invita a acompañarlo hasta su coche al otro lado de la calle para darte algo de dinero como recompensa. Tan pronto el hombre abre la puerta de su coche, advierte que llegan más miembros de los Lost en 4 motocicletas, y te dice que te agaches detrás del vehículo para ocultarte. Los miembros de la banda verán la escena con los cuerpos de sus compañeros muertos y luego se percatarán de tu presencia. Manteniéndote a cubierto detrás del coche del traficante, elimina a los moteros (jugando como Michael será más fácil gracias a su habilidad especial). Finalmente, el hombre que salvaste entra a su coche para irse y te deja un fajo de billetes en el suelo ($1.000) como agradecimiento."
+  },
+  {
+    "id": 42,
+    "name": "Asalto rural / Atraco rural",
+    "reward": "$10.000 ó $5.000",
+    "description": "Al pasar junto a un motel en Harmony te toparás con un tiroteo entre 3 policías y 2 ladrones, quienes luchan por un botín de $10.000 repartidos por la mitad en dos maletines. Tienes dos opciones para completar este evento: si ayudas a los criminales eliminando a los agentes de la ley, recibirás los $5.000 de uno de los maletines como agradecimiento. En cambio, si dejas que los policías acaben con los ladrones o los eliminas tú mismo, puedes recoger los dos maletines y llevarte el total del dinero. En cualquiera de los dos casos la policía irá detrás de ti, así que deberás estar preparado para huir en el vehículo más cercano y perder el nivel de búsqueda."
+  },
+  {
+    "id": 43,
+    "name": "Rescate de accidente",
+    "reward": "Taliana Martínez como miembro del equipo de golpes y actriz del modo Director",
+    "description": "Al pasar por Great Ocean Highway, al norte del túnel Braddock, podrás observar a una mujer lastimada junto a su coche accidentado. Deténte junto a ella y espera a que suba contigo. La mujer te dice que no quiere ir al hospital, sino a Cholla Springs Avenue, en Sandy Shores, donde tiene gente que puede ayudarla. En la conversación con tu personaje, ella se muestra agradecida de no haber tenido a la policía encima, y revela que el accidente se produjo luego de un trabajo que salió mal: junto a unos compañeros intentó asaltar una casa de empeños, pero resultó ser una trampa de la policía que los estaba esperando. El trato era por 20 mil dólares para cada uno, y ella cumplía el papel de conductora. Al final, el saldo fue de dos detenidos y un muerto a un lado de Senora Freeway. Para completar el evento, deja a Taliana en la casa celeste del número 7184. Desde ahora, podrás seleccionar a la mujer como miembro del equipo al completar golpes y también estará disponible como actriz en el modo Director."
+  },
+  {
+    "id": 44,
+    "name": "Negocio de drogas frustrado",
+    "reward": "$25.000",
+    "description": "Al pasar cerca del puente de la autopista de Great Ocean que pasa sobre Raton Canyon podrás observar 3 pequeños puntos rojos en el radar. Al final del camino de tierra encontrarás una escena con hombres agonizando y varios cadáveres, no sólo de humanos sino también de algunos perros de pelea, lo que indica que se trata de un intercambio entre bandas que salió mal. Si bien los hombres en agonía están marcados con puntos rojos, no debes preocuparte ya que no podrán atacarte. Acércate al hombre señalado que está más lejos (bajando por la pendiente) para encontrar un maletín con $25.000. Luego, aléjate del lugar y prepárate para un enfrentamiento ya que vendrán dos camionetas Karin Rebel oxidadas con hombres que intentan recuperar el botín. Tras eliminarlos a todos habrás completado el evento."
+  },
+  {
+    "id": 45,
+    "name": "Incidente doméstico",
+    "reward": "$1.000 por entregarlo a los altruistas; ó $80 y posibilidad de jugar al golf con Castro",
+    "description": "Si pasas por Picture Perfect Drive a la altura 3587 te toparás con un hombre siendo echado de su casa por su esposa. Por los gritos de la mujer, se deduce que sospecha que su marido tiene encuentros con una amante cuando dice que va a jugar golf por las noches. El hombre te ofrece algo de dinero a cambio de sacarlo de allí, así que espera a que suba a tu vehículo y luego conduce al club de golf GW en Richman. Deja a Castro en la entrada al club para completar el evento aleatorio. Desde ahora podrás jugar al golf con Castro en el club de Richman."
+  },
+  {
+    "id": 46,
+    "name": "Tiroteo por drogas",
+    "reward": "Entre $20.000 y $100.000",
+    "description": "Al acercarte a una granja ubicada al final del camino de tierra que está al sur del túnel Braddock Pass aparecerá un icono en el radar con forma de hoja de marihuana. Reconocerás el lugar si completaste la misión Hierba por sorpresa de GTA Online. Esta plantación de hierba puede ser asaltada para quedarse con las ganancias que ha generado en los últimos días. Cruza el puente de madera y, tan pronto veas a los sujetos que defienden el lugar, elimínalos. La habilidad especial de Trevor puede salvarte la vida, así que no dudes en aprovecharla. Tras matar a los 6 hombres, busca el maletín lleno de dinero que está dentro del cobertizo de madera. Puedes regresar a este lugar en una semana para asaltarlo nuevamente."
+  },
+  {
+    "id": 47,
+    "name": "Conductor ebrio 1",
+    "reward": "$1.000 por entregarlo a los altruistas ó $80",
+    "description": "Hay dos sujetos completamente borrachos junto al restaurante de pescados y mariscos La Spada, en La Puerta. Uno de ellos te pide que lo lleves, y enseguida sube a su camioneta Baller. Sube al vehículo del borracho y llévalo hasta su casa en 2154 Alta Place, en el barrio Hawick. Una vez que detengas el vehículo, el hombre te dará $80 e intentará ingresar a su departamento, aunque debido a su estado no lo logrará y terminará desmayado en el suelo."
+  },
+  {
+    "id": 48,
+    "name": "Conductor ebrio 2",
+    "reward": "$2.000 por entregarlos a los altruistas ó $80",
+    "description": "Una pareja se encuentra en estado de ebriedad en un estacionamiento ubicado entre Zancudo Avenue y Alhambra Drive, en Sandy Shores. El sujeto te pide que los lleves a un motel cercano (junto al taller de coches y una tienda de ropa), ya que han celebrado el cumpleaños de la chica y bebieron unos cuantos vasos de whisky, lo que les impide conducir. Sube al coche Albany Emperor y espera a que ambas personas suban a la parte de atrás; luego, elige si deseas llevarlos a su destino o entregarlos a la secta altruista (es una buena oportunidad ya que entregarías a dos personas de una sola vez, además de recibir una recompensa mucho mayor). La pareja comenzará a coquetear y toquetearse inmediatamente, hasta que finalmente tendrán sexo mientras tú conduces."
+  },
+  {
+    "id": 49,
+    "name": "Aventón 1",
+    "reward": "+5 conducción, $100 y beneficios en la bolsa",
+    "description": "Este evento tiene lugar en Ineseno Road, donde un hombre vestido de traje se encuentra parado junto a su vehículo averiado pidiendo un aventón. Es buena idea completar este evento jugando como Franklin, ya que su habilidad especial de conducción facilita las cosas. Además, es recomendable comprar todas las acciones posibles de la empresa Tinkle (TNK) a través del sitio web de BAWSAQ con los tres personajes antes de activar este evento. Como las inversiones en bolsa tienen mayor beneficio mientras más dinero tengas para comprar acciones, lo mejor es completar este evento luego de haber terminado las misiones de la trama principal.\n\nEl autoestopista, un analista financiero de Algonquin llamado Timm (con dos emes), te dice que está llegando tarde al aeropuerto para tomar un vuelo hacia Liberty City. Tendrás 2 minutos con 15 segundos para llevar al hombre, y si lo logras, él promete hacerte ganar dinero. Al bajar del coche en el aeropuerto, Timm te dice que inviertas en acciones de Tinkle ya que no te arrepentirás. Si no compraste las acciones antes de activar el evento, deberías hacerlo ahora. Luego, puedes cambiar a otro personaje (si completaste el evento con Franklin es recomendable cambiar a Michael, que suele estar en su casa o muy cerca de ella) para dormir una vez y adelantar la hora del juego. El porcentaje de retorno de tus acciones debería alcanzar el tope máximo de 33%, lo que te permitirá ganar una buena suma de dinero al vender todas las acciones que compraste previamente."
+  },
+  {
+    "id": 50,
+    "name": "Aventón 2",
+    "reward": "$1.000 por entregarla a los altruistas; ó +5 conducción y Ursula en la lista de contactos",
+    "description": "Si circulas por North Calafia Way, el camino de tierra al norte del Alamo Sea, te encontrarás con una chica que lleva una mochila y está pidiendo un aventón. Al subir a tu vehículo, ella te cuenta que se ha perdido y necesita vovler a su casa en Catfish View, Mount Gordo, junto al faro. Si juegas como Trevor, puedes ignorar la ruta marcada con color amarillo y llevar a la chica al fuerte de la secta altruista para recibir $1.000 a cambio. En el camino la muchacha comenzará a contar un poco sobre su vida y no tardarás en darte cuenta de que tiene problemas de depresión y trastornos de personalidad. Si te interesa escuchar el diálogo completo, ten en cuenta lo siguiente: si detienes el vehículo demasiado tiempo, la chica se bajará y el evento será cancelado, así que procura mantenerte en movimiento. Si llevas a la chica a su destino original no recibirás dinero a cambio, pero será añadida a la lista de contactos de tu teléfono móvil y podrás llamarla para tener encuentros sexuales."
+  },
+  {
+    "id": 51,
+    "name": "Aventón 3",
+    "reward": "$1.000 por entregarla a los altruistas ó +5 conducción",
+    "description": "En esta ocasión te encontrarás con una chica pidiendo un aventón sobre East Joshua Road, a muy pocos metros de la autopista y junto al cartel verde que señala Paleto Bay hacia la izquierda y Los Santos hacia la derecha. La autoestopista te pide que la lleves a lo alto de Vinewood Hills, junto al cartel. La mujer se muestra extrañada de que ningún otro hombre se haya detenido para llevarla, y comenta que aún está sufriendo los efectos de una borrachera de la noche anterior. Además, te cuenta que en las colinas está su novio, que trabaja como guardia en la torre de televisión justo detrás del famoso cartel de Vinewood. En el camino, ella recibe una llamada de su novio, quien le hace varios cuestionamientos a los cuales ella intenta dar explicaciones. Luego, recibe una llamada de quien parece ser su amante, un sujeto llamado Brian. Sube por Mount Haan Drive hasta la cima de la colina para dejar a la chica sobre el punto señalado con amarillo. Tan pronto llegues, el novio de la autoestopista explotará de celos creyendo que eres Brian y correrá a atacarte. Puedes atropellarlo, eliminarlo en un enfrentamiento cuerpo a cuerpo o simplemente apuntarle con un arma de fuego (a pie o desde el vehículo) para asustarlo."
+  },
+  {
+    "id": 52,
+    "name": "Aventón 4",
+    "reward": "$1.000 por entregarla a los altruistas ó +5 conducción",
+    "description": "Al pasar junto a la capilla Hill Valley en Great Chaparral podrás oir a una mujer gritando por ayuda mientras corre hacia la calle. La mujer, que lleva puesto un vestido de novia blanco, estaba a punto de casarse pero repentinamente sintió pánico y decidió abandonar a su novio en el altar. Ella te pedirá que la lleves hasta su lujosa propiedad en Kimble Hill Drive, Vinewood Hills. Si juegas como Trevor, la novia es una buena candidata para las entregas a la secta altruista, aunque si te interesa ganar algo de habilidad de conducción puedes llevarla hasta su destino. En el camino aparecerá detrás de ti el novio de la chica, furioso por haber sido abandonado en plena ceremonia de casamiento. El hombre intentará desviarte del camino con su gran Mammoth Patriot, pero no podrás hacerle daño ya que arruinarías el evento. Una muy buena opción para deshacerse de él de manera sencilla es frenar hasta que él también lo haga, y cuando se baje del vehículo para enfrentarte a pie, acelera y aléjate del lugar. Finalmente, continúa con el trayecto hasta llegar a destino."
+  },
+  {
+    "id": 53,
+    "name": "Altruistas renegados",
+    "reward": "$80",
+    "description": "Al pasar por una intersección entre Galileo Road, en Great Chaparral, verás a dos sujetos (uno de ellos desnudo) intentando secuestrar a una chica que grita pidiendo ayuda. Acaba primero con el hombre que está de pie observando el forcejeo y luego elimina al que sostiene a la chica. Si no los atacas enseguida, los hombres subirán a la chica al coche y se irán del lugar, por lo que es recomendable eliminarlos antes para no tener que lidiar con la persecución. La mujer se encuentra asustada tras lo sucedido y no quiere irse caminando sola, por lo que te pide que la lleves hasta su casa. Consigue un vehículo (puedes robar el Fugitive de los secuestradores) y conduce en dirección al circuito Redwood Lights, pasando Senora Road. La víctima te contará lo sucedido en el camino y luego se bajará del coche al llegar a su hogar."
+  },
+  {
+    "id": 54,
+    "name": "Chica del callejón",
+    "reward": "Variable",
+    "description": "Al pasar cerca de la tienda Ammu-Nation junto a la estación de servicio de La Mesa podrás encontrar a una mujer pidiendo ayuda en un callejón. Supuestamente, un amigo de la mujer está herido y podría estar sufriendo un ataque al corazón. Sin embargo, tras seguir a la mujer por las escaleras te encontrarás con que en realidad es una trampa para robarte. Debido a esto, es recomendable que sigas a la ladrona manteniendo distancia, de manera que puedas equipar tu arma a tiempo para acabar con ella y con su compañero. Puedes robar el dinero y la munición que los ladrones dejan caer."
+  },
+  {
+    "id": 55,
+    "name": "Llevar a preso 1",
+    "reward": "+3 conducción",
+    "description": "Encontrarás a un miembro de los Lost que ha logrado escapar de una patrulla accidentada en una granja al sur de la Penitenciaría de Bolingbroke. El hombre te pide ayuda para llegar a su club, que está ubicado en Vinewood Este, cerca del circuito. La policía no tardará en encontrarte, y tendrás un nivel de búsqueda de 2 estrellas. Aprovecha los espacios verdes entre los caminos para alejarte de las patrullas y escóndete hasta que dejen de buscarte. Intenta no llamar nuevamente la atención de la policía, ya que podrías ganar un nivel de búsqueda de 3 estrellas y los helicópteros te dificultarán la huída. Finalmente, deja al motero en la entrada a su club, que está sobre Mirror Park Boulevard justo enfrente de Tangerine Street, en Vinewood Este."
+  },
+  {
+    "id": 56,
+    "name": "Llevar a preso 2",
+    "reward": "Variable",
+    "description": "Al pasar por un camino de tierra detrás de la Penitenciaría de Bolingbroke te toparás con un prisionero que acaba de escapar y está pidiendo un aventón. Si te acercas, el hombre te apuntará con un arma y te obligará a abandonar el vehículo para escapar. Tienes distinta salternativas para completar el evento: puedes ignorar al hombre y alejarte de él antes de que pueda arrebatarte el vehículo, puedes dispararle o bien colocar una bomba adhesiva a tu vehículo antes de ir al lugar para activarla cuando el ladrón se suba."
+  },
+  {
+    "id": 57,
+    "name": "Novio a la carrera",
+    "reward": "Enus Super Diamond",
+    "description": "Esta misión no parece estar habilitada hasta después de las 04:00 hs. Es recomendable realizar este evento jugando como Franklin para aprovechar sus habilidades de conducción. Al circular por Fort Zancudo Approach Road verás a un hombre semidesnudo atado a un poste telefónico, más precisamente al este de la tienda Ammu-Nation y la tienda de descuento ubicadas al sur del Río Zancudo. El sujeto te pide ayuda para liberarse y poder llegar a tiempo a su boda. Baja de tu vehículo para desatarlo y luego regresa y espera a que él suba contigo. En el camino, te explica que necesita ir primero a su casa para vestirse y recoger el auto, luego localizar a su padrino (quien debería tener los anillos) y finalmente dirigirse a la iglesia donde tendrá lugar la ceremonia. Deberás completar todo el trayecto en menos de 5 minutos y medio (el temporizador aparecerá en la esquina inferior derecha unos segundos después de que el sujeto suba al vehículo contigo).\n\nPrimero conduce hacia la casa ubicada sobre Ace Jones Drive, en Vinewood Hills. Una vez allí, deberás subir al coche Enus Super Diamond del suegro del novio y esperarlo mientras este último se viste. A continuación, conduce hacia el restaurante fuera de la ciudad donde está el padrino. Una vez en la marisquería Hookies, espera a que el padrino suba al coche y finalmente lleva a los dos hombres hasta la iglesia St. Brigid Baptist Church en Paleto Bay. Puedes quedarte con el Enus Super Diamond almacenándolo en un garaje."
+  },
+  {
+    "id": 58,
+    "name": "Duelo",
+    "reward": "Duke O' Death en dos ubicaciones y disponible para comprar a través de Warstock Cache & Carry",
+    "description": "Este evento es exclusivo de las plataformas next-gen (PS4, Xbox One y PC). Comienza al subirse al coche Imponte Duke O' Death negro que está aparcado en una vieja gasolinera en Grand Senora Desert, ubicada pocos metros al oeste del taller de Los Santos Customs y la tienda de ropa con descuentos. Sube al vehículo y comienza a conducir hacia una dirección (este u oeste). Enseguida notarás que un par de camiones Phantom con carga bloquearán la calle y sus conductores comenzarán a dispararte. Puedes defenderte bajando del vehículo y buscando cobertura o disparar directamente mientras conduces el Duke O' Death. Además, habrá algunas furgonetas Rancher XL con más rednecks que te dispararán. Elimina a todos o escapa del lugar y luego pierde a la policía para completar el evento. Desde ahora, el Imponte Duke O' Death estará disponible en dos ubicaciones (en un depósito de chatarra al sudoeste de El Burro Heights y al oeste del aeródromo de Sandy Shores junto a una bomba petrolífera) y podrás guardarlo en tu garaje. También puedes comprarlo a través del sitio web de Warstock Cache & Carry (www.warstock-cache-and-carry.com) por $279.000."
+  },
+  {
+    "id": 59,
+    "name": "Hidroavión",
+    "reward": "Dodo en dos ubicaciones y disponible para comprar a través de Elitás Travel",
+    "description": "Este evento te permite desbloquear el hidroavión Mammoth Dodo, que comenzó siendo exclusivo para los jugadores recurrentes, es decir, quienes jugaron GTA V en la vieja generación (PS3 y Xbox 360) y luego jugaron en la nueva generación (PS4, Xbox One y PC); actualmente está disponible para todos los que jueguen en la nueva generación, sin importar si jugaron previamente en las plataformas anteriores.\n\nAl acercarte al hidroavión notarás que las dos lanchas cercanas estarán marcadas con puntos rojos en el radar, y sus ocupantes comenzarán a atacarte. Puedes subir a uno de los flotadores del avión para disparar desde allí a los enemigos. Si estás jugando como Michael o Trevor, no dudes en aprovechar sus habilidades especiales. Luego, sube al hidroavión, comienza a avanzar para salir de la cueva y gira a la izquierda en dirección al océano. Enseguida llegarán dos nuevas lanchas enemigas, así que párate sobre uno de los flotadores del hidroavión o nada rápidamente hacia la orilla para defenderte; otra opción es ignorarlos y levantar vuelo rápidamente para dejarlos atrás. Si te has detenido a eliminar a los atacantes, regresa al avión y levanta vuelo para completar el evento. Desde ahora podrás encontrar el hidroavión Dodo en dos ubicaciones: en el muelle del lago de Vinewood Hills y en uno de los muelles que están al norte del Alamo Sea (el muelle que está más al este). Además, podrás adquirir el Dodo a través del sitio web de Elitás Travel (www.elitastravel.com) al precio de $500.000."
+  },
+  {
+    "id": 60,
+    "name": "Mosaico de mono",
+    "reward": "Dinka Go Go Monkey Blista",
+    "description": "Este evento se habilita tras fotografiar correctamente los 50 Mosaicos de chango, un reto exclusivo de las plataformas next-gen (PS4, Xbox One y PC). Tiene lugar en el callejón que une Eastbourne Way con San Vitus Boulevard, justo al sur de Hawick Avenue y al norte del taller Los Santos Customs, en Burton. Reconocerás el callejón si has completado las misiones de Extraños y locos para el Programa Epsilon. Al pasar por el lugar notarás un punto de color azul claro, ese punto señala a un sujeto con capucha y una máscara de mono que está pintando un grafiti. El objetivo para completar este evento consiste en fotografiar al sujeto mientras está pintando sin ser detectado. Para conseguirlo, una buena alternativa es subir por la rampa del estacionamiento sobre Hawick Avenue, entre la tienda Caca de la esquina y los apartamentos. Una vez arriba, trepa a la pared (con cuidado de no caerte y siempre procurando no hacer ruido) y tómale una foto. El sujeto saldrá corriendo inmediatamente. No es necesario guardar la foto en la galería para que el evento sea considerado válido, así que puedes descartarla. Poco después recibirás un mensaje de texto de Space Monkey informándote que hay una edición limitada del coche Dinka Go Go Monkey Blista en tu garaje. Para utilizarlo, simplemente ingresa a un garaje de tu personaje y pulsa Derecha para acceder al listado de vehículos especiales."
+  }
+]
