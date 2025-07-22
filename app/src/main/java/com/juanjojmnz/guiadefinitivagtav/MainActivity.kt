@@ -17,6 +17,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import com.juanjojmnz.guiadefinitivagtav.navigation.AppDestinations
+import com.juanjojmnz.guiadefinitivagtav.ui.screens.ActivityScreen
 import com.juanjojmnz.guiadefinitivagtav.ui.screens.CompletedScreen
 import com.juanjojmnz.guiadefinitivagtav.ui.screens.MainMenuScreen
 import com.juanjojmnz.guiadefinitivagtav.ui.screens.MissionDetailScreen
@@ -28,6 +29,9 @@ import com.juanjojmnz.guiadefinitivagtav.ui.screens.CheatsScreen
 import com.juanjojmnz.guiadefinitivagtav.ui.screens.CollectionScreen
 import com.juanjojmnz.guiadefinitivagtav.ui.screens.InfoScreen
 import com.juanjojmnz.guiadefinitivagtav.ui.screens.LesterScreen
+import com.juanjojmnz.guiadefinitivagtav.ui.screens.OtherScreen
+import com.juanjojmnz.guiadefinitivagtav.ui.screens.RaceScreen
+import com.juanjojmnz.guiadefinitivagtav.ui.screens.RandomScreen
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -113,19 +117,19 @@ fun AppNavigator() {
                 CollectionScreen(mainNavController = navController)
             }
             composable(AppDestinations.ACTIVITIES_SCREEN) {
-                PlaceholderScreen(navController = navController, screenTitle = "Actividades")
+                ActivityScreen(navController = navController, screenTitle = "Actividades")
             }
             composable(AppDestinations.OTHER_ACTIVITIES_SCREEN) {
-                PlaceholderScreen(navController = navController, screenTitle = "Otras Actividades")
+                OtherScreen(navController = navController)
             }
             composable(AppDestinations.RACES_SCREEN) {
-                PlaceholderScreen(navController = navController, screenTitle = "Carreras")
+                RaceScreen(navController = navController)
             }
             composable(AppDestinations.LESTER_ASSASSINATIONS_SCREEN) {
                 LesterScreen(navController = navController, screenTitle = "Asesinatos de Lester")
             }
             composable(AppDestinations.RANDOM_EVENTS_SCREEN) {
-                PlaceholderScreen(navController = navController, screenTitle = "Eventos Aleatorios")
+                RandomScreen(mainNavController = navController)
             }
             composable(AppDestinations.PROPERTIES_SCREEN) {
                 PlaceholderScreen(navController = navController, screenTitle = "Propiedades")
