@@ -2,6 +2,7 @@ package com.juanjojmnz.guiadefinitivagtav.navigation
 
 object AppDestinations {
     const val WELCOME_SCREEN = "welcome"
+    const val LANGUAGE_SCREEN = "language_selection"
     const val MAIN_MENU_SCREEN = "main_menu"
     const val MISSION_LIST_SCREEN = "mission_list/{category}"
     const val MISSION_DETAIL_SCREEN = "mission_detail/{category}/{missionId}"
